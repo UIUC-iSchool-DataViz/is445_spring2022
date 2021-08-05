@@ -1,0 +1,32 @@
+instructor: 
+  name: Jill Naiman
+  email: jnaiman@illinois.edu
+  office: Online!
+  office_hours: Thurs 2-3pm & By appointment
+tas:
+  -
+    name: Qiuyan Guo
+    email: qqguo2@illinois.edu
+    office: Online!
+    office_hours: Tues & Wed 2-3pm
+course:
+  name: Data Visualization
+  number: IS445
+  semester: Spring 2021
+  section: AOG-AOU
+  location: Online
+  time: Monday, 9:00AM-11:50AM
+  credit_hours: 4
+urls:
+  -
+    name: Slack
+    url: is445-spring2021.slack.com
+  - 
+    name: Moodle
+    url: https://learn.illinois.edu/course/view.php?id=55636
+  -
+    name: Course Materials
+    url: https://uiuc-ischool-dataviz.github.io/is445_spring2021/
+  -
+    name: Github
+    url: https://github.com/UIUC-iSchool-DataViz/is445_spring2021

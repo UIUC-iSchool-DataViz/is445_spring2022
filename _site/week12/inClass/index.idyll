@@ -1,0 +1,347 @@
+[meta title:"IS445 Data Viz Page" description:"Idyll in Week 11" /]
+
+[Header
+  fullWidth:true
+  title:"IS445 Spring 2021"
+  subtitle:"Super cool web viz from Data Viz at the iSchool!"
+  author:"Jill P. Naiman"
+  authorLink:"www.astronaiman.com"
+  date:"Apr 5, 2021"
+  background:"#222222"
+  color:"#ffffff"
+   /]
+
+[var name:"x" value:0 /]
+
+# Introduction
+
+Today we'll have an introduction to Idyll and its built-in features.
+
+## Markdown
+
+We can use all the same syntax as before like **bold** and *italic*.
+
+We can also do lists (note: no space between left margin and symbol):
+* thing 1
+* another thing
+* yet another thing
+ 
+Or ordered lists:
+1. first thing
+1. second thing
+1. third thing
+
+Another useful thing, will be code blocks:
+
+```
+I am a chunk of code
+lines are different here
+```
+
+We can also do `inline code` as well.
+
+Hyperlinks work the same like [linking to the course webpage](https://uiuc-ischool-dataviz.github.io/is445_spring2021/).
+
+## Images
+
+![large corgi smiling](https://i.redd.it/5f0snjdbzr121.jpg)
+
+This is a very large corgi (which is great, but maybe not what we want).  
+So we'll use Idyll-html-like syntax to play with the layout.
+
+[img src:'https://i.redd.it/5f0snjdbzr121.jpg' style:`{height:'300px'}` /]
+
+Note: this is much like HTML coding:
+
+[div className:"myDiv"]
+[p]
+  My Paragraph.
+[/p]
+[/div]
+
+
+## Idyll's built-in components
+
+We'll play with a few of Idyll's [built-in components](https://idyll-lang.org/docs/components).
+
+### Layout Built-ins
+
+We can "float" things to the right or to the left using the [float built-in component](https://idyll-lang.org/docs/component/float). 
+
+[Float position:"left"]
+  [img 
+    src:'https://uiuc-ischool-dataviz.github.io/spring2019online/week04/data/littleCorgiInHat.png' 
+	style:`{height:'300px'}` 
+  /]
+[/Float]
+
+[Float position:"right"]
+  [img 
+    src:'https://uiuc-ischool-dataviz.github.io/spring2019online/week10/corg/IMG_2809.jpg'
+	style:`{height:'300px'}` 
+  /]
+[/Float]
+
+### Scrolling Overlays Built-in
+
+This will make our figures interactive by using a [scrolling overlay](https://idyll-lang.org/docs/component/scroller).
+
+[Scroller currentStep:scrollerIndex]
+  [Graphic style:`{padding: 50}`]
+  [img 
+    src:'https://uiuc-ischool-dataviz.github.io/spring2019online/week10/corg/IMG_2814.jpg'
+	style:`{height:'700px'}` 
+  /]
+  [/Graphic]
+
+  [Step]## Welsh Corgis are a small type of herding dog that originated in Wales, UK.[/Step]
+  [Step]## "Corgi" is Welsh for "dwarf dog".   [/Step]
+  [Step]## Queen Elizabeth II has owned more than 30 corgis in her lifetime.[/Step]
+  [Step]## Corgi-Dachshund mixes are called "dorgis".[/Step]
+
+
+[/Scroller]
+
+## Including numerical/categorical data
+
+We'll use the [corgis per country over time (download)](https://uiuc-ischool-dataviz.github.io/is445AOG_fall2020/week11/corg/corgs_per_country_over_time_columns_2020.csv).  This data comes from [webscraping code](https://uiuc-ischool-dataviz.github.io/spring2020/week12/corg/grabCorgData_subpages.py) and [processing notebook](https://uiuc-ischool-dataviz.github.io/spring2020/week12/corg/calc_corgData.ipynb) which grabs and processes data from a [Corgi Database](http://www.cardiped.net/browseDogs.php) for more details if you can't wait.
+
+[data name:"corgisTime" source:"corgs_per_country_over_time_columns_2020.csv" /]
+
+[Table data:corgisTime /]
+
+### Charts built-in
+
+Trying to visualize our more analytical dataset with the [Chart built-in](https://idyll-lang.org/docs/component/chart).
+
+[Chart type:"line" data:corgisTime domain:`null` range:`null` x:"Years" y:"United States" /]
+
+So, we notice that a line plot maybe isn't great. And the years on the x-axis 
+are not formatted well.
+
+[Chart type:"bar" data:corgisTime domain:`null` range:`null` x:"Years" y:"United States" /]
+
+[Chart type:"time" data:corgisTime domain:`null` range:`null` x:"Years" y:"United States" /]
+
+So, we notice that none of these charts are really great.  We can use vega-lite to make nicer charts!
+
+## Vega-lite to plot our data
+
+### Simple line plot
+
+Building from [one of the vega-lite Idyll tutorials](https://idyll-lang.github.io/examples/csv/).
+
+[IdyllVegaLite data:corgisTime spec:`{
+  mark: "line",
+  width:400,
+  height:200,
+  encoding: {
+    x: {
+      field: "Years",
+      type: "temporal",
+      axis: {title: "Year", format:"%Y"}
+    },
+    y: {
+      field: "United States",
+      type: "quantitative",
+      axis: {title: "Country Corgi Birth over time"},
+    }
+  }
+}` 
+
+/]
+
+We note that the year is formatted a little weirdly, probably useful to look at this data in a different format.
+
+Note: this was a CSV file and most data on the web will be in json file formatting.
+
+[We'll be using a subset](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgiData_countries_subset_2020.json) that is a little easier to deal wit than the full 15Mb dataset.
+
+Read the data in and then plot.
+
+[data name:"corgs" source:"corgiData_countries_subset_2020.json" /]
+
+[IdyllVegaLite data:corgs spec:`{
+  mark: "circle",
+  width:600,
+  height:400,
+  encoding: {
+    x: {field:"countries", type:"nominal"},
+	y: {field:"year", type:"temporal"}
+  }
+}` 
+/]
+
+Let's add some interactivity by allowing the user to select the color of the dots based on other data attributes.
+
+[var name:"colorBy" value:`{}` /]
+
+[IdyllVegaLite data:corgs spec:`{
+  mark: "circle",
+  width:600,
+  height:400,
+  encoding: {
+    x: {field:"countries", type:"nominal"},
+	y: {field:"year", type:"temporal"},
+	color: colorBy // color-by variable
+  }
+}` 
+/]
+
+Color by:
+[button onClick:`colorBy = {}`]None[/button]
+[button onClick:`colorBy = {field:"sex", type:"nominal"}`]Sex of Corgi[/button]
+
+We know that we have different vega-lite [schemes we can use](https://vega.github.io/vega-lite/docs/scale.html#scheme). Let's try the same plot with a different color scheme:
+
+[var name:"colorBy2" value:`{}` /]
+
+[IdyllVegaLite data:corgs spec:`{
+  mark: "circle",
+  width:600,
+  height:400,
+  encoding: {
+    x: {field:"countries", type:"nominal"},
+	y: {field:"year", type:"temporal"},
+	color: colorBy2 // color-by variable
+  }
+}` 
+/]
+
+Color by:
+[button onClick:`colorBy2 = {}`]None[/button]
+[button onClick:`colorBy2 = {field:"sex", type:"nominal", scale:{"scheme":"category10"}`]Sex of Corgi[/button]
+
+A mystery!  Why is this not working?
+
+## Binning and aggregating data -- histograms
+
+This will basically be things that we already did before in Iodide!
+
+[var name:"colorBy3" value:`{}` /]
+
+[IdyllVegaLite data:corgs spec:`{
+  mark: "bar",
+  width:600,
+  height:400,
+  encoding: {
+    x: {field:"countries", type:"nominal"},
+	y: {aggregate:"count", type:"quantitative", 
+	     title:"Number of corgis born in a country"} ,
+	// y: {field:"year", type:"temporal"},
+	color: colorBy3 // color-by variable
+  }
+}` 
+/]
+
+[button onClick: `colorBy3 = {}`] None [/button]
+[button onClick: `colorBy3 = {field:'sex', type:'nominal', scale:{"scheme":"category20"}}`]Sex of Corgi[/button]
+
+// Only half way fixed!
+
+// [button onClick: `colorBy3 = {field:'sex', type:'nominal'}`]Sex of Corgi[/button]
+
+Note: a little harder to use the vega-editor to debug, but not impossible.
+
+## Filtering operation
+
+[var name:"colorBy4" value:`{}` /]
+
+[IdyllVegaLite data:corgs spec:`{
+  mark: "bar",
+  width:600,
+  height:400,
+  // add in a transformation to filter our data
+  transform:[{filter:{"timeUnit":"year", field:"year", "lte":2010}},
+             {filter:{"timeUnit":"year", field:"year", "gte":2005}}],
+  encoding: {
+    x: {field:"year", type:"temporal"},
+	y: {aggregate:"count", type:"quantitative", 
+	     title:"Number of Corgis Born"},
+	color: colorBy4
+  }
+}` 
+/]
+
+[button onClick: `colorBy4 = {}`] None [/button]
+[button onClick: `colorBy4 = {field:'sex', type:'nominal', scale:{"scheme":"category20"}}`]Sex of Corgi[/button]
+[button onClick: `colorBy4 = {field:'countries', type:'nominal', scale:{"scheme":"category20b"}}`]Country[/button]
+
+### Interactive ranges with Vega-lite + Idyll built-ins
+
+[var name:"colorBy5" value:`{}` /]
+
+[var name:"yearStart" value:2005 /]
+[var name:"yearEnd" value:2010 /]
+
+[IdyllVegaLite data:corgs spec:`{
+  mark: "bar",
+  width:600,
+  height:400,
+  // add in a transformation to filter our data
+  transform:[{filter:{"timeUnit":"year", field:"year", "lte":yearEnd}},
+             {filter:{"timeUnit":"year", field:"year", "gte":yearStart}}],
+  encoding: {
+    x: {field:"year", type:"temporal"},
+	y: {aggregate:"count", type:"quantitative", 
+	     title:"Number of Corgis Born"},
+	color: colorBy5
+  }
+}` 
+/]
+
+[button onClick: `colorBy5 = {}`] None [/button]
+[button onClick: `colorBy5 = {field:'sex', type:'nominal', scale:{"scheme":"category20"}}`]Sex of Corgi[/button]
+[button onClick: `colorBy5 = {field:'countries', type:'nominal', scale:{"scheme":"category20b"}}`]Country[/button]
+
+// Lowest Year: 1920 [Range value:yearStart min:1920 max:yearEnd /] Highest Year: [Display value:yearEnd /]
+
+// Lowest Year: [Display value:yearStart /] [Range value:yearEnd min:yearStart max:2020 /] Highest Year: 2020
+
+[Float position:"left"]
+ Lower bound:
+ [p] [/p]
+ 1920 [Range value:yearStart min:1920 max:yearEnd /] [Display value:yearEnd /]
+[/Float]
+[Float position:"right"]
+ Upper bound:
+ [p] [/p]
+ [Display value:yearStart /] [Range value:yearEnd min:yearStart max:2020 /] 2020
+[/Float]
+
+## D3 in Idyll
+
+We can also "plug in" [D3.js](https://d3js.org/) plots in Idyll.
+
+We can start from one of the custom D3 components that "came with" our default Article layout in Idyll.
+
+[var name:"state" value:0 /]
+[CustomD3Component className:"d3-component" state:state /]
+[button onClick:`state++`]
+  Click Me.
+[/button]
+
+Plan of attack:
+1. Remake a plot that we know a bit about (bar chart of births over time)
+1. Build from an example that looks relatively easy to change [like this one](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cfee8d97aba) (we got here by googling "time bar chart d3 v4").
+
+Steps we are going to take to get a workable example:
+1. copy the commented `custom-d3-component.js` to a new file
+1. change the class and object names
+1. not do interactivity (comment out update function)
+1. update the drawing sequence to match the bar chart d3.js example
+
+// [var name:"state2" value:0 /]
+
+// [HistogramCustomD3Component className:"d3-component" state:state2 /]
+
+// [button onClick:`state2++`]
+ //  Click Me.
+
+// [/button]
+
+// taking out interactivity (for now!)
+[HistogramCustomD3Component className:"d3-component" /]
+
+Steps to modify for our data:
+1. Now that we have the original example working, let's start modifying things for our dataset.
