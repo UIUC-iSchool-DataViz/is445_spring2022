@@ -6,12 +6,15 @@ description: Install necessary packages for this class
 
 ## 1. Install Anaconda with Python 3
 
+<!-- JPN: check the individual page install -->
 To install the packages and libraries we need for this course we will be using the Anaconda package manager, so you'll need to install this first.  First, navigate to the [individual edition page](https://www.anaconda.com/products/individual) and scroll down until you see the download links and select either a 32 or 64 bit installation, depending on your machine (if you're not sure if you are on a 32/64 bit machine the easiest is probably to google your computer's name and date along with "32 or 64").:
 
-<img src="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week01/images/anacondaInstallers.png">
+<!-- JPN: update his image -->
+<img src="images/anacondaInstallers.png">
 
 **NOTE:** You will need the Python 3.X version (the version might be different than listed on the conda webpage).
 
+<!-- JPN: check these links -->
 Next, follow these installation steps to install anaconda on your computer:
  * [Install on a Windows](https://docs.anaconda.com/anaconda/install/windows/)
  * [Install on a Mac](https://docs.anaconda.com/anaconda/install/mac-os/)
@@ -25,10 +28,12 @@ Now we will make a "stand-alone" envirnoment to do our data-viz stuff in.  This 
 
 Here is a ~2 minute movie of how this process looks on my Mac (it may take longer on your machine!) which covers the instructions in section 2.1 and 2.2 of the installation process (note: this uses Python 3.8, but you should try with Python 3.7 first):
 
+<!-- JPN: redo this movie -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2iPGcTBHPGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<!-- JPN: recreate this enviroment -->
 ### 2.1 Conda environment
- 1. On a Mac search for the "Terminal" prompt/on Windows search for the Anaconda prompt (NOT the navigator)
+ 1. On a Mac search for the "Terminal" prompt/on Windows search for the "Anaconda Prompt" (NOT the navigator)
  2. In the terminal window type: `conda create -n DataViz python=3.7 matplotlib=3.2.2 numpy jupyter pillow pandas scipy ipywidgets palettable bqplot h5py requests traitlets geopandas contextily ipyvolume ffmpeg descartes basemap cartopy webcolors ipyleaflet wordcloud nltk xlrd libpng openpyxl pip yt -c conda-forge`
     * **NOTE #1:** if this fails or there are package conflicts you can try with Python 3.8 -- In the terminal window type: `conda create -n DataViz python=3.8 matplotlib=3.2.2 numpy jupyter pillow pandas scipy ipywidgets palettable bqplot h5py requests traitlets geopandas contextily ipyvolume ffmpeg descartes basemap cartopy webcolors ipyleaflet wordcloud nltk xlrd libpng openpyxl pip yt -c conda-forge`
 	* **NOTE #2:** you might see the following message `Solving environment: failed with initial frozen solve. Retrying with flexible solve.` or `Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.`  This does *not* mean your installation has failed -- as long as its still running let it be! (This can take a while -- average is ~30 minutes, but sometimes it can take over night.)
@@ -36,12 +41,15 @@ Here is a ~2 minute movie of how this process looks on my Mac (it may take longe
  
 **Note:** Right now we need a special version of `matplotlib` to work with `yt`, but this might change in the future.
 
+
+<!-- 
 ### 2.2 Pip install remaining packages
  1. Follow the prompt to "activate" this environment with: `conda activate DataViz`
  
 #### OPTIONAL
  * Still in terminal window do: `pip install PyGEL3D`
 	* NOTE: as of writing, PyGEL3D is not supported on machines other than Mac OSX and/or Windows.  This is for some extra notebooks (we will touch on briefly, but you don't have to use for assignments).
+ -->
 
 ## 3. Run & Test your environment
 
@@ -60,13 +68,9 @@ Here is a ~2 minute movie of how this process looks on my Mac (it may take longe
  
 A movie of this process is shown below (~5 minutes):
 
+<!-- JPN: redo this movie w/o Pygel -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J2GWtnoQrnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A few things of note:
  * When the little `*` is showing in the `In[]` part to the left of each cell this means your computer is thinking.  Its best to wait until its done with one cell before moving onto the next one.
- * There is a tip for the `PyGEL3D` install near the end in case you get an error, but you might not.  If you do get this error, the process is:
-    1. Open the terminal (Mac) or Anaconda Prompt (Windows)
-	1. Activate your data viz environment with:  `conda activate DataViz`
-	1. Find where PyGEL3D is installed with: `pip show PyGEL3D`
-	1. Copy the address and uncomment the lines as show to paste it into your jupyter notebook
  * If nothing shows up for the `bqplot` plot or the `ipyvolume` plot there are a few tips listed -- try refreshing your browser, try installing the extensions (uncomment those lines and run the cell and try running the plotting cells again), or completely close and completely re-open your jupyter notebook as discussed in section 3.1

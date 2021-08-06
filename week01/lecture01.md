@@ -8,8 +8,12 @@ description: >-
   What are some of the basics of how we interpret visualizations?  How can we
   describe the process of making choices, understanding our audience, and so
   forth?
-date: 2020-01-25
+date: 2021-08-23
 ---
+
+<!-- JPN: check this whole format when you have internet again -->
+
+<!-- JPN: also check links to all external images -->
 
 ## Land Acknowledgment
 
@@ -22,7 +26,7 @@ Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
 
 ## COVID-19 Statement
 
-Please see the statement about policies related to COVID-19 at the [top of the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_spring2021/syllabus.html).
+Please see the statement about policies related to COVID-19 at the [top of the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/syllabus.html).
 
 ---
 
@@ -38,12 +42,12 @@ See for-credit [IS400 Colloquium](https://ischool.illinois.edu/degrees-programs/
 9-11:50AM Mondays, online
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: Thurs 2-3pm; other times by request
+ * Office Hours: TBD
 
-TA: Qiuyan Guo - `qqguo2@illinois.edu`
- * Office Hours: Tues & Wed 2-3pm
+TA: Xinhui Hu - `xhu15@illinois.edu`
+ * Office Hours: TBD
 
-https://uiuc-ischool-dataviz.github.io/is445_spring2021/
+https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/
 
 notes: go through website!!
 
@@ -53,9 +57,9 @@ notes: go through website!!
 
  * Moodle - where the grades and assignments will be posted
 
- * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_spring2021/ - where lecture slides, notebooks, data & general course info will live.
+ * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/ - where lecture slides, notebooks, data & general course info will live.
 
- * Slack: https://is445-spring2021.slack.com - the best place to ask questions
+ * Slack: https://is445-fall2021.slack.com - the best place to ask questions
 
 ---
 
@@ -203,7 +207,7 @@ We have to do it!
 
  2. Install Week 1 libraries
 
-see: https://uiuc-ischool-dataviz.github.io/is445_spring2021/week01/test_imports_week01.ipynb
+see: https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/week01/test_imports_week01.ipynb
 
 ---
 
@@ -211,11 +215,11 @@ see: https://uiuc-ischool-dataviz.github.io/is445_spring2021/week01/test_imports
 
  * Week 1 (Today) - Introduction
  * Week 2 - Data Storage and Operations
- * Week 3 - Types of Viz and Choosing Colors
- * Week 4 - Beginning interactivity
- * Week 5 - Continuing interactivity with bqplot
- * Week 6 - More with dashboards & Map Viz
- * Week 7 - Maps, maps and more maps
+ * Week 3 - Labor Day Holiday! NO CLASS
+ * Week 4 - Types of Viz and Choosing Colors
+ * Week 5 - Beginning interactivity
+ * Week 6 - Continuing interactivity with bqplot
+ * Week 7 - More with dashboards & Map Viz
  
 notes:
 This is a rough syllabus!  These are many of the topics we will cover, but
@@ -233,14 +237,16 @@ We might start getting into javascript earlier, depending on how we are doing.
 
 ## Syllabus, cont
 
- * Week 8 - Iodide and Intro to Javascript
- * Week 9 - **Fake break!**
- * Week 10 - Viz Audience; More Iodide, Javascript & Vega-lite (and maybe Idyll)
+<!-- JPN: update for no Iodide, use the other thing -->
+ * Week 8 - Maps, maps and more maps
+ * Week 9 - Iodide and Intro to Javascript (CHANGE)
+ * Week 10 - Viz Audience; More Iodide (CHANGE), Javascript & Vega-lite (and maybe Idyll)
  * Week 11 - Intro to Idyll
  * Week 12 - More with Idyll, Publishing Viz
  * Week 13 - A few more Idyll+d3 things
- * Week 14 - Scientific Viz & AVL Guest lecture
- * Week 15 - Network Visualization & Word clouds
+ * Week 14 - Fall break, NO CLASS!
+ * Week 15 - Scientific Viz & AVL Guest lecture
+ * Week 16 - Network Visualization & Word clouds
 
 notes:
 Toward the end of class we are going to have a slightly more free-form set of
@@ -253,7 +259,7 @@ more group work and collaboration than the preceding assignments.
 
  * Weeks 1-5: Basics of visualization (Python)
  * Weeks 6-10: Interactivity and Viz Types (Python and Javascript)
- * Weeks 11-15: Platforms and dimensionality (Python, Javascript, Web-dev methods)
+ * Weeks 11-16: Platforms and dimensionality (Python, Javascript, Web-dev methods)
 
 notes:
 basically, we'll start with the basics - I'm assuming you are coming in with Python experience
@@ -371,7 +377,7 @@ Each week, one of you will at random be asked to describe the visualization you 
 
 ## _Optional_ reading assignments
 
-See the course syllabus: https://uiuc-ischool-dataviz.github.io/is445_spring2021/syllabus.html
+See the course syllabus: https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/syllabus.html
 
 notes:
 These are TOTally optional - more on that in a minute.
@@ -434,6 +440,7 @@ what they represent, not because they are the only paths to success.
  * [Jupyter](https://jupyter.org/)
  * [GitHub](https://github.com/)
  * [Iodide](https://iodide.io/) and/or [Idyll](https://idyll-lang.org/)
+ <!-- JPN: change this Iodide reference -->
 
 A few others we may get to:
  * [Observable](https://observablehq.com/)
@@ -451,7 +458,7 @@ use a mix of local installations & web-services.
 We will be sharing a slack channel with the in-person class, so feel free to
 converse with them as well!
 
- * Team channel at `https://is445-spring2021.slack.com`
+ * Team channel at `https://is445-fall2021.slack.com`
    * `#general` : General announcements, place to ask questions
    * `#random` : see a cool viz you want to share?  This is the place!
 
@@ -484,8 +491,10 @@ feedback.  However, please do behave in a professional fashion.
 
 ## Github
 
- * Course repo is at [UIUC-iSchool-DataViz/is445_spring2021/](https://github.com/UIUC-iSchool-DataViz/is445_spring2021/)
- * Automatically built to [uiuc-ischool-dataviz.github.io/is445_spring2021/](https://uiuc-ischool-dataviz.github.io/is445_spring2021/)
+<!-- JPN: check all these links -->
+
+ * Course repo is at [UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/](https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/)
+ * Automatically built to [uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/](https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/)
  * Copy the notebooks to your directory before using them.
  * Supplemental materials can be found at [UIUC-iSchool-DataViz/support-files](https://github.com/UIUC-iSchool-DataViz/support-files)
 

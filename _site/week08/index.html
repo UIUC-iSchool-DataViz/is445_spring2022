@@ -3,15 +3,15 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>IS445 - Data Viz - AOG/AOU - Iodide and Intro to Javascript</title>
+    <title>IS445 - Data Viz - AOG/AOU - Maps, maps and more maps</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link rel="stylesheet" href="/is445_AOUAOG_spring2021/assets/style.css" />
     <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Iodide and Intro to Javascript | IS445 - Data Viz - AOG/AOU</title>
+<title>Maps, maps and more maps | IS445 - Data Viz - AOG/AOU</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Iodide and Intro to Javascript" />
+<meta property="og:title" content="Maps, maps and more maps" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This is the course website for IS445-AOG-AOU in Fall 2021" />
 <meta property="og:description" content="This is the course website for IS445-AOG-AOU in Fall 2021" />
@@ -19,7 +19,7 @@
 <meta property="og:url" content="http://localhost:4001/is445_AOUAOG_spring2021/week08/" />
 <meta property="og:site_name" content="IS445 - Data Viz - AOG/AOU" />
 <script type="application/ld+json">
-{"description":"This is the course website for IS445-AOG-AOU in Fall 2021","headline":"Iodide and Intro to Javascript","@type":"WebPage","url":"http://localhost:4001/is445_AOUAOG_spring2021/week08/","@context":"https://schema.org"}</script>
+{"description":"This is the course website for IS445-AOG-AOU in Fall 2021","headline":"Maps, maps and more maps","@type":"WebPage","url":"http://localhost:4001/is445_AOUAOG_spring2021/week08/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -125,37 +125,20 @@
     <div class="container">
         <div class="columns">
             <div class="column is-two-thirds">
-                <h1 id="iodide-and-intro-to-javascript">Iodide and Intro to Javascript</h1>
+                <h1 id="maps-maps-and-more-maps">Maps, maps and more maps</h1>
 
-<p>Using Iodide to publish in Python and an introduction to Javascript.</p>
+<p>We will start thinking about maps &amp; map projection, both in <code class="language-plaintext highlighter-rouge">bqplot</code> and <code class="language-plaintext highlighter-rouge">matplotlib</code> and with <code class="language-plaintext highlighter-rouge">geopandas</code>+<code class="language-plaintext highlighter-rouge">contextily</code>.  We’ll continue this week with building dashboards of mappable data.</p>
 
-<!--
-## Downloads & Links
+<p>&lt;!– ## Downloads</p>
 
-### Iodide Notebooks:
+<h3 id="data">Data:</h3>
 
- * <a href="https://alpha.iodide.io/notebooks/4351/">Prep Iodide Notebook</a>
- * <a href="https://alpha.iodide.io/notebooks/6120/">In Class Iodide Notebook</a> 
-
-Feel free to check out [Spring 2020's notebook that uses police shooting data for visualization](https://alpha.iodide.io/notebooks/4351/) if you are interestedin other mappable datasets.  
--->
-
-<p><strong>NOTE</strong>: For Python, only a subset of libraries are supported. See ongoing list <a href="https://github.com/iodide-project/pyodide/tree/master/packages">here</a>.</p>
-
-<h2 id="optional-reading-list">Optional reading list</h2>
-
-<ol>
-  <li><a href="https://alpha.iodide.io/">Iodide Docs</a> - in particular: <a href="https://iodide-project.github.io/docs/key_concepts/">key concepts</a> &amp; <a href="https://iodide-project.github.io/docs/iomd/">IOMD format</a></li>
-  <li><a href="https://www.codecademy.com/learn/introduction-to-javascript">Intro to Javascript</a></li>
-  <li><a href="https://serialmentor.com/dataviz/directory-of-visualizations.html">FDV, Ch. 5: Directory of visualizations</a></li>
-</ol>
-
-<h2 id="extra-resources">Extra Resources</h2>
 <ul>
-  <li><a href="https://fivethirtyeight.com/">FiveThirtyEight</a></li>
-  <li><a href="https://github.com/fivethirtyeight/data">FiveThirtyEight datasets</a></li>
-  <li><a href="https://www.jsdelivr.com/">jsdelivr</a></li>
-  <li><a href="https://github.com/vega/vega-datasets/tree/master/data">vega-datasets</a></li>
+  <li><a href="https://uiuc-ischool-dataviz.github.io/spring2019online/week04/data/ufo-scrubbed-geocoded-time-standardized-00.csv" download="">The UFO Sitings Dataset (13Mb) - ufo-scrubbed-geocoded-time-standardized-00.csv</a></li>
+  <li><a href="total_export.csv" download="">State export data (8Kb) - total_export.csv</a></li>
+  <li><a href="market_map_data.csv" download="">Backup: Surgery Charges Dataset (37Mb) - market_map_data.csv</a></li>
+  <li><a href="https://uiuc-ischool-dataviz.github.io/spring2019online/week08/data/data_tohoku_norm_transpose.csv" download="">Earthquake sensor data (59Mb) - data_tohoku_norm_transpose.csv</a></li>
+  <li><a href="https://uiuc-ischool-dataviz.github.io/spring2019online/week08/data/location.txt" download="">Earthquake locations data (12Kb) - location.txt</a></li>
 </ul>
 
 
@@ -163,7 +146,7 @@ Feel free to check out [Spring 2020's notebook that uses police shooting data fo
             <div class="column">
                 
                 <figure class="image">
-                    <img src="/is445_AOUAOG_spring2021/assets/undraw/undraw_forming_ideas_0pav.svg">
+                    <img src="/is445_AOUAOG_spring2021/assets/undraw/undraw_Around_the_world_re_n353.svg">
                 </figure>
                 
             </div>
@@ -185,7 +168,7 @@ Feel free to check out [Spring 2020's notebook that uses police shooting data fo
                 <span class="icon is-large"><i class="fas fa-3x fa-chalkboard-teacher"></i></span>
             </figure>
             <div class="media-content">
-                <p><a href="/is445_AOUAOG_spring2021/week08/lecture08.html">Lecture 8 - Choosing viz & Online viz platforms</a></p><p>Choosing what viz type to use, and an introduction to Vega/Vega-lite and Iodide </p>
+                <p><a href="/is445_AOUAOG_spring2021/week08/lecture07.html">Lecture 7 - Maps!</a></p><p>More about maps and their projections</p>
             </div>
         </article>
         
@@ -207,11 +190,11 @@ Feel free to check out [Spring 2020's notebook that uses police shooting data fo
             <div class="media-content">
                 <p>
                   
-                    <a href="https://alpha.iodide.io/notebooks/7112/">Prep Iodide Notebook, Week 8</a>		    
-                   
+                     <a href="../nbv.html?notebook_name=%2Fis445_AOUAOG_spring2021%2Fweek08%2FinClass_week07.ipynb">In class notebook</a> - (<a href="/is445_AOUAOG_spring2021/week08/inClass_week07.ipynb">download</a>)
+		  
                 </p>
                 <p>
-                    Prep Iodide Notebook
+                    Placeholder for in class coding
                 </p>
             </div>
 	    
@@ -224,12 +207,78 @@ Feel free to check out [Spring 2020's notebook that uses police shooting data fo
         <article class="media">
 	  
           
+            <figure class="media-left">
+                <span class="icon is-large"><i class="fas fa-3x fa-chart-line"></i></span>
+            </figure>
+            <div class="media-content">
+                <p>
+                  
+                     <a href="../nbv.html?notebook_name=%2Fis445_AOUAOG_spring2021%2Fweek08%2Fprep_notebook_week07_part1.ipynb">Prep Notebook, Week 7, Part 1</a> - (<a href="/is445_AOUAOG_spring2021/week08/prep_notebook_week07_part1.ipynb">download</a>)
+		  
+                </p>
+                <p>
+                    Prep notebook for this week, Part 1
+                </p>
+            </div>
+	    
 	    
           
 	    
+	    
+         </article>
+        
+        <article class="media">
+	  
+          
+            <figure class="media-left">
+                <span class="icon is-large"><i class="fas fa-3x fa-chart-line"></i></span>
+            </figure>
+            <div class="media-content">
+                <p>
+                  
+                     <a href="../nbv.html?notebook_name=%2Fis445_AOUAOG_spring2021%2Fweek08%2Fprep_notebook_week07_part2.ipynb">Prep Notebook, Week 7, Part 2</a> - (<a href="/is445_AOUAOG_spring2021/week08/prep_notebook_week07_part2.ipynb">download</a>)
+		  
+                </p>
+                <p>
+                    Prep notebook for this week, Part 2
+                </p>
+            </div>
+	    
+	    
+          
+	    
+	    
+         </article>
+        
+        <article class="media">
+	  
+          
 	    <p>
-              <b>Past Notebook:</b> <a href="https://alpha.iodide.io/notebooks/4351/">Prep Iodide Notebook, Spring 2020</a>
+              <b>Past Notebook:</b> <a href="../nbv.html?notebook_name=%2Fis445_AOUAOG_spring2021%2Fweek08%2Fspring2019_prep_notebook_week07_part1.ipynb">spring2019_prep_notebook_week07_part1.ipynb</a> - (<a href="/is445_AOUAOG_spring2021/week08/spring2019_prep_notebook_week07_part1.ipynb">download</a>)
 	    </p>
+            
+	    
+	    
+         </article>
+        
+        <article class="media">
+	  
+          
+	    <p>
+              <b>Past Notebook:</b> <a href="../nbv.html?notebook_name=%2Fis445_AOUAOG_spring2021%2Fweek08%2Fspring2019_prep_notebook_week07_part2.ipynb">spring2019_prep_notebook_week07_part2.ipynb</a> - (<a href="/is445_AOUAOG_spring2021/week08/spring2019_prep_notebook_week07_part2.ipynb">download</a>)
+	    </p>
+            
+	    
+	    
+         </article>
+        
+        <article class="media">
+	  
+          
+	    <p>
+              <b>Past Notebook:</b> <a href="../nbv.html?notebook_name=%2Fis445_AOUAOG_spring2021%2Fweek08%2Fspring2019_prep_notebook_week07_part3.ipynb">spring2019_prep_notebook_week07_part3.ipynb</a> - (<a href="/is445_AOUAOG_spring2021/week08/spring2019_prep_notebook_week07_part3.ipynb">download</a>)
+	    </p>
+            
 	    
 	    
          </article>
@@ -241,7 +290,43 @@ Feel free to check out [Spring 2020's notebook that uses police shooting data fo
 
 
         
+        <h2 class="subtitle">Python Libraries</h2>
 	
+	
+        
+        <article class="media">
+            <figure class="media-left">
+                <span class="icon is-large"><i class="fas fa-3x fa-book-open"></i></span>
+            </figure>
+            <div class="media-content">
+                <p>
+		  
+                   <a href="/is445_AOUAOG_spring2021/week08/library/states_utils.py">State export utilities (states_utils.py)</a>
+		  
+		  
+                </p>
+                <p>
+                    Python library, save to notebook folder or modify your path if you know how to do that
+                </p>
+            </div>
+        </article>
+        
+        <article class="media">
+            <figure class="media-left">
+                <span class="icon is-large"><i class="fas fa-3x fa-book-open"></i></span>
+            </figure>
+            <div class="media-content">
+                <p>
+		  
+                   <a href="/is445_AOUAOG_spring2021/week08/library/us_state_abbrev.py">US State abbreviations (us_state_abbrev.py)</a>
+		  
+		  
+                </p>
+                <p>
+                    Python library, save to notebook folder or modify your path if you know how to do that
+                </p>
+            </div>
+        </article>
         
 
 	<!-- don't include data if not there -->
@@ -261,11 +346,11 @@ Feel free to check out [Spring 2020's notebook that uses police shooting data fo
 		  
 		  
 		  
-                   <a href="https://uiuc-ischool-dataviz.github.io/is445AOG_fall2020/week01/data/GDP.csv">The GDP dataset (online)</a>
+                   <a href="https://uiuc-ischool-dataviz.github.io/spring2019online/week04/data/ufo-scrubbed-geocoded-time-standardized-00.csv">The UFO Sitings Dataset (13Mb)</a>
 		  
                 </p>
                 <p>
-                    GDP dataset from FRED (stored online for easy linking in Iodide)
+                    Data about world wide reports of UFO sitings
                 </p>
             </div>
         </article>
@@ -279,11 +364,29 @@ Feel free to check out [Spring 2020's notebook that uses police shooting data fo
 		  
 		  
 		  
-                   <a href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_spring2021/master/week08/data/mobility.csv">The Mobility dataset (online)</a>
+                   <a href="https://uiuc-ischool-dataviz.github.io/is445_spring2021/week06/data/total_export.csv">State export data (8Kb)</a>
 		  
                 </p>
                 <p>
-                    A dataset of USA "mobility" which (I <b>think</b> comes from a <a href="https://www.census.gov/library/working-papers/2018/adrm/CES-WP-18-40R.html">a large census study from 1989-2015</a>) and is collected in several places <a href="http://www.stat.cmu.edu/~cshalizi/uADA/15/hw/01/mobility.csv">including right here</a>.  Here "mobility" is refering to how easy it is for a person to move up in economic status (<a href="http://www.stat.cmu.edu/~cshalizi/uADA/15/hw/01/hw-01.pdf">more info can be found here</a>) based on factors like parental income, location, race, etc.
+                    Data about exports from each state
+                </p>
+            </div>
+        </article>
+        
+        <article class="media">
+            <figure class="media-left">
+                <span class="icon is-large"><i class="fas fa-3x fa-database"></i></span>
+            </figure>
+            <div class="media-content">
+                <p>
+		  
+                   <a href="/is445_AOUAOG_spring2021/week08/data/market_map_data.csv">Surgery Charges Dataset (37Mb)</a>
+		  
+		  
+		  
+                </p>
+                <p>
+                    Surgery charges in different states
                 </p>
             </div>
         </article>
