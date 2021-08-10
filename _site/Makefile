@@ -5,5 +5,3 @@ A2S=/home/mturk/Development/asciitosvg/a2s
 
 all: $(addsuffix .svg, $(basename $(wildcard week*/diagrams/*.atxt)))
 
-clean:
-	rm week*/diagrams/*.svg
