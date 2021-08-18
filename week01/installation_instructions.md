@@ -66,10 +66,11 @@ Here is a ~5 minute movie of how this process looks on my Mac (it may take longe
 
  1. [Download the test install script - test_imports_week01](https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/week01/test_imports_week01.ipynb), open it with your jupyter notbeook and run it cell-by-cell
  
-A movie of this process is shown below (~5 minutes):
+A movie of this process is shown below (~3 minutes):
 
 <!-- JPN: redo this movie w/o Pygel -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J2GWtnoQrnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D5wLYqCuHZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A few things of note:
  * When the little `*` is showing in the `In[]` part to the left of each cell this means your computer is thinking.  Its best to wait until its done with one cell before moving onto the next one.
