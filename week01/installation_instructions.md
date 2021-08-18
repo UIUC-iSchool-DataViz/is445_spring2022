@@ -26,10 +26,10 @@ Next, follow these installation steps to install anaconda on your computer:
 
 Now we will make a "stand-alone" envirnoment to do our data-viz stuff in.  This is useful to make sure we install packages in a way that will not cause bad interactions.
 
-Here is a ~2 minute movie of how this process looks on my Mac (it may take longer on your machine!) which covers the instructions in section 2.1 and 2.2 of the installation process (note: this uses Python 3.8, but you should try with Python 3.7 first):
+Here is a ~5 minute movie of how this process looks on my Mac (it may take longer on your machine!) which covers the instructions in section 2.1 and 2.2 of the installation process (note: this uses Python 3.8, but you should try with Python 3.7 first):
 
 <!-- JPN: redo this movie -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2iPGcTBHPGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0RT_03U5dWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- JPN: recreate this enviroment -->
 ### 2.1 Conda environment
@@ -64,7 +64,7 @@ Here is a ~2 minute movie of how this process looks on my Mac (it may take longe
  
 ### 3.1. Test the installs (this is part of the first HW, do once)
 
- 1. [Download the test install script - test_imports_week01](https://uiuc-ischool-dataviz.github.io/is445AOG_fall2020/week01/test_imports_week01.ipynb), open it with your jupyter notbeook and run it cell-by-cell
+ 1. [Download the test install script - test_imports_week01](https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/week01/test_imports_week01.ipynb), open it with your jupyter notbeook and run it cell-by-cell
  
 A movie of this process is shown below (~5 minutes):
 
