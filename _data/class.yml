@@ -1,14 +1,14 @@
 instructor: 
   name: Jill Naiman
   email: jnaiman@illinois.edu
-  office: Online!
-  office_hours: TBD
+  office: Online
+  office_hours: Thursdays, 3-4pm
 tas:
   -
     name: Xinhui Hu
     email: xhu15@illinois.edu
-    office: Online!
-    office_hours: TBD
+    office: Online
+    office_hours: Wednesdays & Fridays 11am-12pm
 course:
   name: Data Visualization
   number: IS445
