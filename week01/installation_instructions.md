@@ -29,7 +29,7 @@ Now we will make a "stand-alone" envirnoment to do our data-viz stuff in.  This 
 Here is a ~5 minute movie of how this process looks on my Mac (it may take longer on your machine!) which covers the instructions in section 2.1 and 2.2 of the installation process (note: this uses Python 3.8, but you should try with Python 3.7 first):
 
 <!-- JPN: redo this movie -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0RT_03U5dWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0RT_03U5dWI?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- JPN: recreate this enviroment -->
 ### 2.1 Conda environment
@@ -70,7 +70,7 @@ A movie of this process is shown below (~3 minutes):
 
 <!-- JPN: redo this movie w/o Pygel -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D5wLYqCuHZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D5wLYqCuHZM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A few things of note:
  * When the little `*` is showing in the `In[]` part to the left of each cell this means your computer is thinking.  Its best to wait until its done with one cell before moving onto the next one.
