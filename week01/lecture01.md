@@ -39,13 +39,13 @@ See for-credit [IS400 Colloquium](https://ischool.illinois.edu/degrees-programs/
 <!-- .slide: class="vertical_center" -->
 ## Basics
 
-9-11:50AM Mondays, online
+9-10:55AM Mondays, online
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: TBD
+ * Office Hours: Thursday 3-4pm
 
 TA: Xinhui Hu - `xhu15@illinois.edu`
- * Office Hours: TBD
+ * Office Hours: Wednesdays & Fridays 11am-12pm
 
 https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/
 
@@ -162,7 +162,7 @@ about these types of data, and how we approach visualizing them.
 
 ## A Jamboard moment!
 
-https://jamboard.google.com/d/1FEZipLt8E7F2r6Pks5N0-0sjy6LfrQ-aKzZFQY3SMV8/edit?usp=sharing
+https://jamboard.google.com/d/1kO-DvkYmwrMM6vkZH_H6w5CjfGR12xHk1aiXXX_S67s/edit?usp=sharing
 
 notes: 
 
@@ -239,8 +239,8 @@ We might start getting into javascript earlier, depending on how we are doing.
 
 <!-- JPN: update for no Iodide, use the other thing -->
  * Week 8 - Maps, maps and more maps
- * Week 9 - Iodide and Intro to Javascript (CHANGE)
- * Week 10 - Viz Audience; More Iodide (CHANGE), Javascript & Vega-lite (and maybe Idyll)
+ * Week 9 - ~~Iodide~~ Starboard and Intro to Javascript
+ * Week 10 - Viz Audience; More ~~Iodide~~ Starboard, Javascript & Vega-lite (and maybe Idyll)
  * Week 11 - Intro to Idyll
  * Week 12 - More with Idyll, Publishing Viz
  * Week 13 - A few more Idyll+d3 things
@@ -439,7 +439,7 @@ what they represent, not because they are the only paths to success.
 
  * [Jupyter](https://jupyter.org/)
  * [GitHub](https://github.com/)
- * [Iodide](https://iodide.io/) and/or [Idyll](https://idyll-lang.org/)
+ * ~~[Iodide](https://iodide.io/)~~ [Starboard](https://starboard.gg/) and/or [Idyll](https://idyll-lang.org/)
  <!-- JPN: change this Iodide reference -->
 
 A few others we may get to:
@@ -1060,15 +1060,6 @@ The angle can be misleading. So can the relative width of the head vs the feet. 
 
 notes:
 If we rotate the image so that the red liquid is level, do we get a different impression for how much bad is in Stitch?
-
----
-
-<iframe width="1024" height="576"
-src="https://www.youtube.com/embed/D-uBv6jB7r0?rel=0" frameborder="0"
-allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-notes:
-How could this visualization be misleading? What about the camera move? What about the colors used? Are there actually several distinct layers of shells or is this a continuous volume?
 
 ---
 
