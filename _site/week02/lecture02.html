@@ -51,10 +51,10 @@
 ## How to get help
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: Thurs 2-3pm; other times by request
+ * Office Hours: Thursday 3-4pm
 
-TA: Qiuyan Guo
- * Office Hours: Tues & Wed 2-3pm
+TA: Xinhui Hu - `xhu15@illinois.edu`
+ * Office Hours: Wednesdays & Fridays 11am-12pm
  
 Other: 
  * Slack, email
@@ -65,15 +65,17 @@ Other:
 
  * Moodle - where the grades and assignments will be posted
 
- * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_spring2021/ - where lecture slides, notebooks, data & general course info will live.
+ * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/ - where lecture slides, notebooks, data & general course info will live.
 
- * Slack: https://is445-spring2021.slack.com - the best place to ask questions
+ * Slack: https://is445-fall2021.slack.com - the best place to ask questions
 
 ---
 
 ## An addition: jupyterhub
 
 [http://jupyterhub.ischool.illinois.edu/](http://jupyterhub.ischool.illinois.edu/)
+
+**This is still down**
 
 (linked on Moodle)
 
@@ -137,14 +139,6 @@ There are 3 pathways (that I can see in this course, could be more!)
        * do the Javascript parts
        * if you're new to programming, do Javascript parts in class, and build on them for any HW
        * come back to the optional texts/docs after the course is over
-
----
-
-## Many ways to get notes
-
- 1. The course website, last I taught it - https://uiuc-ischool-dataviz.github.io/is445AOG_fall2020/
- 1. The course website, Spring 2020 - https://uiuc-ischool-dataviz.github.io/spring2020/
- 1. The course website, Fall 2019 - https://uiuc-ischool-dataviz.github.io/fall2019/
 
 ---
 
@@ -312,15 +306,17 @@ From Elizabeth Wickes' talk: https://zenodo.org/record/3563145#.XjdvdRNKgtc
 notes:
 We know that this is not easy though! Especially for "complicated" data like we might run into out in the wild. While most of the data we'll use here will be less messy than "out in the wild" data, we nevertheless need to figure out how to process it a bit.
 
+There are several great examples of this from Elizabeth Wickes' talks linked here, but basically, here she is highlighting all of the places the documentation can "go wrong" if you are trying to follow along with your data.
+
 ---
 
 <!-- .slide: data-background-image="images/viz_diagram2.svg.png" data-background-size="contain"-->
 
 notes:
-Today we are going to practice a bit of the data-reading part ourselves, but usually we are going to be
-able to make use of readers.
+~~Today we are going to practice a bit of the data-reading part ourselves, but~~ usually we are going to be
+able to make use of readers, but in the prep notebook there is an example of how one would construct a data reader "by hand"
 
-And we'll see how to go from raw "read in" data to data that is viz-ready.
+~~And we'll see how to go from raw "read in" data to data that is viz-ready.~~
 
 ---
 
@@ -1029,115 +1025,6 @@ Which of these are better represented as raster or vector?
 
 notes:
 a simple cheat is anytime you see the word "density", it's easier to represent with raster.
-
----
-
-## Vector vs. Raster in 3D: Raster or Vector?
-
-<img src="images/menger1.png" width=700>
-
-Vector points: 8 points $\rightarrow$ number of "verticies" to make a cube
-
-Stored as voxels (volumetric pixels): 2.96 kb $\rightarrow$ if we break the cube up into little cubes
-
-notes:
-Would it be easier to store this cube as a vector or as raster?
-This is larger than a few bytes because it's storing other useful values in CG software.
-
----
-
-## Raster or Vector?
-
-<img src="images/menger2.png" width=700>
-
-Vector points: 160 points
-
-Stored as voxels (volumetric pixels): 12.28 kb
-
-notes:
-Does this change it?
-This is a recursive shape known as a Menger Sponge. Each cube keeps getting replaced with the whole previous shape.
-
----
-
-## Raster or Vector?
-
-<img src="images/menger3.png" width=700>
-
-Vector points: 3200 points
-
-Stored as voxels (volumetric pixels): 445.05 kb
-
-notes:
-
-
----
-
-## Raster or Vector?
-
-<img src="images/menger4.png" width=700>
-
-Vector points: 64000 points
-
-Stored as voxels (volumetric pixels): 9.59Mb
-
-notes:
-Does it make a difference yet?
-
----
-
-## Raster or Vector?
-
-<img src="images/menger5.png" width=700>
-
-Vector points: 1.28M points
-
-Stored as voxels (volumetric pixels): 190.93 Mb
-
-notes:
-
-
----
-
-## Raster or Vector?
-
-<img src="images/menger6.png" width=700>
-
-Vector points: 25.6M points
-
-Stored as voxels: 3.73 Gb
-
-notes:
-
-
----
-
-## Raster or Vector?
-
-<img src="images/menger6.png" width=700>
-
-Vector points: 25.6M points
-
-Stored as voxels: 3.73 Gb
-
-Size of this image: 1280 x 720 = 921600
-
-notes:
-There are 25 times more points than pixels, and most of the pixels don't include the shape - we aren't
-seeing the details of this image anymore
-
-
----
-
-## Infinite resolution
-
-![](/is445_AOUAOG_fall2021/week02/images/nature.jpg)
-
-notes:
-nature has nearly infinite resolution, down to the atom.
-It's much easier to discretize this scene to the level of pixels than to try to use vector shapes to describe everything happening in the photo.
-
-photo by  Ekaterina Vasyagina
 
 ---
 

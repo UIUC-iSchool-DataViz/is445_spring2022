@@ -21,6 +21,8 @@ I couldn't get crontab to work (I think it has to do with the user-key/ssh permi
 
 ## Notes on Course Materials
 
+This course was a 2 hour online version of this course, so there is much material that has been cut (lectures and prep notebooks) from previous iterations of this class.
+
 As of Fall 2020, this section and the [section developed in parallel by Matthew Turk](https://github.com/UIUC-iSchool-DataViz/fall2020-BOG-BOU) have
 diverged somewhat.  Occasionally, contributions will be passed back and forth
 and the commit message history may not reflect the original authorship.
