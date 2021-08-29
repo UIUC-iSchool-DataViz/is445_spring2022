@@ -12,6 +12,10 @@ examples:
     type: ipynb
     title: Starter notebook - HW 2
     description: Notebook for HW 2
+  - filename: spring2021_prep_notebook_week02.ipynb
+    type: ipynb
+    title: Notebook from past class 
+    description: Extra notebook from 2021 class
   - filename: spring2019_prep_notebook_week02.ipynb
     type: ipynb
     title: Notebook from past class (2019)
