@@ -56,6 +56,8 @@ palette of operations you can apply to data to visualize it.
     * <a href="https://github.com/jnaiman/IS-452AO-Fall2019/blob/master/Lectures/Week-09-Dictionaries.ipynb">IS452's Dictionary week</a>
  * Colors: <a href="https://www.rapidtables.com/web/color/RGB_Color.html">RGB color triplets (we will also cover this extensively next week)</a>
 
+Also, more about numpy.reshape (and what the -1 means): https://stackoverflow.com/questions/18691084/what-does-1-mean-in-numpy-reshape
+
 ## Optional Reading List (See syllabus for acronyms)
 
  1. VAD, Ch. 2: What: Data Abstraction 
