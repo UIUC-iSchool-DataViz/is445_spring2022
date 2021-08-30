@@ -1148,8 +1148,3 @@ If we rotate the image so that the red liquid is level, do we get a different im
 
 We'll spend some time messing with this image to try to understand how colors encode these goodness/badness levels
 
-
----
-
-## Homework: Two Choices!
-
