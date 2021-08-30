@@ -12,10 +12,6 @@ examples:
     type: ipynb
     title: In class, Week 2
     description: in class notebook for this week
-  - filename: starter_notebook_for_option2_homework_week02.ipynb
-    type: ipynb
-    title: Starter notebook - HW 2
-    description: Notebook for HW 2
   - filename: spring2021_prep_notebook_week02.ipynb
     type: ipynb
     title: Notebook from past class 

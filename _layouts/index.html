@@ -86,6 +86,7 @@ layout: default
         {% endfor %}
         {% for example in f.examples %}
         {% unless example.filename contains "2019" %}
+        {% unless example.filename contains "spring2021" %}
         {% unless example.type == "iodidePast" %}
         <div class="column has-text-centered">
             <div>
@@ -103,6 +104,7 @@ layout: default
                 </p>
             </div>
         </div>
+        {% endunless %}
         {% endunless %}
 	{% endunless %}
         {% endfor %}
