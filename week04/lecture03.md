@@ -3,24 +3,7 @@ title: Lecture 3 - Colors and Color maps, Types of viz
 layout: lecture
 description: >-
  How do colors work? What are the different ways we can map colors to values? What should we keep in mind when doing this?
-date: 2020-02-08
----
-
-## Warm-Up Activity -- Thinking about Colors
-
-http://old.vijayp.ca/blog/2012/06/colours-in-movie-posters-since-1914/
-
-[Movie Poster Hue](images/fullSaturation.png)
-
-[Movie Poster Value](images/modifiedBrightness.png)
-
-What are these visualizations trying to show?  What do they do well/not well?
-
-notes: go over the blog post - blocky one includes full HSV, without that you
-just see Hue (H) and the full set of colors
-
-What do we think these visualizations are trying to show?  What is good/bad about them?
-
+date: 2021-09-13
 ---
 
 ## Today's Main Topics
@@ -29,7 +12,10 @@ What do we think these visualizations are trying to show?  What is good/bad abou
  * Color mapping - mapping data to colors
  * Visual Encoding in general
  * Python: More on data transformations (Pandas)
- * Python: Colors!
+ * Python: Colors! (an introduction)
+ 
+notes: 
+for this last one, we'll introduce the topics today and work a bit more with them next week
 
 ---
 
