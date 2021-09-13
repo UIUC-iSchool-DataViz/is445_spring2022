@@ -6,7 +6,7 @@ notitle: true
 examples:
   - filename: prep_notebook_week04.ipynb
     type: ipynb
-    title: Prep Notebook, Week 3
+    title: Prep Notebook, Week 4
     description: Prep notebook for this week
   - filename: fall2019_prep_notebook_furtherExamples_01.ipynb
     type: ipynb
