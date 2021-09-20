@@ -4,6 +4,10 @@ visible: true
 icon: undraw_under_construction_46pa.svg
 notitle: true
 examples:
+  - filename: inClass_week05.ipynb
+    type: ipynb
+    title: In Class notebook
+    description: in Class notebook, week 05
   - filename: prep_notebook_week05.ipynb
     type: ipynb
     title: Prep Notebook, Week 5
