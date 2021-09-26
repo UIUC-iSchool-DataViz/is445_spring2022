@@ -4,9 +4,13 @@ visible: true
 icon: undraw_data_reports_706v.svg
 notitle: true
 examples:
-  - filename: prep_notebook_week05.ipynb
+  - filename: inClass_week06.ipynb
     type: ipynb
-    title: Prep Notebook, Week 5
+    title: In class Notebook, Week 6
+    description: Prep notebook for this week
+  - filename: prep_notebook_week06.ipynb
+    type: ipynb
+    title: Prep Notebook, Week 6
     description: Prep notebook for this week
   - filename: fall2019_examples_week05.ipynb
     type: ipynb
