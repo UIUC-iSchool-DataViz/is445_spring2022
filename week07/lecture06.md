@@ -281,7 +281,7 @@ Starting with these ideas, we'll progressively enhance.
 
  * Create heat maps of the sightings in the UFO dataset
  * Select based on states (do not use map marks yet)
- * Manually create "bins" for aggregation
+ * Manually create "bins" for aggregation (**this is "pre-done" for us**)
  * Use different scales for dates, times, locations
 
 We'll use these to build up a _dashboard_ for our data.
