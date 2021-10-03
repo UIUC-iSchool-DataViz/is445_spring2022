@@ -4,13 +4,17 @@ visible: true
 icon: undraw_metrics_gtu7.svg
 notitle: true
 examples:
-  - filename: prep_notebook_week06_part1.ipynb
+  - filename: inClass_week07.ipynb
     type: ipynb
-    title: Prep Notebook, Week 6, Part 1
+    title: In Class Notebook, Week 7
+    description: In class notebook
+  - filename: prep_notebook_week07_part1.ipynb
+    type: ipynb
+    title: Prep Notebook, Week 7, Part 1
     description: Prep notebook for this week, Part 1
-  - filename: prep_notebook_week06_part2.ipynb
+  - filename: prep_notebook_week07_part2.ipynb
     type: ipynb
-    title: Prep Notebook, Week 6, Part 2
+    title: Prep Notebook, Week 7, Part 2
     description: Prep notebook for this week, Part 2
   - filename: spring2019_prep_notebook_week06_part1.ipynb
     type: ipynb
