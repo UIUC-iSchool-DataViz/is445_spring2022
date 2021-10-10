@@ -8,13 +8,13 @@ examples:
     type: ipynb
     title: In class notebook
     description: Placeholder for in class coding
-  - filename: prep_notebook_week07_part1.ipynb
+  - filename: prep_notebook_week08_part1.ipynb
     type: ipynb
-    title: Prep Notebook, Week 7, Part 1
+    title: Prep Notebook, Week 8, Part 1
     description: Prep notebook for this week, Part 1
-  - filename: prep_notebook_week07_part2.ipynb
+  - filename: prep_notebook_week08_part2.ipynb
     type: ipynb
-    title: Prep Notebook, Week 7, Part 2
+    title: Prep Notebook, Week 8, Part 2
     description:  Prep notebook for this week, Part 2
   - filename: spring2019_prep_notebook_week07_part1.ipynb
     type: ipynb
