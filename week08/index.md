@@ -4,7 +4,7 @@ visible: true
 icon: undraw_Around_the_world_re_n353.svg
 notitle: true
 examples:
-  - filename: inClass_week07.ipynb
+  - filename: inClass_week08.ipynb
     type: ipynb
     title: In class notebook
     description: Placeholder for in class coding

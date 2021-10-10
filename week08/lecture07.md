@@ -3,14 +3,14 @@ title: Lecture 7 - Maps!
 layout: lecture
 description: >-
  More about maps and their projections
-date: 2020-03-08
+date: 2021-10-11
 ---
 
 # Homework 
 
 This week: Installations & trying some web interfaces out
 
-Next week: Interactive maps (due in 3 weeks from now)
+Next week: Interactive maps (due in 2 weeks from now)
 
 notes:
 There are 2 homeworks.  Like the last #5 & #6 you might want to get looking at #8 sooner than later
@@ -101,7 +101,7 @@ to the flat object we are observing.
 
 What are some things we could preserve during such a projection?
 
-<img src="../week06/images/mapwrap.gif" height="350"/>
+<img src="images/mapwrap.gif" height="350"/>
 
 notes:
 One common conversion from sphere to plane is the squashed cylinder approach
@@ -113,7 +113,7 @@ This can be used to conserve straight lines (distances)
 
 ## Projections
 
-<img src="../week06/images/mapsplode.gif" height="350"/>
+<img src="images/mapsplode.gif" height="350"/>
 
 notes:
 There's always a weird way to do it too. Here we're exploding the sphere into lots of 
@@ -152,7 +152,7 @@ What happens when we preserve one property over another?
 
 Mercator is a "conformal" projection.  What is wrong with this?
 
-<!-- .slide: data-background-image="../week06/images/mercator.png" data-background-size="auto 80%" -->
+<!-- .slide: data-background-image="images/mercator.png" data-background-size="auto 80%" -->
 
 notes:
 conformal = shape preserving (at the expense of accurate size)
@@ -165,7 +165,7 @@ We can characterize distortions in a projection by examining how a known shape
 appears on them.  The Tissot Ellipse of Distortion is a method of showing this
 by drawing circles of a fixed radius and examining their elliptical distortion.
 
-<img src="../week06/images/Tissot_indicatrix_world_map_Mercator_proj.svg" height="400">
+<img src="images/Tissot_indicatrix_world_map_Mercator_proj.svg" height="400">
 
 notes: so here for example, we see that the mercator projection has circles that
 stay circles, though they change in relative size depending on where they are on the map
@@ -174,33 +174,33 @@ stay circles, though they change in relative size depending on where they are on
 
 What do you notice?
 
-<!-- .slide: data-background-image="../week06/images/mercator.png" data-background-size="auto 80%" -->
+<!-- .slide: data-background-image="images/mercator.png" data-background-size="auto 80%" -->
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/mercator_tissot.png" data-background-size="auto 80%" -->
+<!-- .slide: data-background-image="images/mercator_tissot.png" data-background-size="auto 80%" -->
 
 notes:
 Greenland and Antarctica are HUGE
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/transversemercator.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/transversemercator.png" data-background-size="auto 95%" -->
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/transversemercator_tissot.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/transversemercator_tissot.png" data-background-size="auto 95%" -->
 
 notes:
 this projection is most accurate near the vertical center line
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/lambertcylindrical.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/lambertcylindrical.png" data-background-size="auto 95%" -->
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/lambertcylindrical_tissot.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/lambertcylindrical_tissot.png" data-background-size="auto 95%" -->
 
 notes:
 Also known as "equirectangular", this is the favorite format of NASA because it's mathematically straightforward.
@@ -209,33 +209,33 @@ Note that the very top line of the image represents a single point on the globe.
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/mollweide.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/mollweide.png" data-background-size="auto 95%" -->
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/mollweide_tissot.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/mollweide_tissot.png" data-background-size="auto 95%" -->
 
 notes:
 this is considered a good compromise between shape-preserving and angle preserving - but it's not perfect at either.
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/sinusoidal.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/sinusoidal.png" data-background-size="auto 95%" -->
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/sinusoidal_tissot.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/sinusoidal_tissot.png" data-background-size="auto 95%" -->
 
 notes:
 this has even less distortion than mollweide, but the pointy ends don't feel very elegant and planet-like
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/gnomonic.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/gnomonic.png" data-background-size="auto 95%" -->
 
 ---
 
-<!-- .slide: data-background-image="../week06/images/gnomonic_tissot.png" data-background-size="auto 95%" -->
+<!-- .slide: data-background-image="images/gnomonic_tissot.png" data-background-size="auto 95%" -->
 
 notes:
 this is another nightmare scenario like Mercator that was initially created for navigation. Straight lines on this map are the shortest route, but area, shape, and size are distorted.
@@ -279,7 +279,7 @@ Why is Europe at the center of all the maps we've looked at?
 
 ## Discussion
 
-<img src="../week06/images/Azimuthal_equidistant_projection.jpg" width="512"/>
+<img src="images/Azimuthal_equidistant_projection.jpg" width="512"/>
 
 notes: there is nothing specifically wrong with putting a pole at the center of the map
 
@@ -287,14 +287,14 @@ notes: there is nothing specifically wrong with putting a pole at the center of 
 
 ## Discussion
 
-<img src="../week06/images/Azimuthal_equidistant_tissot.png" width="512"/>
+<img src="images/Azimuthal_equidistant_tissot.png" width="512"/>
 
 notes: also see here that now the equator is very distorted, and the south pole even more so!
 
 ---
 ## Discussion
 
-<img src="../week06/images/Waterman_projection.png" width="512"/>
+<img src="images/Waterman_projection.png" width="512"/>
 
 notes: or why bother having a spherical or rectangular shape at all?
 
@@ -302,7 +302,7 @@ notes: or why bother having a spherical or rectangular shape at all?
 
 ## Discussion
 
-<img src="../week06/images/Waterman_tissot.png" width="512"/>
+<img src="images/Waterman_tissot.png" width="512"/>
 
 notes: look how here there is very little distortion of size or shape
 
