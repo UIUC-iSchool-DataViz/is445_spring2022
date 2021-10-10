@@ -28,6 +28,27 @@ If the "default" way doesn't work for any reason you can try with conda in your 
  
 If you go this route, make sure you activate your DataViz environment before using any `npm` calls.
 
+#### 1.1 Update npm to latest version if you already have it installed
+
+Do this with:
+```
+npm install -g npm@latest
+```
+or for a specific version:
+```
+npm install -g npm@8.0.0
+```
+
+**NOTE:** to install things globally (-g) you might have to use `sudo` in front of the `npm` commands.
+
+You can check your version with
+
+```
+npm -v
+```
+(mine is 8.0.0)
+
+
 ## 2. Use npm to install Idyll & other packages
 
 You'll run these commands in a terminal (Mac) or anaconda prompt (Windows) so make sure you open them up.
@@ -58,4 +79,4 @@ npm install --save idyll-vega-lite
   * do `idyll` in your `my-idyll-post` directory and make sure it looks like whats in the test video below
      * **NOTE:** if you get an error and it won't build try `idyll --compileLibs=true` instead of just `idyll`.  You might get a "BABEL" warning that you can ignore for now.
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J_w9kowGkIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J_w9kowGkIs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
