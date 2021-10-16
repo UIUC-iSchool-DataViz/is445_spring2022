@@ -2,24 +2,31 @@
 title: Lecture 8 - Choosing viz & Online viz platforms
 layout: lecture
 description: >-
- Choosing what viz type to use, and an introduction to Vega/Vega-lite and Iodide 
-date: 2020-03-15
+ Choosing what viz type to use, and an introduction to Vega/Vega-lite and Starboard 
+date: 2021-10-18
 ---
 
 ## Last Week
 
 <img src="images/last_week2.png">
 
+notes:
+last week we discussed maps and mappable data
+
 ---
 
 ## This Week
 
-<img src="images/this_week2.png">
+<img src="images/this_week3.png">
 
 notes: 
 this week we'll finally start dipping our toes into Javascript with some seriousness
 
 Luckily, will all of our usage of bqplot and grammar of graphics we are well equipt to do this!
+
+in previous iterations of the class we used an online notebook host called Iodide to do this, but it is no longer supported so we are going to use a different one called Starboard
+
+I've kept some of the links to old Iodide prep notebooks in the extended resources in case you are curious, but it will be very similar to stuff we will be doing using Starboard
 
 ---
 
@@ -27,7 +34,7 @@ Luckily, will all of our usage of bqplot and grammar of graphics we are well equ
 
  1. Choosing your viz
  1. Intro to Vega/Vega-lite
- 1. Iodide
+ 1. ~~Iodide~~ Starboard
 
 ---
 
