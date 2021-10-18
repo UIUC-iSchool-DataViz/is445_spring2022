@@ -213,7 +213,7 @@ For heirarchical data, you can nest some of these other formats.
 
 ## Engines
 
-Thus far we have used `bqplot` as our primary imperative method, but we'll start looking at `vega-lite` this week
+Thus far we have used `bqplot` as our primary declaritive method, but we'll start looking at `vega-lite` this week
 
  * `bqplot` - both imperative & declaritive methods
  * `vega-lite` - declaritive
@@ -225,7 +225,7 @@ Thus far we have used `bqplot` as our primary imperative method, but we'll start
 vega-lite is a high-level method for describing visualizations independently of
 their data.
 
-We will be exploring this using [Iodide](https://alpha.iodide.io/).
+We will be exploring this using [Starboard](https://starboard.gg/).
 
 You can also use `vega-lite` directly with the online editor at:
 
