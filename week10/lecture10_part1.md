@@ -2,19 +2,19 @@
 title: Lecture 10 - Viz audience, Final Project Info
 layout: lecture
 description: >-
- Considerations of audience, review about final projects, more with vega lite & Iodide, Idyll
+ Considerations of audience, review about final projects, more with vega lite & Starboard, Idyll
 date: 2020-03-29
 ---
 
 ## Last Week
 
-<img src="../week08/images/this_week2.png">
+<img src="../week09/images/this_week3.png">
 
 ---
 
 ## This Week
 
-<img src="images/this_week2.png">
+<img src="images/this_week3.png">
 
 notes:
 this week we will discuss how one has to consider the audience of their visualization - is your audience you? your peers? others?
@@ -30,7 +30,7 @@ if we have time after doing a few more things with javascript & vega-lite, we'll
  1. Viz for Self/Peers/Others
  1. Review about final projects
  1. More `vega-lite` - transformations and calculations
- 1. More programming in Iodide
+ 1. More programming in Starboard
  1. Intro to Idyll (if time)
 
 ---
@@ -339,6 +339,8 @@ Which of these do you care about more?
 notes:
 In visualization, we really want to tell a story, not just a list of facts.
 
+**plug for data storytelling class!**
+
 ---
 
 ## Storytelling
@@ -496,9 +498,12 @@ There are three components, turned in the last three weeks of class.
 
 You will have three components:
 
-1. Viz for Self (Due April 19)
-1. Viz for Peers (Due April 26)
-1. Viz for Others (Due May 3 (for feedback), 14 (final))
+1. Viz for Self (Due November 15)
+1. Viz for Peers (Due November 29)
+1. Viz for Others (Due December 6 (for feedback), 13 (final))
+
+note:
+there are NO extensions available -- you can't use one of your three HW extensions for these components
 
 ---
 
@@ -539,7 +544,7 @@ information in your Jupyter notebook:
 
 You can share raw data sets and sources, ask questions about reading/modifying the dataset and post code to do so **that isn't working**.
 
-Please do not share processed or cleaned datasets.
+Please do not share processed or cleaned datasets online.
 
 ---
 
@@ -574,7 +579,7 @@ Some possible ways to approach this:
 
  * Infographic
  * Idyll
- * Jupyter notebook
+ * Jupyter notebook (hosted on mybinder or Starboard)
  * Raw HTML
 
 
@@ -767,5 +772,5 @@ Let's try this.
 
 ---
 
-# Back to Iodide!
+# Back to Starboard!
 
