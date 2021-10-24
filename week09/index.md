@@ -4,6 +4,11 @@ visible: true
 icon: undraw_forming_ideas_0pav.svg
 notitle: true
 examples:
+  - filename: inClass_week09_fall2021
+    type: iodide
+    title: In Class Notebook, Week 9
+    description: In Class Starboard Notebook
+    link: https://starboard.gg/nb/n27qXay
   - filename: prep_notebook_week09_fall2021
     type: iodide
     title: Prep Starboard Notebook, Week 9

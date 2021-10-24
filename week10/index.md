@@ -4,11 +4,16 @@ visible: true
 icon: undraw_programmer_imem.svg
 notitle: true
 examples:
-  - filename: prep_notebook_week10_and_week11_fall2020
+  - filename: inClass_week10_fall2021
     type: iodide
-    title: Prep Iodide Notebook, Week 10
-    description: Prep Iodide Notebook
-    link: https://alpha.iodide.io/notebooks/7155/
+    title: In Class Notebook, Week 10
+    description: In Class Starboard Notebook
+    link: https://starboard.gg/nb/nwQpDEA
+  - filename: prep_notebook_week10_fall2021
+    type: iodide
+    title: Prep Starboard Notebook, Week 10
+    description: Prep Starboard Notebook
+    link: https://starboard.gg/nb/nXvyanN
   - filename: prep_notebook_week11
     type: iodidePast
     title: Previous class notebook
@@ -18,7 +23,7 @@ data:
   - filename: GDP.csv
     type: dataLink
     title: The GDP dataset (online)
-    description: GDP dataset from FRED (stored online for easy linking in Iodide)
+    description: GDP dataset from FRED (stored online for easy linking in Starboard)
     link: https://uiuc-ischool-dataviz.github.io/is445AOG_fall2020/week01/data/GDP.csv
   - filename: mobility.csv
     type: dataLink
@@ -27,23 +32,8 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_spring2021/master/week08/data/mobility.csv
 ---
 
-# Viz Audience; More Iodide, Javascript & Vega-lite (and maybe Idyll)
+# Viz Audience; More Starboard, Javascript & Vega-lite (and maybe Idyll)
 
-<!-- 
-## Downloads & Links
-
-### Iodide Notebooks:
-
- * <a href="https://alpha.iodide.io/notebooks/6217/">Prep Iodide Notebook</a>
- * <a href="https://alpha.iodide.io/notebooks/6219/">In Class Iodide Notebook</a> 
- 
- Feel free to check out [Spring 2020's notebook that uses police shooting data for visualization](https://alpha.iodide.io/notebooks/4399/) if you are interestedin other mappable datasets.  
- 
-### Info about dataset
-
-We will use a dataset of USA "mobility" which (I *think* comes from a [a large census study from 1989-2015](https://www.census.gov/library/working-papers/2018/adrm/CES-WP-18-40R.html)) and is collected in several places [including right here](http://www.stat.cmu.edu/~cshalizi/uADA/15/hw/01/mobility.csv).  Here "mobility" is refering to how easy it is for a person to move up in economic status ([more info can be found here](http://www.stat.cmu.edu/~cshalizi/uADA/15/hw/01/hw-01.pdf)) based on factors like parental income, location, race, etc.
-
--->
 
 ## Installation instructions: Idyll
 
