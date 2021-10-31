@@ -17,6 +17,10 @@ finally getting into idyll
 
 ---
 
+## Dropping lowest Weekly Viz score
+
+---
+
 
 <br/>
 <br/>
