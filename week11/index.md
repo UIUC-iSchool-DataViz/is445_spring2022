@@ -4,11 +4,16 @@ visible: true
 icon: undraw_Books_l33t.svg
 notitle: true
 examples:
-  - filename: prep_notebook_week10_and_week11_fall2020
+  - filename: inClass_week11_fall2021
     type: iodide
-    title: Prep Iodide Notebook, Week 11
-    description: Prep Iodide Notebook
-    link: https://alpha.iodide.io/notebooks/6217/
+    title: In Class Notebook, Week 11
+    description: In Class Starboard Notebook
+    link: https://starboard.gg/nb/nL5ErlB
+  - filename: prep_notebook_week11_fall2021
+    type: iodide
+    title: Prep Starboard Notebook, Week 11
+    description: Prep Starboard Notebook
+    link: https://starboard.gg/nb/nLPtuTL
   - filename: index.idyll
     type: iodide
     title: Prep index.idyll file, Week 11
@@ -25,11 +30,6 @@ examples:
     description: Prep Iodide Notebook, Spring 2020
     link: https://alpha.iodide.io/notebooks/4399/
 data:
-  - filename: GDP.csv
-    type: dataLink
-    title: The GDP dataset (online)
-    description: GDP dataset from FRED (stored online for easy linking in Iodide)
-    link: https://uiuc-ischool-dataviz.github.io/is445AOG_fall2020/week01/data/GDP.csv
   - filename: mobility.csv
     type: dataLink
     title: The Mobility dataset (online)
@@ -47,7 +47,7 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgiData_countries_subset_2020.json
 ---
 
-# Finish up with Iodide, Intro to Idyll 
+# Finish up with Starboard, Intro to Idyll 
 
 Today we'll cover a brief intro of [Idyll](https://idyll-lang.org/) and web development in general.
 

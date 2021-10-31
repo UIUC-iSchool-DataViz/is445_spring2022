@@ -1,14 +1,14 @@
 ---
-title: Lecture 11 - Iodide, Publishing & more in Idyll
+title: Lecture 11 - Starboard, Publishing & more in Idyll
 layout: lecture
 description: >-
  Publishing your viz, vega-lite in Idyll and a bit of d3.js
-date: 2020-04-05
+date: 2021-11-01
 ---
 
 ## This Week/Last Week
 
-<img src='../week10/images/this_week2.png'>
+<img src='../week10/images/this_week3.png'>
 
 notes:
 
@@ -17,19 +17,17 @@ finally getting into idyll
 
 ---
 
-## Iodide HW due date
+
+<br/>
+<br/>
+<br/>
+
+# Back to Starboard!!
 
 notes:
+we'll finish up some stuff in starboard, namly adding interactivity, before moving onto Idyll
 
-Should we push the due-date of the assignment by a few days?
-
----
-
-<br/>
-<br/>
-<br/>
-
-# Back to Iodide!!
+**go to starboard to finish up!!**
 
 ---
 
@@ -39,7 +37,10 @@ Should we push the due-date of the assignment by a few days?
    * Idyll
    * Github Pages
    * vega-lite in Idyll
-   * D3.js
+   * D3.js (if we have time)
+   
+notes:
+**back from starboard**
 
 ---
 
