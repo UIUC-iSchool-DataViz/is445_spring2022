@@ -64,7 +64,7 @@ A web-based toolkit for storytelling with data visualizations!
 
 ## Markdown
 
-Idyll uses Markdown for text, just like Iodide:
+Idyll uses Markdown for text, just like Starboard:
 
  * To **bold**, use `**two asterisks**`
  * You can _italicize_ with `_underscores_`
@@ -77,7 +77,7 @@ Idyll uses Markdown for text, just like Iodide:
 
  * The editor: https://idyll-lang.org/editor
  * Examples: https://idyll-lang.org/gallery
-   * a favorite: https://idyll-lang.org/gallery/the-d-i-y-data-of-fugazi
+   * a favorite: https://mathisonian.github.io/diy-data-fugazi/
    * source code: https://github.com/mathisonian/diy-data-fugazi
 
 ---
@@ -106,6 +106,9 @@ A JavaScript library for web-based data visualization
  * Declarative, not imperative (this is better for web coding)
  * Dynamic and interactive
  * Smooth transitions
+ 
+notes:
+we may/may not get to d3.js for this semester, but check out some other examples from previous sections
 
 ---
 
@@ -158,7 +161,7 @@ SVG or Scalable Vector Graphics is an XML-based implementation of vector shape d
 <img src="images/javascript.png" width="700"/>
 
 notes:
-JavaScript is a dynamic programming language that runs natively on webpages that we've been using the past few weeks in Iodide. If you want to run programming logic in a webpage, you use javascript. If you see interactivity or animated effects on a website, you can generally expect they were written in javascript. 
+JavaScript is a dynamic programming language that runs natively on webpages that we've been using the past few weeks in Starboard. If you want to run programming logic in a webpage, you use javascript. If you see interactivity or animated effects on a website, you can generally expect they were written in javascript. 
 
 ---
 
