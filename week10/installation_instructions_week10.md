@@ -20,7 +20,7 @@ If you try any of the `npm` commands and it gives you an error about not knowing
  * You need to have git installed - <a href="https://git-scm.com/">download link here</a>.  You will have to restart your computer.
 
 
-#### Another way: with conda
+#### Another way: with conda (NOT recommended)
 
 If the "default" way doesn't work for any reason you can try with conda in your terminal/Anaconda prompt:
  1. `conda activate DataViz`
