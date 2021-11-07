@@ -37,7 +37,7 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgiData_countries_subset_2020.json
 ---
 
-# A few more Idyll+d3 things, Starting SciViz & Guest lecture from the Advanced Visualization Lab 
+# A few more Idyll+d3 things, Starting SciViz
 
 A few more things in Idyll and d3.js.
 
