@@ -129,6 +129,8 @@ This is especially valuable if you expect to have to make more than one visualiz
 
 The Advanced Visualization Lab interacts with audiences through lab demos and conference talks regularly to collect this kind of feedback.
 
+**we'll be getting a talk from the head of the AVL after fall break**
+
 ---
 
 ## Example informal Validation: AVL
@@ -370,4 +372,4 @@ go to page!!
 
 ## Coding
 
-Onto some Javascript in Idyll & volume rendering in Python (if we have time!)!
+Onto some Javascript in Idyll!
