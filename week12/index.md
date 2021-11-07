@@ -4,26 +4,31 @@ visible: true
 icon: undraw_good_doggy_4wfq.svg
 notitle: true
 examples:
+  - filename: In Class Idyll
+    type: iodide
+    title: In class Idyll resources, Week 12
+    description: Updating storage of Idyll files in class
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/blob/master/week12/corg/prepIdyll/index.idyll
   - filename: index.idyll
     type: iodide
     title: Prep index.idyll file, Week 12
     description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/misc/">this</a> today using <a href="https://idyll-lang.org/">Idyll's</a> built-in components. 
-    link: https://github.com/UIUC-iSchool-DataViz/is445_spring2021/blob/master/week12/corg/prepIdyll/index.idyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/blob/master/week12/corg/prepIdyll/index.idyll
   - filename: histogram-custom-d3-component.js
     type: iodide
     title: d3.js component 1
     description: Starting histogram component 
-    link: https://github.com/UIUC-iSchool-DataViz/is445_spring2021/blob/master/week12/corg/prepIdyll/histogram-custom-d3-component.js
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/blob/master/week12/corg/prepIdyll/histogram-custom-d3-component.js
   - filename: histogram-button-custom-d3-component.js
     type: iodide
     title: d3.js component 2
     description: Histogram component + button 
-    link: https://github.com/UIUC-iSchool-DataViz/is445_spring2021/blob/master/week12/corg/prepIdyll/histogram-custom-d3-component.js
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/blob/master/week12/corg/prepIdyll/histogram-custom-d3-component.js
   - filename: histogram-button-slider-custom-d3-component.js
     type: iodide
     title: d3.js component 3
     description: Histogram component + button + slider
-    link: https://github.com/UIUC-iSchool-DataViz/is445_spring2021/blob/master/week12/corg/prepIdyll/histogram-button-slider-custom-d3-component.js
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/blob/master/week12/corg/prepIdyll/histogram-button-slider-custom-d3-component.js
 data:
   - filename: corgs_per_country_over_time_columns_2020.csv
     type: dataLink
