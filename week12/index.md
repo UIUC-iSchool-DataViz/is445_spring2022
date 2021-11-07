@@ -8,7 +8,7 @@ examples:
     type: iodide
     title: In class Idyll resources, Week 12
     description: Updating storage of Idyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/blob/master/week12/corg/prepIdyll/index.idyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week12/inClass
   - filename: index.idyll
     type: iodide
     title: Prep index.idyll file, Week 12
