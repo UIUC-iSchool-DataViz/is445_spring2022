@@ -25,9 +25,9 @@ class CustomD3Component extends D3Component {
   //updating based on our interaction (button push)
   update(props, oldProps) {
     this.svg
-      .selectAll('circle')
-      .transition()
-      .duration(750)
+      .selectAll('circle') // grab the circle
+      .transition() // transition from old state to new state
+      .duration(50) // how long transition takes
       .attr('cx', Math.random() * size)
       .attr('cy', Math.random() * size);
   }
