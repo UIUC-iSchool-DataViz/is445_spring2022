@@ -107,4 +107,4 @@ For reference, this is in the example from Idyll:
 [Chart type:"line" data:dataToBeCharted domain:`[0, 8]` range:`[0, 1]` /]
 ```
 
-[Chart type:"line" data:corgis /]
+[Chart type:"line" data:corgis x:"Years" y:"United States" /]
