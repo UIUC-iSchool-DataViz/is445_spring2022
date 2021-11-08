@@ -108,3 +108,8 @@ For reference, this is in the example from Idyll:
 ```
 
 [Chart type:"bar" data:corgis domain:`null` range:`null` x:"Years" y:"United States" /]
+
+We see that the "Chart" built in isn't great.  But!  We know how to 
+use vega-lite and we installed this plug-in for homework #7!
+
+## Plotting using Vega-lite in Idyll
