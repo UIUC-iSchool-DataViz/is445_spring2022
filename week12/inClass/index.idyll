@@ -146,3 +146,6 @@ Not sure why the below is not working:
 }` /]
 ```
 
+Reading in the query-based dataset.
+
+[data name:"corgis2" source:"corgiData_countries_subset_2020.json" /]
