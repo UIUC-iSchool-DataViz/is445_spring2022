@@ -34,15 +34,12 @@ class HistogramCustomD3Component extends D3Component {
 	    .append("g")
 	    .attr("transform",
 		  "translate(" + margin.left + "," + margin.top + ")");
-	    //.attr('viewBox', `0 0 ${size} ${size}`)
-	    //.style('width', '100%')
-	    //.style('height', 'auto');
 
 	svg // drawing initial circle -- changed to center and larger
-	    .append('circle')
-	    .attr('r', 200)
-	    .attr('cx', 300)
-	    .attr('cy',300);
+	    //.append('circle')
+	    //.attr('r', 200)
+	    //.attr('cx', 300)
+	    //.attr('cy',300);
   } // end initialization function
 
   //updating based on our interaction (button push)
