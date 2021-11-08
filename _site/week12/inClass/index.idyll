@@ -95,3 +95,6 @@ We can import data with:
 ```
 
 [data name:"corgis" source:"corgs_per_country_over_time_columns_2020.csv" /]
+
+Quick look at our data with a table:
+[Table data:corgis /]
