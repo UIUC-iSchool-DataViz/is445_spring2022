@@ -86,3 +86,10 @@ We can use some of Idyll's layout elements, specifically [float](https://idyll-l
 
 # Data
 
+Using vega-lite we can pull data that is hosted anywhere (within reason) on the web, but we can also use data we have stored locally.  
+
+We can import data with:
+
+```
+[data name:"NAME_OF_DATA" source:"NAME IN data FOLDER" /]
+```

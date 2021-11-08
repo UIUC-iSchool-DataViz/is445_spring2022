@@ -93,3 +93,5 @@ We can import data with:
 ```
 [data name:"NAME_OF_DATA" source:"NAME IN data FOLDER" /]
 ```
+
+[data name:"corgis" source:"corgs_per_country_over_time_columns_2020.csv" /]
