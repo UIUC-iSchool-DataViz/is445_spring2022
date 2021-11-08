@@ -132,6 +132,9 @@ The vega-lite [documentation](https://github.com/idyll-lang/idyll-vega-lite) is 
 }` /]
 ```
 
+Not sure why the below is not working:
+
+```
 [IdyllVegaLite data:corgis spec:`{
   width: 400,
   height: 200,
@@ -141,3 +144,5 @@ The vega-lite [documentation](https://github.com/idyll-lang/idyll-vega-lite) is 
     y: {field: "United States", type: "quantitative"},
   }
 }` /]
+```
+
