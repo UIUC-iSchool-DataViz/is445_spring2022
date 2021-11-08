@@ -102,6 +102,7 @@ Quick look at our data with a table:
 ## Chart using Idyll's built in
 
 For reference, this is in the example from Idyll:
+
 ```
 [Chart type:"line" data:dataToBeCharted domain:`[0, 8]` range:`[0, 1]` /]
 ```
