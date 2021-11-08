@@ -178,4 +178,8 @@ Will come back to this after some debugging!
 
 ## D3.js
 
-
+[var name:"state" value:0 /]
+[CustomD3Component className:"d3-component" state:state /]
+[button onClick:`state++`]
+  Click Me.
+[/button]
