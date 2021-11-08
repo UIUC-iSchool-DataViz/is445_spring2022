@@ -113,3 +113,21 @@ We see that the "Chart" built in isn't great.  But!  We know how to
 use vega-lite and we installed this plug-in for homework #7!
 
 ## Plotting using Vega-lite in Idyll
+
+The vega-lite [documentation](https://github.com/idyll-lang/idyll-vega-lite) is a little hidden, but it is there!
+
+```
+[IdyllVegaLite data:myDataset spec:`{
+  mark: "line",
+  encoding: {
+    x: {
+      field: ...,
+      type: ...
+    },
+    y: {
+      field: ...,
+      type: ...
+    }
+  }
+}` /]
+```
