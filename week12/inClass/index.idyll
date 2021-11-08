@@ -162,7 +162,7 @@ Plotting countries per year from the json dataset:
 }` /]
 ```
 
-
+```
 [IdyllVegaLite data:corgis2 spec:`{
   width: 400,
   height: 200,
@@ -172,4 +172,8 @@ Plotting countries per year from the json dataset:
     y: {field: "year", type: "temporal"},
   }
 }` /]
+```
+
+Will come back to this after some debugging!
+
 
