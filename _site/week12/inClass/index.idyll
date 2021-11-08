@@ -140,4 +140,4 @@ The vega-lite [documentation](https://github.com/idyll-lang/idyll-vega-lite) is 
     x: {field: "Years", type: "temporal", axis:{title:"Year", format:"%Y"}},
     y: {field: "United States", type: "quantitative"},
   }
-}` /]]
+}` /]
