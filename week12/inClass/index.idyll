@@ -174,6 +174,21 @@ Plotting countries per year from the json dataset:
 }` /]
 ```
 
+[IdyllVegaLite data:corgis2 spec:`{
+  mark: "line",
+  encoding: {
+    x: {
+      field: "Years",
+      type: "temporal",
+      axis: {title: "Year", format:"%Y"}
+    },
+    y: {
+      field: "United States",
+      type: "quantitative"
+    }
+  }
+}` /]
+
 Will come back to this after some debugging!
 
 ## D3.js
