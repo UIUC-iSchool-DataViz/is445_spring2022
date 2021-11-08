@@ -46,14 +46,16 @@ class HistogramCustomD3Component extends D3Component {
 	    
 	    x.domain(data.map(function(d) { return d.date; }));
 	    y.domain([0, d3.max(data, function(d) { return d.value; })]);
-	    
+
+	    // drawing x-axis
 	    svg.append("g")
 		.attr("class", "x axis")
 		.attr("transform", "translate(0," + height + ")")
 		.call(xAxis.ticks(null).tickSize(0))
 		.selectAll("text")
 		.style("text-anchor", "middle")
-	    
+
+	    // drawing y-axis
 	    svg.append("g")
 		.attr("class", "y axis")
 		.call(yAxis.ticks(null).tickSize(0))
@@ -61,11 +63,13 @@ class HistogramCustomD3Component extends D3Component {
 		.attr("y", 6)
 		.style("text-anchor", "middle")
 		.text("Value");
-	    
+
+	    // drawing the bars
 	    svg.selectAll("bar")
 		.data(data)
 		.enter().append("rect")
-		.style("fill", function(d){ return d.value < d.target ? '#EF5F67': '#3FC974'})
+		//.style("fill", function(d){ return d.value < d.target ? '#EF5F67': '#3FC974'})
+		.style("fill", '#EF5F67')
 		.attr("x", function(d) { return x(d.date); })
 		.attr("width", x.bandwidth())
 		.attr("y", function(d) { return y(d.value); })
