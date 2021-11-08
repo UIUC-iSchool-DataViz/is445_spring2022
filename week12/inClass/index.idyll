@@ -67,3 +67,21 @@ We can use some of Idyll's layout elements, specifically [float](https://idyll-l
 [/Float]
 
 // Starting here, Week 12
+
+## Scrolling Overlays
+
+[Scroller currentStep:scrollerIndex]
+  [Graphic style:`{padding: 50}`]
+      [Chart type:`"line"` data:`scrollerChartData.slice(0, scrollerIndex + 2)` /]
+  [/Graphic]
+
+  [Step]## Hey, neat, here's some data![/Step]
+  [Step]## ...   [/Step]
+  [Step]## ...  What's that more data?![/Step]
+  [Step]## Hmm...[/Step]
+  [Step]## Too much data.[/Step]
+  [Step]## Stop.[/Step]
+  [Step]## that.[/Step]
+  [Step]## data[/Step]
+
+[/Scroller]
