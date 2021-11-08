@@ -133,10 +133,11 @@ The vega-lite [documentation](https://github.com/idyll-lang/idyll-vega-lite) is 
 ```
 
 [IdyllVegaLite data:corgis spec:`{
-  mark:"line",
-  encoding:{
-    x:{field:"Years", type:"temporal"},
-	y:{field:"United States", type:"quantitative"}
+  width: 400,
+  height: 200,
+  mark: "line",
+  encoding: {
+    x: {field: "Years", type: "temporal", axis:{title:"Year", format:"%Y"}},
+    y: {field: "United States", type: "quantitative"},
   }
-
-}` /]
+}` /]]
