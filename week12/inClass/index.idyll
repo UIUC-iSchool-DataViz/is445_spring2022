@@ -78,13 +78,8 @@ We can use some of Idyll's layout elements, specifically [float](https://idyll-l
 	/]
   [/Graphic]
 
-  [Step]## Hey, neat, here's some data![/Step]
-  [Step]## ...   [/Step]
-  [Step]## ...  What's that more data?![/Step]
-  [Step]## Hmm...[/Step]
-  [Step]## Too much data.[/Step]
-  [Step]## Stop.[/Step]
-  [Step]## that.[/Step]
-  [Step]## data[/Step]
+  [Step]## Welsh Corgis are a small type of dog that orginated in Wales, UK.[/Step]
+  [Step]## "Corgi" is Welsh for "dwarf dog".   [/Step]
+  [Step]## Corgi-Dachshund mixes are called dorgis.[/Step]
 
 [/Scroller]
