@@ -190,7 +190,5 @@ Steps:
 1. copy `custom-d3-component.js` to `histogram-custom-d3-component.js`
 2. Rename the class in the component file
 
-[HistogramCustomD3Component className:"d3-component" state:state /]
-[button onClick:`state++`]
-  Click Me.
-[/button]
+[HistogramCustomD3Component className:"d3-component" /]
+
