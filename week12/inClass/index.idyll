@@ -72,7 +72,9 @@ We can use some of Idyll's layout elements, specifically [float](https://idyll-l
 
 [Scroller currentStep:scrollerIndex]
   [Graphic style:`{padding: 50}`]
-      [Chart type:`"line"` data:`scrollerChartData.slice(0, scrollerIndex + 2)` /]
+    [img 
+	  src:"" 
+	  style:`{height:700}`
   [/Graphic]
 
   [Step]## Hey, neat, here's some data![/Step]
