@@ -4,7 +4,7 @@ const d3 = require('d3');
 
 const size = 600;
 
-class CustomD3Component extends D3Component {
+class HistogramCustomD3Component extends D3Component {
   // initialization function
   initialize(node, props) {
     const svg = (this.svg = d3.select(node).append('svg'));
@@ -33,4 +33,4 @@ class CustomD3Component extends D3Component {
   }
 }
 
-module.exports = CustomD3Component;
+module.exports = HistogramCustomD3Component;

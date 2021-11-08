@@ -183,3 +183,13 @@ Will come back to this after some debugging!
 [button onClick:`state++`]
   Click Me.
 [/button]
+
+### Start our own d3.js component
+
+Steps:
+1. copy `custom-d3-component.js` to `histogram-custom-d3-component.js`
+
+[HistogramCustomD3Component className:"d3-component" state:state /]
+[button onClick:`state++`]
+  Click Me.
+[/button]
