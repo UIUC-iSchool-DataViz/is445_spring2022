@@ -152,6 +152,7 @@ Reading in the query-based dataset.
 
 Plotting countries per year from the json dataset:
 
+```
 [IdyllVegaLite data:corgis2 spec:`{
   mark:"circle",
   encoding:{
@@ -159,3 +160,16 @@ Plotting countries per year from the json dataset:
 	y:{field:"year", type:"temporal"},
   }
 }` /]
+```
+
+```
+[IdyllVegaLite data:corgis2 spec:`{
+  width: 400,
+  height: 200,
+  mark: "circle",
+  encoding: {
+    x: {field: "countries", type: "nominal"}, 
+    y: {field: "year", type: "temporal"},
+  }
+}` /]
+```
