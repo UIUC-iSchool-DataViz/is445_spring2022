@@ -14,10 +14,12 @@ class CustomD3Component extends D3Component {
       .style('height', 'auto');
 
     svg // drawing initial circle
-      .append('circle')
-      .attr('r', 200)
-      .attr('cx', Math.random() * size)
-      .attr('cy', Math.random() * size);
+	  .append('circle')
+	  .attr('r', 200)
+	  .attr('cx', 300)
+	  .attr('cy',300);
+      //.attr('cx', Math.random() * size)
+      //.attr('cy', Math.random() * size);
   }
 
   update(props, oldProps) {
