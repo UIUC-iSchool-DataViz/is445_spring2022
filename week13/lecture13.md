@@ -3,19 +3,44 @@ title: Lecture 13 - 3D graphics, Intro to SciViz
 layout: lecture
 description: >-
  How your computer and the internet process 3D graphics.  What is scientific visualization? 
-date: 2020-04-19
+date: 2021-11-15
 ---
 
 ## Last Week
 
-<img src="../week12/images/this_week_week12.png">
+<img src="../week12/images/this_week3.png">
 
 notes:
 so far, we've been covering a bit of javascript and vega-lite as some new viz engines and using them in Idyll
 
-this week we'll discuss more general methods of publishing, and we'll talk about how to validate how "well" our visualizations are doing, as well as start touching on some d3.js within Idyll
+(and have come across some issues!)
 
-we'll also talk about 3D computer graphics in general and on the web
+---
+
+## Last Week
+
+<img src="images/this_week3.png">
+
+notes:
+
+today we'll discuss a bit about how rendering 3D objects to make them look "photo realistic" works, which will give us an intro to scientific viz which we'll discuss a bit next week
+
+---
+
+## Note about vega-lite in Idyll, i.e. the fun in using new shiny things
+
+Ongoing github issue: https://github.com/idyll-lang/idyll-vega-lite/issues/16
+
+Ping us if you want more time on Homework #10 and haven't already!
+
+notes:
+so as many of you noticed, in the weeks between when we test installed Idyll + vega-lite and class last week, vega-lite in Idyll got broken
+
+this is an ongoing issue, you can check out the progress in the above link.  If you have a working Idyll-vega-lite installation, then great!  don't CHANGE anything!!  If not, we are going to do some d3.js stuff here.  You can also play around with different vega/vega-lite installation versions, but I haven't found a collection that work just yet and probably won't have time to dig into this any further and issue a pull request for a few weeks.
+
+If you haven't requested more time for homework #10 and want to, please let us know!
+
+this is one of the cons of using a new and shiny thing -- while there are some cool things we can do with Idyll, its still pretty new and is open source so sometimes things break!  this is in and of itself a learning experience :D
 
 ---
 
@@ -719,6 +744,8 @@ notes: here is a quick comparision chart to show key differences between a packa
 [ytini](www.ytini.com)
 
 [Astroblend](www.astroblend.com)
+
+### More from the Advanced Visualization Lab after break!
 
 notes:
 several of us at the NCSA worked on ytini so that Houdini could use some of the features of yt natively!
