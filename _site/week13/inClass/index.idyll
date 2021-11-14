@@ -145,6 +145,10 @@ You can install custom dependencies by running `npm install <package-name> --sav
 
 [data name:"lakeHuron" source:"LakeHuron.csv" /]
 
+[Table data:lakeHuron /]
+
+
+```
 [IdyllVegaLite data:lakeHuron spec:`{
   mark: "line",
   encoding: {
@@ -161,6 +165,8 @@ You can install custom dependencies by running `npm install <package-name> --sav
     }
   }
 }` /]
+```
+
 
 [data name:"corg" source:"corgs_per_country_over_time_columns_2020.csv" /]
 
@@ -185,7 +191,7 @@ You can install custom dependencies by running `npm install <package-name> --sav
 }` /]
 ```
 
-
+```
 [IdyllVegaLite data:corg spec:`{
   mark: "line",
   encoding: {
@@ -200,3 +206,6 @@ You can install custom dependencies by running `npm install <package-name> --sav
     }
   }
 }` /]
+```
+
+[div style:`{backgroundColor: 'green', padding: '20px'}`]Some text[/div]
