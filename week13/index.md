@@ -4,6 +4,11 @@ visible: true
 icon: undraw_monitor_iqpq.svg
 notitle: true
 examples:
+  - filename: In Class Idyll
+    type: iodide
+    title: In class Idyll resources, Week 13
+    description: Updating storage of Idyll files in class
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week13/inClass
   - filename: index.idyll
     type: iodide
     title: Prep index.idyll file, Week 13
