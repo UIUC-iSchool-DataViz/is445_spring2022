@@ -13,7 +13,7 @@ examples:
     type: iodide
     title: Prep resources, Week 13
     description: Prep Idyll file and components
-    link: https://github.com/UIUC-iSchool-DataViz/is445_spring2021/tree/master/week13/corg/prepIdyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week13/corg/prepIdyll
 data:
   - filename: corgs_per_country_over_time_columns_2020.csv
     type: dataLink
