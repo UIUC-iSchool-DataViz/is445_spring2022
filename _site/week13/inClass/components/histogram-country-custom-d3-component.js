@@ -9,23 +9,26 @@ var margin = {top: 20, right: 20, bottom: 70, left: 40},
 
 var yoffset = 100;
 
+// moved these to be accessible to both the initalization AND update function
+// Parse the date / time
+var parseDate = d3.isoParse
+// setting x-scale -- offset by 100 pix
+var x = d3.scaleBand().rangeRound([yoffset, width], .05).padding(0.1);
+// setting y-scale
+var y = d3.scaleLinear().range([height, 0]);
+// x axis
+var xAxis = d3.axisBottom()
+    .scale(x)
+    .tickFormat(d3.timeFormat("%Y")); // reformat for years in our data
+// y axis
+var yAxis = d3.axisLeft()
+    .scale(y)
+    .ticks(10);
+
 class HistogramCountryCustomD3Component extends D3Component {
     // initialization function
     initialize(node, props) {
-	// Parse the date / time
-	var parseDate = d3.isoParse
-	// setting x-scale -- offset by 100 pix
-	var x = d3.scaleBand().rangeRound([yoffset, width], .05).padding(0.1);
-	// setting y-scale
-	var y = d3.scaleLinear().range([height, 0]);
-	// x axis
-	var xAxis = d3.axisBottom()
-	    .scale(x)
-	    .tickFormat(d3.timeFormat("%Y")); // reformat for years in our data
-	// y axis
-	var yAxis = d3.axisLeft()
-	    .scale(y)
-	    .ticks(10);
+
 
 	// start drawing things
 	const svg = (this.svg = d3.select(node).append('svg'));
