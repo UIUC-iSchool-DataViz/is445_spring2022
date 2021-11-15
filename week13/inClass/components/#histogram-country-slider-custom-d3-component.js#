@@ -139,7 +139,7 @@ class HistogramCountrySliderCustomD3Component extends D3Component {
 	    
 	    x.domain(data.map(function(d) { return d.date; }));
 	    //y.domain([0, d3.max(data, function(d) { return d.value; })]);
-	    y.domain([0,5000]);
+	    y.domain([0,500]);
 
 	    // drawing x-axis
 	    svg.append("g")
