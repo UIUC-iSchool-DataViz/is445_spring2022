@@ -252,9 +252,13 @@ Using the [Idyll Select built in](https://idyll-lang.org/docs/component/select).
 Also adding in a y-axis slider:
 
 [var name:"myCountry2" value:"United States" /] // update the country
-[var name:"mySlider" value:2000 /] // update the y-axis
+[var name:"mySlider" value:650 /] // update the y-axis
 
 [HistogramCountrySliderCustomD3Component className:"d3-component" country:myCountry2 yheight:mySlider /]
 
+Select country:
 [Select value:myCountry2 options:`["United States", "United Kingdom", "South Africa"]`  /]
 
+Select y-axis height:
+[Range value:mySlider min:0 max:1000 step:1 /]
+// [Display value:mySlider /]
