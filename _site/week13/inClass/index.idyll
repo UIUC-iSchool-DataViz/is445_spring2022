@@ -226,4 +226,6 @@ Example was from [this d3.js histogram](https://bl.ocks.org/vikkya/75bda04cd0c00
 
 [HistogramCustomD3Component className:"d3-component" /]
 
+Adding in Country as a selection:
+
 [HistogramCountryCustomD3Component className:"d3-component" /]

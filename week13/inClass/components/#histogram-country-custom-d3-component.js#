@@ -21,7 +21,6 @@ class HistogramCountryCustomD3Component extends D3Component {
 	// x axis
 	var xAxis = d3.axisBottom()
 	    .scale(x)
-	    //.tickFormat(d3.timeFormat("%b"));
 	    .tickFormat(d3.timeFormat("%Y")); // reformat for years in our data
 	// y axis
 	var yAxis = d3.axisLeft()
@@ -39,14 +38,13 @@ class HistogramCountryCustomD3Component extends D3Component {
 
 	svg // drawing initial circle -- changed to center and larger
 
-	//d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/spring2020/master/week14/bar-data.csv", function(error, data) {
 	d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgs_per_country_over_time_columns_2020.csv", function(error, data) {
 
 	    // how to investigate our data
-	    console.log(Object.keys(data));
-	    console.log(data.columns);
-	    console.log(data[0]);
-	    console.log(data[0]["Years"]);
+	    //console.log(Object.keys(data));
+	    //console.log(data.columns);
+	    //console.log(data[0]);
+	    //console.log(data[0]["Years"]);
 
 	    var countryName = 'United States';
 	    
