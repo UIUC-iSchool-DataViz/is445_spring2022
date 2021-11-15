@@ -40,6 +40,9 @@ class HistogramCustomD3Component extends D3Component {
 	//d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/spring2020/master/week14/bar-data.csv", function(error, data) {
 	d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgs_per_country_over_time_columns_2020.csv", function(error, data) {
 
+	    // how to investigate our data
+	    console.log(Object.keys(data));
+	    
 	    data.forEach(function(d) {
 		d.date = parseDate(d.date); // our date information into d.date -- something like "Years" columen
 		d.value = +d.value; // our corgi's born data into d.value -- country column ("United States")
