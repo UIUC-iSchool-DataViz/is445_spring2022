@@ -3,7 +3,7 @@ const D3Component = require('idyll-d3-component');
 const d3 = require('d3');
 
 //const size = 600;
-var margin = {top: 20, right: 20, bottom: 70, left: 100},
+var margin = {top: 20, right: 20, bottom: 70, left: 40},
     width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
@@ -13,7 +13,7 @@ class HistogramCustomD3Component extends D3Component {
 	// Parse the date / time
 	var parseDate = d3.isoParse
 	// setting x-scale
-	var x = d3.scaleBand().rangeRound([0, width], .05).padding(0.1);
+	var x = d3.scaleBand().rangeRound([100, width], .05).padding(0.1);
 	// setting y-scale
 	var y = d3.scaleLinear().range([height, 0]);
 	// x axis
