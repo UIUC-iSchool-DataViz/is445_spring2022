@@ -225,3 +225,5 @@ To make our own component:
 Example was from [this d3.js histogram](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cfee8d97aba).
 
 [HistogramCustomD3Component className:"d3-component" /]
+
+[HistogramCountryCustomD3Component className:"d3-component" /]

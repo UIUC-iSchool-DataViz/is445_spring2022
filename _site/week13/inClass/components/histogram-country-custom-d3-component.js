@@ -9,7 +9,7 @@ var margin = {top: 20, right: 20, bottom: 70, left: 40},
 
 var yoffset = 100;
 
-class HistogramCustomD3Component extends D3Component {
+class HistogramCountryCustomD3Component extends D3Component {
     // initialization function
     initialize(node, props) {
 	// Parse the date / time
@@ -125,4 +125,4 @@ class HistogramCustomD3Component extends D3Component {
   //}
 }
 
-module.exports = HistogramCustomD3Component;
+module.exports = HistogramCountryCustomD3Component;

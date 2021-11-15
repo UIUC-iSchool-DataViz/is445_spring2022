@@ -4,7 +4,7 @@ const d3 = require('d3');
 
 //const size = 600;
 var margin = {top: 20, right: 20, bottom: 70, left: 40},
-    width = 800 - margin.left - margin.right,
+    width = 1000 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 var yoffset = 100;
