@@ -101,7 +101,7 @@ class HistogramCountryCustomD3Component extends D3Component {
 	svg.selectAll("*").remove(); // select all of the elements and remove
 	
 	// start drawing things
-	const svg = (this.svg = d3.select(node).append('svg'));
+	//const svg = (this.svg = d3.select(node).append('svg'));
 	svg // probably the background object -- background canvas
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
