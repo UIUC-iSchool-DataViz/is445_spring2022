@@ -21,7 +21,6 @@ class HistogramCountryCustomD3Component extends D3Component {
 	// x axis
 	var xAxis = d3.axisBottom()
 	    .scale(x)
-	    //.tickFormat(d3.timeFormat("%b"));
 	    .tickFormat(d3.timeFormat("%Y")); // reformat for years in our data
 	// y axis
 	var yAxis = d3.axisLeft()
@@ -39,24 +38,21 @@ class HistogramCountryCustomD3Component extends D3Component {
 
 	svg // drawing initial circle -- changed to center and larger
 
-	//d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/spring2020/master/week14/bar-data.csv", function(error, data) {
 	d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgs_per_country_over_time_columns_2020.csv", function(error, data) {
 
 	    // how to investigate our data
-	    console.log(Object.keys(data));
-	    console.log(data.columns);
-	    console.log(data[0]);
-	    console.log(data[0]["Years"]);
+	    //console.log(Object.keys(data));
+	    //console.log(data.columns);
+	    //console.log(data[0]);
+	    //console.log(data[0]["Years"]);
 
 	    var countryName = 'United States';
 	    
 	    data.forEach(function(d) { // for loop through each row of index
-		console.log(d['Years']);
-		console.log(d['United States']);
+		//console.log(d['Years']);
+		//console.log(d['United States']);
 		d.date = parseDate(d['Years']);
 		d.value = +d[countryName];
-		//d.date = parseDate(d.date); // our date information into d.date -- something like "Years" columen
-		//d.value = +d.value; // our corgi's born data into d.value -- country column ("United States")
 	    });
 	    
 	    x.domain(data.map(function(d) { return d.date; }));
@@ -71,7 +67,6 @@ class HistogramCountryCustomD3Component extends D3Component {
 		.style("text-anchor", "middle")
 		.attr("transform","rotate(-65)") // rotate ticks by -65 deg
 		.style("text-anchor","end"); // changing anchor to end
-		//.style("font-size","6px"); // smaller font size
 
 	    // drawing y-axis
 	    svg.append("g")
@@ -87,31 +82,14 @@ class HistogramCountryCustomD3Component extends D3Component {
 	    svg.selectAll("bar")
 		.data(data)
 		.enter().append("rect")
-		//.style("fill", function(d){ return d.value < d.target ? '#EF5F67': '#3FC974'})
 		.style("fill", '#EF5F67') // no more conditional formatting for color
 		.attr("x", function(d) { return x(d.date); })
 		.attr("width", x.bandwidth())
 		.attr("y", function(d) { return y(d.value); })
 		.attr("height", function(d) { return height - y(d.value); });
-
-	    // drawing lines
-	    //svg.selectAll("lines")
-	//	.data(data)
-	//	.enter().append("line")
-	//	.style("fill", 'none')
-  	//	.attr("x1", function(d) { return x(d.date) + x.bandwidth()+5; })
-	//	.attr("x2", function(d) { return x(d.date)-5; })
-	//	.attr("y1", function(d) { return y(d.target); })
-	//	.attr("y2", function(d) { return y(d.target); })
-  	//	.style("stroke-dasharray", [2,2])
-  	//	.style("stroke", "#000000")
-	//	.style("stroke-width", 2)
 	    
 	});
-	//.append('circle')
-	    //.attr('r', 200)
-	    //.attr('cx', 300)
-	    //.attr('cy',300);
+
   } // end initialization function
 
   //updating based on our interaction (button push)
