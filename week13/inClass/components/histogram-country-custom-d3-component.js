@@ -47,7 +47,7 @@ class HistogramCountryCustomD3Component extends D3Component {
 	    //console.log(data[0]["Years"]);
 
 	    //var countryName = 'United States';
-	    var countryName = props.country;
+	    var countryName = props.country; // coming from the inputs in index.idyll
 	    
 	    data.forEach(function(d) { // for loop through each row of index
 		//console.log(d['Years']);
