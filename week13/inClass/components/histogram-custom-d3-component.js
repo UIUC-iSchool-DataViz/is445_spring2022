@@ -48,7 +48,7 @@ class HistogramCustomD3Component extends D3Component {
 	    console.log(data[0]);
 	    console.log(data[0]["Years"]);
 
-	    var countyName = 'United States';
+	    var countryName = 'United States';
 	    
 	    data.forEach(function(d) { // for loop through each row of index
 		console.log(d['Years']);
