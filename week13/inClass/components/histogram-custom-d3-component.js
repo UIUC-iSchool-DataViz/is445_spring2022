@@ -7,13 +7,15 @@ var margin = {top: 20, right: 20, bottom: 70, left: 40},
     width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
+var yoffset = 100;
+
 class HistogramCustomD3Component extends D3Component {
     // initialization function
     initialize(node, props) {
 	// Parse the date / time
 	var parseDate = d3.isoParse
-	// setting x-scale
-	var x = d3.scaleBand().rangeRound([100, width], .05).padding(0.1);
+	// setting x-scale -- offset by 100 pix
+	var x = d3.scaleBand().rangeRound([yoffset, width], .05).padding(0.1);
 	// setting y-scale
 	var y = d3.scaleLinear().range([height, 0]);
 	// x axis
@@ -72,7 +74,7 @@ class HistogramCustomD3Component extends D3Component {
 	    // drawing y-axis
 	    svg.append("g")
 		.attr("class", "y axis")
-		.attr("transform","translate(100,0)")
+		.attr("transform","translate("+yoffset+",0)") // added a translation 100px
 		.call(yAxis.ticks(null).tickSize(0))
 		.append("text")
 		.attr("y", 6)
