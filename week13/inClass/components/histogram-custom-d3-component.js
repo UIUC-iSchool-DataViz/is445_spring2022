@@ -61,7 +61,7 @@ class HistogramCustomD3Component extends D3Component {
 	    // drawing x-axis
 	    svg.append("g")
 		.attr("class", "x axis")
-		.attr("transform", "translate(0," + height + ")")
+		.attr("transform", "translate(100," + height + ")")
 		.call(xAxis.ticks(null).tickSize(0))
 		.selectAll("text")
 		.style("text-anchor", "middle")
