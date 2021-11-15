@@ -228,4 +228,8 @@ Example was from [this d3.js histogram](https://bl.ocks.org/vikkya/75bda04cd0c00
 
 Adding in Country as a selection:
 
+// [var name:"state" value:0 /]
+
+// [CustomD3Component className:"d3-component" state:state /]
+
 [HistogramCountryCustomD3Component className:"d3-component" /]

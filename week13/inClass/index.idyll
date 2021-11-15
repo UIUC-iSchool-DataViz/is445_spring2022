@@ -232,4 +232,6 @@ Adding in Country as a selection:
 
 // [CustomD3Component className:"d3-component" state:state /]
 
-[HistogramCountryCustomD3Component className:"d3-component" /]
+[var name:"myCountry" value:"United States" /]
+
+[HistogramCountryCustomD3Component className:"d3-component" country:myCountry /]
