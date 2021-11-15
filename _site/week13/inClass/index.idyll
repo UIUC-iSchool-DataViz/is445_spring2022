@@ -261,4 +261,4 @@ Select country:
 
 Select y-axis height:
 [Range value:mySlider min:0 max:1000 step:1 /]
-// [Display value:mySlider /]
+[Display value:mySlider /]
