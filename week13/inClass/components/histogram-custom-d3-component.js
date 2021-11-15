@@ -42,6 +42,7 @@ class HistogramCustomD3Component extends D3Component {
 
 	    // how to investigate our data
 	    console.log(Object.keys(data));
+	    console.log(data.columns));
 	    
 	    data.forEach(function(d) {
 		d.date = parseDate(d.date); // our date information into d.date -- something like "Years" columen
