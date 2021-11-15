@@ -25,7 +25,7 @@ var yAxis = d3.axisLeft()
     .scale(y)
     .ticks(10);
 
-class HistogramCountrySliderCustomD3Component extends D3Component {
+class HistogramCountryCustomD3Component extends D3Component {
     // initialization function
     initialize(node, props) {
 
@@ -181,4 +181,4 @@ class HistogramCountrySliderCustomD3Component extends D3Component {
   } // end of the update function
 }
 
-module.exports = HistogramCountrySliderCustomD3Component;
+module.exports = HistogramCountryCustomD3Component;
