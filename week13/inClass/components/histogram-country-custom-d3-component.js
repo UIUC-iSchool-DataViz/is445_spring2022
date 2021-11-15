@@ -93,15 +93,13 @@ class HistogramCountryCustomD3Component extends D3Component {
 
   } // end initialization function
 
-  //updating based on our interaction (button push)
-  //update(props, oldProps) {
-  //  this.svg
-  //    .selectAll('circle') // grab the circle
-  //    .transition() // transition from old state to new state
-  //    .duration(750) // how long transition takes
-  //    .attr('cx', Math.random() * size) // change attributes to be new x center
-  //    .attr('cy', Math.random() * size); // ... and new y -center
-  //}
+  //updating based our interaction -- selection of a country
+    update(props, oldProps) {
+	const svg = this.svg; // grab all drawn elements
+	svg.selectAll("*").remove(); // select all of the elements and remove
+	
+
+  } // end of the update function
 }
 
 module.exports = HistogramCountryCustomD3Component;
