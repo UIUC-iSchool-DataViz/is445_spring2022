@@ -170,6 +170,13 @@ class HistogramCountryCustomD3Component extends D3Component {
 		.attr("y", function(d) { return y(d.value); })
 		.attr("height", function(d) { return height - y(d.value); });
 	    
+	    // add in title text for the country
+	    svg.append("text")
+		.attr("x", width/2)
+		.attr("y", 50-margin.top/2)
+		.style("font-size", "16px")
+		.style("text-decoration","underline")
+		.text(countryName);	    
 	}); // end of d3.csv function
   } // end of the update function
 }
