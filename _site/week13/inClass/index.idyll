@@ -215,3 +215,11 @@ You can install custom dependencies by running `npm install <package-name> --sav
 Vega-lite not work :(
 
 But!  We can use d3.js to make some interactive visualizations.
+
+To make our own component:
+1. copied `custom-d3-component.js` to `histogram-d3-component.js`
+2. changed the names to extend the class in `histogram`
+3. comment out updateProps function
+4. started putting in an example histogram using d3.js
+
+Example was from [this d3.js histogram](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cfee8d97aba).
