@@ -65,8 +65,9 @@ class HistogramCustomD3Component extends D3Component {
 		.call(xAxis.ticks(null).tickSize(0))
 		.selectAll("text")
 		.style("text-anchor", "middle")
-		.attr("transform","rotate(-65)"); // rotate ticks by -65 deg
-		.style("text-anchor","end");
+		.attr("transform","rotate(-65)") // rotate ticks by -65 deg
+		.style("text-anchor","end") // changing anchor to end
+		.style("font-size","6px"); // smaller font size
 
 	    // drawing y-axis
 	    svg.append("g")
