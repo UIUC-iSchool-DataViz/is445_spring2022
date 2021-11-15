@@ -209,3 +209,9 @@ You can install custom dependencies by running `npm install <package-name> --sav
 ```
 
 [div style:`{backgroundColor: 'green', padding: '20px'}`]Some text[/div]
+
+## d3.js components
+
+Vega-lite not work :(
+
+But!  We can use d3.js to make some interactive visualizations.
