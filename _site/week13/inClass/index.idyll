@@ -245,3 +245,12 @@ Using the [Idyll Select built in](https://idyll-lang.org/docs/component/select).
 [HistogramCountryCustomD3Component className:"d3-component" country:myCountry /]
 
 [Select value:myCountry options:`["United States", "United Kingdom", "South Africa"]`  /]
+
+Also adding in a y-axis slider:
+
+[var name:"myCountry2" value:"United States" /]
+
+[HistogramCountrySliderCustomD3Component className:"d3-component" country:myCountry2 /]
+
+[Select value:myCountry2 options:`["United States", "United Kingdom", "South Africa"]`  /]
+
