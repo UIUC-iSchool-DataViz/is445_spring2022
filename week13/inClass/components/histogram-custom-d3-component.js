@@ -46,7 +46,7 @@ class HistogramCustomD3Component extends D3Component {
 	    console.log(data[0]);
 	    console.log(data[0]["Years"]);
 	    
-	    data.forEach(function(d) {
+	    data.forEach(function(d) { // for loop through each row of index
 		d.date = parseDate(d.date); // our date information into d.date -- something like "Years" columen
 		d.value = +d.value; // our corgi's born data into d.value -- country column ("United States")
 	    });
