@@ -4,17 +4,27 @@ visible: true
 icon: undraw_medical_research_qg4d.svg
 notitle: true
 examples:
-  - filename: inClass_week14.ipynb
+  - filename: In Class Idyll
+    type: iodide
+    title: In class Idyll resources, Week 15
+    description: Updating storage of Idyll files in class
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week15/inClass
+  - filename: Prep Idyll+vega-lite
+    type: iodide
+    title: Prep resources, Week 15
+    description: Prep Idyll file and components
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week15/corg/prepIdyll
+  - filename: inClass_week15.ipynb
     type: ipynb
     title: In class notebook
     description: Placeholder for in class coding
-  - filename: prep_notebook_week14_part1.ipynb
+  - filename: prep_notebook_week15_part1.ipynb
     type: ipynb
-    title: Prep Notebook, Week 14, Part 1
+    title: Prep Notebook, Week 15, Part 1
     description: Prep notebook for this week, Part 1
-  - filename: prep_notebook_week14_part2.ipynb
+  - filename: prep_notebook_week15_part2.ipynb
     type: ipynb
-    title: Prep Notebook, Week 14, Part 2
+    title: Prep Notebook, Week 15, Part 2
     description: Prep notebook for this week, Part 1
   - filename: spring2019_prep_notebook_week13.ipynb
     type: ipynb
@@ -40,6 +50,8 @@ data:
 # Scientific Viz & Guest lecture from the Advanced Visualization Lab 
 
 We talked a little bit about publishing, networks, and scientific viz.
+
+Guest lecture from NCSA's [Advanced Visualization Lab](https://avl.ncsa.illinois.edu/).
 
 <!--
 # Resources

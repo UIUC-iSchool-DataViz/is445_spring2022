@@ -3,26 +3,26 @@ title: Lecture 14 - Scientific Visualization
 layout: lecture
 description: >-
  More about scientific visualization
-date: 2020-04-26
+date: 2021-11-29
 ---
 
-## Shifted Final Project Due dates
+## Last time
 
-See Moodle Announcement.
-
----
-
-## Last time/This time
-
-<img src='../week13/images/this_week_week13.png'>
+<img src='../week13/images/this_week3.png'>
 
 notes: 
 
-Just as a reminder of all of the things we've covered up an until this point!  Last time we mentioned this "yt" package but didn't really get into it.
+Just as a reminder of all of the things we've covered up an until this point! Last time we covered a little bit about scientific visualization...
 
-we'll circle back to Python to do some sci-viz & use yt, as motivated by last week's guest lecture!
+---
 
-If we have time at the end, we'll continue on building our Idyll page with interacivity with d3.js -- fixed pages uploaded!
+## Last time
+
+<img src='images/this_week_img.png'>
+
+notes: 
+
+This week we'll cover a little more, starting with a lecture from Kalina Boriewicz from the advanced visualization lab and then we'll do a bit of it ourselves using yt.  We probably won't get to everything that is in the prep notebooks, but they are there for your reference if interested!
 
 ---
 
