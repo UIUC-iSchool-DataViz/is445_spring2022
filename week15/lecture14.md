@@ -26,6 +26,14 @@ This week we'll cover a little more, starting with a lecture from Kalina Boriewi
 
 ---
 
+## Quick update on vega-lite
+
+It's now working!
+
+---
+
+---
+
 ## Information Visualization
 
 So far: Spatial encoding is chosen by the designer
