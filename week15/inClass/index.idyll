@@ -299,5 +299,5 @@ Add some interactivity to this plot by passing an Idyll-defined variable.
 // reference: [button onClick:`myVar += 1`]Click Me![/button]
 
 Color by:
- [button onClick:`colorBy = {field:"sex", type:"nominal", scale:{"scheme","category20"}}` ]Sex of Corgi[/button]
+ [button onClick:`colorBy = {field:"sex", type:"nominal", scale:{"scheme":"category20"}}` ]Sex of Corgi[/button]
  [button onClick:`colorBy = {}` ]None[/button]
