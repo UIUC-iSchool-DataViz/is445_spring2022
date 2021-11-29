@@ -300,3 +300,4 @@ Add some interactivity to this plot by passing an Idyll-defined variable.
 
 Color by:
  [button onClick:`colorBy = {field:"sex", type:"nominal"}` ]Sex of Corgi[/button]
+ [button onClick:`colorBy = {}` ]None[/button]
