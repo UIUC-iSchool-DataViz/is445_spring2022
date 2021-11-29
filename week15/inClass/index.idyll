@@ -262,3 +262,10 @@ Select country:
 Select y-axis height:
 [Range value:mySlider min:0 max:1000 step:1 /]
 [Display value:mySlider /]
+
+
+## Vega-lite (hopefully) working now!
+
+[data name:"corgs" source:"corgiData_countries_subset_2020.json" /]
+
+[Table data:`corgs.slice(0,10)` /]
