@@ -306,6 +306,7 @@ We can also use typical vega-lite operations like aggregating, etc.
 
 [IdyllVegaLite data:corgs spec:`{
   mark:"bar",
+  width:600,
   encoding:{
 	x: {field:"year", type:"temporal"},
 	y: {aggregate:"count",type:"quantitative", title:"Number of Corgis Born"},

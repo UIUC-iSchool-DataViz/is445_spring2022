@@ -301,3 +301,14 @@ Add some interactivity to this plot by passing an Idyll-defined variable.
 Color by:
  [button onClick:`colorBy = {field:"sex", type:"nominal", scale:{"scheme":"category20"}}` ]Sex of Corgi[/button]
  [button onClick:`colorBy = {}` ]None[/button]
+ 
+We can also use typical vega-lite operations like aggregating, etc.
+
+[IdyllVegaLite data:corgs spec:`{
+  mark:"bar",
+  encoding:{
+	x: {field:"year", type:"temporal"},
+	y: {aggregate:"count",type:"quantitative", title:"Number of Corgis Born"},
+	// color:colorBy
+	}
+}` /]
