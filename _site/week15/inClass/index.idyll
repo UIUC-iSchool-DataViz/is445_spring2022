@@ -269,3 +269,11 @@ Select y-axis height:
 [data name:"corgs" source:"corgiData_countries_subset_2020.json" /]
 
 [Table data:`corgs.slice(0,10)` /]
+
+[IdyllVegaLite data:corgs spec:`{
+  mark:"circle",
+  encoding:{
+	x: {field:"countries", type:"nominal"},
+	y: {field:"year", type:"temporal"}
+	}
+}` /]
