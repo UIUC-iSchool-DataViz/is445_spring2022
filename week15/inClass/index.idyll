@@ -279,3 +279,19 @@ A working vega-lite plot!
 	y: {field:"year", type:"temporal"}
 	}
 }` /]
+
+Add some interactivity to this plot by passing an Idyll-defined variable.
+
+
+// colorBy will determine the color of our points
+
+[var name:"colorBy" value:`{}` /]
+
+[IdyllVegaLite data:corgs spec:`{
+  mark:"circle",
+  encoding:{
+	x: {field:"countries", type:"nominal"},
+	y: {field:"year", type:"temporal"},
+	color:colorBy
+	}
+}` /]
