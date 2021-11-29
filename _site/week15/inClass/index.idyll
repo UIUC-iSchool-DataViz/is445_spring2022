@@ -270,6 +270,8 @@ Select y-axis height:
 
 [Table data:`corgs.slice(0,10)` /]
 
+A working vega-lite plot!
+
 [IdyllVegaLite data:corgs spec:`{
   mark:"circle",
   encoding:{
