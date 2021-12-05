@@ -3,7 +3,7 @@ title: Lecture 15 - WordClouds, networks, and final project
 layout: lecture
 description: >-
  How to analyze text data, viz of networks, and where to go from here.
-date: 2020-05-03
+date: 2021-12-06
 ---
 
 <br>
@@ -16,7 +16,7 @@ date: 2020-05-03
 
 ## This course
 
-<img src="images/this_week_week16.png" width="95%">
+<img src="images/data_viz_diagram_week_16.png" width="95%">
 
 notes:
 Look at all the stuff we covered!
@@ -30,13 +30,22 @@ If we have time, we'll circle back to sciviz topics
 
 ---
 
+## Extra credit: Network Viz
+
+notes:
+keep in mind that we have an extra credit assignment, worth 1 homework grade, that is in this week's page
+
+also recall that the maximum you can get on the homework is 100% of that category, so if you have a perfect HW score, you can't do better than that!
+
+---
+
 ## Notes on Final, Part 3
 
 Due dates:
- 1. First draft of Part 3 -- due May 10th, will get feedback course participants
+ 1. First draft of Part 3 -- due Dec 8th, will get feedback course participants
  1. Post your link in the Moodle forum to get feedback from classmates
- 1. Provide feedback for 3 randomly assigned classmates -- due May 15th
- 1. Final chance to resubmit your Part 3 -- due May 17th (placeholder submission link)
+ 1. Provide feedback for 3 randomly assigned classmates -- due Dec 12th
+ 1. Final chance to resubmit your Part 3 -- due Dec 14th (placeholder submission link)
  
 **Please be aware these are hard deadlines**
  
