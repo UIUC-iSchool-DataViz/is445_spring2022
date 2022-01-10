@@ -1,6 +1,6 @@
 #!/bin/bash
 MESSAGE="Auto-commit: $(date)"
-REPO_PATH="/Users/jillnaiman/is445_AOUAOG_fall2021"
+REPO_PATH="/Users/jillnaiman/is445_spring2022"
 cd $REPO_PATH
 /usr/bin/git add -A
 /usr/bin/git commit -m "$MESSAGE"
