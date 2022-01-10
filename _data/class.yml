@@ -28,8 +28,8 @@ urls:
     name: Slack
     url: is445-spring2022.slack.com
   - 
-    name: Moodle
-    url: TBD
+    name: Canvas
+    url: https://canvas.illinois.edu/courses/16476
   -
     name: Course Materials
     url: https://uiuc-ischool-dataviz.github.io/is445_spring2022/
