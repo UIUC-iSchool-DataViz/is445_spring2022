@@ -5,7 +5,7 @@ icon: undraw_Taken_re_yn20.svg
 notitle: true
 ---
 
-# Labor Day Holiday, no classes, enjoy!
+# Spring Break, no classes, enjoy!
 
 
 

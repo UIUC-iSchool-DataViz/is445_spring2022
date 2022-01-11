@@ -3,7 +3,7 @@ title: Lecture 2 - Data storage & Operations, Image data
 layout: lecture
 description: >-
  When we draw something on a screen, how do we represent that internally, and how is that translated into pixels? How are values transformed from 0's and 1's into values we can manipulate and understand?
-date: 2021-08-30
+date: 2022-01-31
 ---
 
 <br>
