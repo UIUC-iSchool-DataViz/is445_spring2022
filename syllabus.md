@@ -5,7 +5,7 @@ notitle: true
 ---
 
 # COVID-19 Statement
-In keeping with University and iSchool policy, all students are required to engage in appropriate behavior to protect the health and safety of our community.  If you are on campus, this includes wearing a facial covering properly, maintaining social distance (at least 6 feet from others at all times), disinfecting the immediate seating area, and using hand sanitizer.
+In keeping with University and iSchool policy, all students are required to engage in appropriate behavior to protect the health and safety of our community.  If you are on campus, this includes wearing a facial covering properly, maintaining social distance (at least 6 feet from others at all times), disinfecting the immediate seating area, and using hand sanitizer.  Additionally, you must be up-to-date with COVID vaccine/testing requirements in order to enter campus buildings.
 
 If you feel ill or are unable to come to class or complete class assignments due to issues related to COVID-19, including but not limited to: testing positive yourself, feeling ill, caring for a family member with COVID-19, or having unexpected child-care obligations, should contact their instructor immediately and cc their advisor.
 
@@ -18,6 +18,8 @@ Additionally, please be aware that there are mental health resources available t
 ## Impact on assignments
 
 Finally, due to the current messiness of the COVID learning environment, we are allowing up to three late homeworks.  If you need to “use” one of your late homeworks email the instructor and/or the TA.  You do not need to provide any explanation for why you’d like to use one of your late homeworks.  You will then have until the end of the week -- the Sunday after the homework was due, midnight -- to turn in this assignment.  
+
+Late policies for homeworks not on extension include: 10% off for 1 day late, 20% off for 2 days late, 30% off for 3 days late.  All homeworks not on extension will be given a zero if turned in after 3 days past the due date.
 
 # Course Description
 
