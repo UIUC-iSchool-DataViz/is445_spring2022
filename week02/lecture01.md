@@ -1261,6 +1261,6 @@ Map5 - percentage of votes by county, weighted by population
 
 ## Assignment 1
 
- *Go to Moodle to discuss!*
+ *Go to Canvas to discuss!*
 
 ---
