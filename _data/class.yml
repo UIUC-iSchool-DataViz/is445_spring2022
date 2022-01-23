@@ -2,18 +2,18 @@ instructor:
   name: Jill Naiman
   email: jnaiman@illinois.edu
   office: Online
-  office_hours: TBD
+  office_hours: Tuesdays 10-11am; Thursdays 2-3pm
 tas:
   -
     name: Xinhui Hu
     email: xhu15@illinois.edu
     office: Online
-    office_hours: TBD
+    office_hours: Wednesdays and Fridays 11am-12pm
   -
     name: Jenna Kim
     email: jkim682@illinois.edu
     office: Online
-    office_hours: TBD
+    office_hours: Thursdays 4-5pm; Fridays 2-3pm
 
 course:
   name: Data Visualization
