@@ -64,7 +64,7 @@ Here is a ~5 minute movie of how this process looks on my Mac (it may take longe
  
 ### 3.2. Test the installs (this is part of the first HW, do once)
 
- 1. [Download the test install script - test_imports_week01](https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/week01/test_imports_week01.ipynb), open it with your jupyter notbeook and run it cell-by-cell
+ 1. [Download the test install script - test_imports_week01](https://uiuc-ischool-dataviz.github.io/is445_spring2022/week02/test_imports_week01.ipynb), open it with your jupyter notbeook and run it cell-by-cell
  
 A movie of this process is shown below (~3 minutes):
 
