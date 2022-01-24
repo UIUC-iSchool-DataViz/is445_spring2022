@@ -1,5 +1,5 @@
 - name: Slack
-  url: https://is445-fall2021.slack.com/
+  url: https://is445-spring2022.slack.com/
   facollection: fab
   faicon: fa-slack
   weight: 20
@@ -12,7 +12,7 @@
   url: /syllabus
   faicon: fa-book
   weight: 10
-- name: Moodle
-  url: https://learn.illinois.edu/course/view.php?id=61407
+- name: Canvas
+  url: https://canvas.illinois.edu/courses/16476
   faicon: fa-school
   weight: 50
