@@ -67,10 +67,12 @@ think is interesting, etc.
 
 _These are meant to be easy points:_ No more than 2-3 sentences are needed in your description.
 
+Please see [TurnItIn](https://uiuc-ischool-dataviz.github.io/is445_spring2022/week03/lecture02_assignment_submission_help.html#/) slides for more info
+
 notes:
 our first one is assigned today, due next week -- remember, I'll pick someone randomly to ask you about yours!
 
-As a reminder: we have TurnItIn in this class, but we really want you to use it as a tool, so you should be able to see your report once you submit and you can look at the same report we will see. How does this work?
+As a reminder: we have TurnItIn in this class, but we really want you to use it as a tool, so you should be able to see your report once you submit and you can look at the same report we will see. How does this work? **go to these slides**
 
 ---
 
@@ -291,7 +293,7 @@ There are several great examples of this from Elizabeth Wickes' talks linked her
 
 notes:
 ~~Today we are going to practice a bit of the data-reading part ourselves, but~~ usually we are going to be
-able to make use of readers, but in the prep notebook there is an example of how one would construct a data reader "by hand"
+able to make use of readers, but in the prep notebook from last week there is an example of how one would construct a data reader "by hand"
 
 ~~And we'll see how to go from raw "read in" data to data that is viz-ready.~~
 
@@ -556,7 +558,7 @@ image data is an excellent example of data where the orientation of each element
 
 ---
 
-<!-- .slide: data-background-image="../week01/images/stitch_nobg_tilted.png" data-background-size="contain"-->
+<!-- .slide: data-background-image="../week02/images/stitch_nobg_tilted.png" data-background-size="contain"-->
 
 notes:
 how is this dataset "fundementally" different than a tabular dataset?
@@ -569,7 +571,7 @@ how is this dataset "fundementally" different than a tabular dataset?
 
 <div class="left">
 
-<img src="../week01/images/stitch_nobg_tilted.png" width="400px">
+<img src="../week02/images/stitch_nobg_tilted.png" width="400px">
 
 </div>
 
