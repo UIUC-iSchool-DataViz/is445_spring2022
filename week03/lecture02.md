@@ -14,13 +14,35 @@ date: 2022-01-31
 
 ---
 
+## COVID-19 Policies
+
+Please see the statement about policies related to COVID-19 at the [top of the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_spring2022/syllabus.html).
+
+### Masks in class (and buildings) are required
+
+### Building status checked at beginning of class (please be on time!)
+
+### Other ways to access course materials (Zoom recordings posted after class)
+
+### If you feel unwell, stay home!
+
+notes:
+couple of reminders -- especially about masks (if its too hard, see Zoom resources!)
+
+**show where zoom recording is saved**
+
+---
+
 ## How to get help
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: Thursday 3-4pm
+ * Office Hours: Tuesdays 11am-12pm **(updated)**; Thursdays 2-3pm (online)
 
 TA: Xinhui Hu - `xhu15@illinois.edu`
- * Office Hours: Wednesdays & Fridays 11am-12pm
+ * Office Hours: Wednesdays & Fridays 11am-12pm (online)
+ 
+TA: Jenna Kim - `jkim682@illinois.edu`
+ * Offce Hours: Thursdays 4-5pm; Fridays 2-3pm (online)
  
 Other: 
  * Slack, email
@@ -29,24 +51,11 @@ Other:
 
 ## In summary: where things will be located:
 
- * Moodle - where the grades and assignments will be posted
+ * Canvas - where the grades and assignments will be posted
 
- * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_AOUAOG_fall2021/ - where lecture slides, notebooks, data & general course info will live.
+ * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_spring2022/ - where lecture slides, notebooks, data & general course info will live.
 
- * Slack: https://is445-fall2021.slack.com - the best place to ask questions
-
----
-
-## An addition: jupyterhub
-
-[http://jupyterhub.ischool.illinois.edu/](http://jupyterhub.ischool.illinois.edu/)
-
-**This is still down**
-
-(linked on Moodle)
-
-notes:
-this may not have all the right packages however
+ * Slack: https://is445-spring2022.slack.com - the best place to ask questions
 
 ---
 
@@ -60,6 +69,8 @@ _These are meant to be easy points:_ No more than 2-3 sentences are needed in yo
 
 notes:
 our first one is assigned today, due next week -- remember, I'll pick someone randomly to ask you about yours!
+
+As a reminder: we have TurnItIn in this class, but we really want you to use it as a tool, so you should be able to see your report once you submit and you can look at the same report we will see. How does this work?
 
 ---
 
