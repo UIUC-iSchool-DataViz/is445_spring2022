@@ -33,7 +33,7 @@ data:
     type: dataOtherWeek
     title: Stitch Image
     description: Three-color image of stitch
-    week: week01
+    week: week02
 ---
 
 # Data Storage and Operations
