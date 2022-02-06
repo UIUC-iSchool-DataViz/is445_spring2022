@@ -34,7 +34,7 @@ data:
     type: dataOtherWeek
     title: Buildings dataset
     description: Illinois buildings dataset
-    week: week02
+    week: week03
   - filename: michigan_lld.flt
     type: dataLink
     title: Michigan Depth Map (86Mb)
