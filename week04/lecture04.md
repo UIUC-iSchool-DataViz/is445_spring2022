@@ -808,5 +808,6 @@ Colormaps in Python - with the Michigan data and the scan data, we'll evaluate:
 
 Let's also play with Pandas!
 
-
+notes:
+what we'll do is start of with some pandas stuff, since that will be useful for the HW and then circle back to color map stuffs
 

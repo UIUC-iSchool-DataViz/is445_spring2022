@@ -94,7 +94,9 @@ layout: default
                     <span class="icon is-large"><i class="fas fa-2x fa-chart-line"></i></span>
                 </p>
                 <p>
+		  <!-- for notebooks, we want to make sure we link to the GITHUB version, for auto-updates to propigate -->
                     {% if example.type == "ipynb" %}
+                    <!--<a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>-->
                     <a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>
 		    {% elsif example.type == "iodide" %}
                     <a href="{{example.link }}">{{example.title}}</a>		    

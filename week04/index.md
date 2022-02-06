@@ -8,6 +8,10 @@ examples:
     type: ipynb
     title: Prep Notebook, Week 4
     description: Prep notebook for this week
+  - filename: inClass_week04.ipynb
+    type: ipynb
+    title: In class notebook, Week 4
+    description: Prep notebook for this week
   - filename: fall2019_prep_notebook_furtherExamples_01.ipynb
     type: ipynb
     title: fall2019_prep_notebook_furtherExamples_01.ipynb
