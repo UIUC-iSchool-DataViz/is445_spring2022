@@ -41,6 +41,9 @@ today will be very coding heavy so we will get lots of practice
 </div>
 
 notes:
+
+Here is an example! (**don't start with hue!**)
+
 order is:
 1. hue
 2. saturation
