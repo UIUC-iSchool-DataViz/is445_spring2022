@@ -42,7 +42,7 @@ data:
   - filename: michigan_lld.flt
     type: dataLink
     title: Michigan Depth Map (86Mb)
-    description: Measurments taken from around Lake Michigan
+    description: Measurments taken from around Lake Michigan (https://www.ngdc.noaa.gov/mgg/greatlakes/michigan.html)
     link: https://uiuc-ischool-dataviz.github.io/spring2019online/week05/data/michigan_lld.flt
   - filename: single_dicom.h5
     type: dataLink
