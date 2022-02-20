@@ -99,7 +99,8 @@ layout: default
                      <a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>
 		    {% elsif example.type == "ipynbInClass" %}
 		     <!--<a href="https://kokes.github.io/nbviewer.js/viewer.html#https://github.com/{{ site.githuburlbase | append: site.baseurl | append:"/blob/master" | append: f.dir | append: example.filename }}">{{example.title}}</a>-->
-		     <a href="nbv.html?notebook_name=https://github.com/{{ site.githuburlbase | append: site.baseurl | append:"/raw/master" | append: f.dir | append: example.filename }}">{{example.title}}</a>
+		     <!--<a href="nbv.html?notebook_name=https://github.com/{{ site.githuburlbase | append: site.baseurl | append:"/raw/master" | append: f.dir | append: example.filename }}">{{example.title}}</a>-->
+                     <a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>
 		    {% elsif example.type == "iodide" %}
                     <a href="{{example.link }}">{{example.title}}</a>		    
                     {% else %}
