@@ -96,8 +96,9 @@ layout: default
                 <p>
 		  <!-- for notebooks, we want to make sure we link to the GITHUB version, for auto-updates to propigate -->
                     {% if example.type == "ipynb" %}
-                    <!--<a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>-->
-                    <a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>
+                     <a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>
+		    {% elsif example.type == "ipynbInClass" %}
+		     <a href="https://nbviewer.org/github/{{ site.githuburlbase | append: site.baseurl | append:"/raw/master" | append: f.dir | append: example.filename }}">{{example.title}}</a>
 		    {% elsif example.type == "iodide" %}
                     <a href="{{example.link }}">{{example.title}}</a>		    
                     {% else %}

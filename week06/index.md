@@ -5,7 +5,7 @@ icon: undraw_data_reports_706v.svg
 notitle: true
 examples:
   - filename: inClass_week06.ipynb
-    type: ipynb
+    type: ipynbInClass
     title: In class Notebook, Week 6
     description: Prep notebook for this week
   - filename: prep_notebook_week06.ipynb
