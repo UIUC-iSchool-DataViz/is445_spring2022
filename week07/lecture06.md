@@ -205,6 +205,66 @@ note: this is how this dataset looks now w/o the shortest duration ufo sitings
 
 ---
 
+## Interactivity: Linking & Brushing with UFO data
+
+As a dashboard:
+
+<!-- .slide: class="two-floating-elements" -->
+
+<div class="left">
+  <img src="images/durationAllPoints.png">
+</div>
+
+<div class="right">
+ <img src="images/mapAllPoints.png">
+</div>
+
+notes:
+as a dashboard, this process would look something like this where we have the duration in seconds on the left "driving" changes in the lat/long points shown on the right
+
+
+---
+
+## Interactivity: Linking & Brushing with UFO data
+
+As a dashboard:
+
+<!-- .slide: class="two-floating-elements" -->
+
+<div class="left">
+  <img src="images/durationAllPoints_p2.png">
+</div>
+
+<div class="right">
+ <img src="images/mapAllPoints.png">
+</div>
+
+notes:
+
+our user would then select a threshold they wanted to cull the data by
+
+---
+
+## Interactivity: Linking & Brushing with UFO data
+
+As a dashboard:
+
+<!-- .slide: class="two-floating-elements" -->
+
+<div class="left">
+  <img src="images/durationAllPoints_p2.png">
+</div>
+
+<div class="right">
+ <img src="images/mapLongPoints.png">
+</div>
+
+notes:
+
+and those changes would propagete to our right-hand plot through a data "linkage", thus allowing our user to have multiple views of this dataset
+
+---
+
 <iframe width="1024" height="576"
 src="https://www.youtube.com/embed/B7XoW2qiFUA?rel=0" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -280,7 +340,7 @@ Hint for those in class -- check out pivot tables with pandas, it might get you 
 Starting with these ideas, we'll progressively enhance.
 
  * Create heat maps of the sightings in the UFO dataset
- * Select based on states (do not use map marks yet)
+ * Select based on location (do not use map marks yet)
  * Manually create "bins" for aggregation (**this is "pre-done" for us**)
  * Use different scales for dates, times, locations
 
