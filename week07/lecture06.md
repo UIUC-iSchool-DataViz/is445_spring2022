@@ -317,18 +317,15 @@ and we've done masking before with the filtering of images
 
 Build a dashboard for the buildings data.
  * Left component:
-    * Grid heat map
-    * Rows are congressional district
-    * Columns are the governmental department (Agency Name)
-    * Values are sum of total square footage for that set of criteria
+   * Grid heat map
+   * Columns are County
+   * Rows are the governmental department (Agency Name) 
+   * Values are mean of total square footage for that set of criteria
  * Right component:
-    * line plot
-    * x is the year
-    * y is total square footage acquired that year
+   * is a barplot/histogram
+   * x is the year
+   * y is total square footage acquired that year
  * These two should be linked so that you can select cells and that will update the square footage plot.
- * Things to think about:
-    * Can you keep the x and y ranges static on the line plot?
-    * Can you change the style?
 	
 notes:
 Hint for those in class -- check out pivot tables with pandas, it might get you close to where you want to be with filtering your data!
