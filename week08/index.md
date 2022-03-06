@@ -37,7 +37,8 @@ data:
     description: Data about exports from each state
     link: https://uiuc-ischool-dataviz.github.io/is445_spring2021/week06/data/total_export.csv
   - filename: market_map_data.csv
-    type: data
+    type: dataLink
+    link: https://uiuc-ischool-dataviz.github.io/is445_spring2022/week07/data/market_map_data.csv
     title: Surgery Charges Dataset (37Mb)
     description: Surgery charges in different states
 library:
