@@ -3,7 +3,7 @@ title: Lecture 8 - Choosing viz & Online viz platforms
 layout: lecture
 description: >-
  Choosing what viz type to use, and an introduction to Vega/Vega-lite and Starboard 
-date: 2021-10-18
+date: 2022-03-21
 ---
 
 ## Last Week
@@ -644,15 +644,18 @@ The syntax you will need to be the most familiar with:
 <br>
 <br>
 
-# TOPIC 3: Iodide
+# TOPIC 3: Starboard
 
 ---
 
-## Iodide
+## Starboard
 
-<img src="https://user-images.githubusercontent.com/95735/54166135-08936e00-4421-11e9-9817-aca915831f42.png" width="800px">
+[A quick intro to Starboard](https://starboard.gg/)
 
 To the internet!
 
 notes:
-make sure you go over all these things!
+**DO**
+ * starboard.gg -- the intro notebook
+ * also at starboard.gg - the Data Viz in JS and Pandas & Matplotlib intro notebooks -- say we will go over this together, but if you want a quick peak
+ * note that now the inclass and prep notebooks will be online versions hosted by starboard!
