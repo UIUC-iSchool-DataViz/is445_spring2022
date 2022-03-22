@@ -39,3 +39,5 @@ shared between Jill Naiman and  Matthew Turk.
 
 jekyll 3.9.0 | Error:  No such file or directory @ realpath_rec 
  * hack: `touch /Users/jillnaiman/is445_spring2022/week03/jillnaiman@Jills-MacBook-Pro.local.36174`
+
+Sometimes you have to re-install the bundle, to do this delete the Gemfile.lock and run `bundle install`
