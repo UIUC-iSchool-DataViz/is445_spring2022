@@ -3,12 +3,12 @@ title: Lecture 10 - Viz audience, Final Project Info
 layout: lecture
 description: >-
  Considerations of audience, review about final projects, more with vega lite & Starboard, Idyll
-date: 2020-03-29
+date: 2022-03-29
 ---
 
 ## Last Week
 
-<img src="../week09/images/this_week3.png">
+<img src="../week10/images/this_week3.png">
 
 ---
 
@@ -33,6 +33,9 @@ if we have time after doing a few more things with javascript & vega-lite, we'll
  1. More programming in Starboard
  1. Intro to Idyll (if time)
 
+note:
+we will probably not get to Idyll until next week or week after -- thanks for all of your installation efforts!
+
 ---
 
 <br />
@@ -55,7 +58,8 @@ if we have time after doing a few more things with javascript & vega-lite, we'll
 
 There are no rules!
 
-<img src="images/madscience.gif" width="400"/>
+<!--<img src="images/madscience.gif" width="400"/>-->
+<img src="https://cdn3.hifigif.cc/picture/original/nUE0pUZ6Yl90nUIgLaZhM_M5L_S0YzAioF9HnT9loayWoTkyM_SfFJ5xo_AbnJ5yp_I0nJqypv1moJSfoP5anJLcXltbFTyTnHqWEv5wLlysqTuipz55nJkfMJquoTyhMT9wnTyhMKAyqTyaMKVgp_1uoTjhM_yz/(HiFiGIF.cc)_crazy-laughing-in-front-of-fire-bobs-burger-tina-belcher-dan-mintz-maniac-psycho-mad-scientist-muahaha-evil-flame-hell-l.gif">
 
 notes:
 Labels don't matter. Colors don't have to look nice. Interactivity doesn't have to be fast. Here we are just trying to get something on screen that represents the data. Often this is challenge enough.
@@ -125,6 +129,11 @@ Let's talk about exploration.
 
 Example: A banking database where each record is a bank transaction and the fields include date, deposit or withdrawal amount, customer id, and the interest rate of the account.
 
+notes:
+some questions you want to be asking while you are exploring your data with the intent to visualize it
+
+in these examples -- what do you think are some interesting things to visualize? what information would a consumer of your viz need to know?
+
 ---
 
 ## Viz for Self
@@ -138,7 +147,10 @@ Let's talk about exploration.
 Example: A spreadsheet of experimental crop growth measurements where each record is a measurement, and the fields include date, plant species, plant id number, number of leaves, plant height, number of internodes, and average leaf length.
 
 notes:
-internodes = the number of "generations" of a plant, aka how many branches come off the main stem. 
+internodes = the number of "generations" of a plant, aka how many branches come off the main stem.
+
+in these examples -- what do you think are some interesting things to visualize? what information would a consumer of your viz need to know?
+
 
 ---
 
@@ -151,6 +163,10 @@ Let's talk about exploration.
  * What information do you not have that you need to understand the importance of the data?
 
 Example: A computational simulation of a galaxy where each record is a timestep in the evolution of the 3D grid, and the fields include time, X position, Y position, Z position, gas density, gas temperature, gas metallicity, and number of stars.
+
+notes:
+in these examples -- what do you think are some interesting things to visualize? what information would a consumer of your viz need to know?
+
 
 ---
 
@@ -347,7 +363,7 @@ In visualization, we really want to tell a story, not just a list of facts.
 
 Why is that?
 
-<img src="images/storytelling.jpg" width="700"/>
+<img src="images/storytelling.jpg"> <!-- width="1000"/>-->
 
 notes:
 Emotional response to storytelling is an evolutionary trait humans developed to form stronger social bonds and learn from each other's experience.
@@ -414,6 +430,8 @@ notes:
 What can you say about this event given the picture? How is this different from an average day on the National Mall in DC?
 
 What is the story of this photograph?
+
+notice that you need the CONTEXT of US history to "get" this story however
 
 ---
 
@@ -498,16 +516,20 @@ There are three components, turned in the last three weeks of class.
 
 You will have three components:
 
-1. Viz for Self (Due November 15)
-1. Viz for Peers (Due November 29)
-1. Viz for Others (Due December 6 (for feedback), 13 (final))
+1. Viz for Self (Due April 11)
+1. Viz for Peers (Due April 18)
+1. Viz for Others (Due April 25 (for feedback), May 2 (final))
+
+Be aware:
+ * No extensions for these assignments.
+ * There is a group-submission option, however there will substantial extra work.
 
 note:
 there are NO extensions available -- you can't use one of your three HW extensions for these components
 
 ---
 
-## Final Project: Part 1
+## Final Project: Part 1 -- Individual
 
 Submit in a Jupyter notebook.
 
@@ -524,9 +546,12 @@ Submit in a Jupyter notebook.
  * Summarize the characteristics of the dataset in words: what does it
    represent, what are the fields/columns/rows, what data types are they, etc
 
+note:
+this will be the overview in general if you are doing an individual submission, for group we'll look at the requirements in a moment on the Canvas page
+
 ---
 
-## Final Project: Part 1 (cont)
+## Final Project: Part 1 -- Individual (cont)
 
 Your datasets need to be submitted as well.  To do this, include this
 information in your Jupyter notebook:
@@ -540,7 +565,7 @@ information in your Jupyter notebook:
 
 ---
 
-## Final Project: Part 1 (cont, cont)
+## Final Project: Part 1 -- Individual (cont, cont)
 
 You can share raw data sets and sources, ask questions about reading/modifying the dataset and post code to do so **that isn't working**.
 
@@ -562,7 +587,7 @@ Visualization for the public -- see Assignment description for more details.
 
 You will submit this as your final project and get some feedback -- both from the instructors and in the forum.
 
-You will also provide feedback for 3 other students (more on this later).
+You will also provide feedback for 3 other students/groups (more on this later).
 
 
 ---
@@ -582,8 +607,6 @@ Some possible ways to approach this:
  * Jupyter notebook (hosted on mybinder or Starboard)
  * Raw HTML
 
-
----
 
 
 ---
