@@ -4,21 +4,26 @@ visible: true
 icon: undraw_programmer_imem.svg
 notitle: true
 examples:
-  - filename: inClass_week10_fall2021
+  - filename: inClass_week11_spring2022
     type: iodide
-    title: In Class Notebook, Week 10
+    title: In Class Notebook, Week 11
     description: In Class Starboard Notebook
-    link: https://starboard.gg/nb/nwQpDEA
+    link: https://starboard.gg/nb/n7KC9iO
   - filename: prep_notebook_week10_fall2021
     type: iodide
-    title: Prep Starboard Notebook, Week 10
+    title: Prep Starboard Notebook, Week 11
     description: Prep Starboard Notebook
-    link: https://starboard.gg/nb/nXvyanN
+    link: https://starboard.gg/nb/nG3SEUx
   - filename: prep_notebook_week11
     type: iodidePast
     title: Previous class notebook
     description: Prep Iodide Notebook, Spring 2020
     link: https://alpha.iodide.io/notebooks/4399/
+  - filename: prep_notebook_week10_fall2021
+    type: iodidePast
+    title: Previous class notebook
+    description: Prep Starboard Notebook, Fall 2021
+    link: https://starboard.gg/nb/nXvyanN
 data:
   - filename: GDP.csv
     type: dataLink
