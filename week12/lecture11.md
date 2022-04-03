@@ -8,12 +8,12 @@ date: 2021-11-01
 
 ## This Week/Last Week
 
-<img src='../week10/images/this_week3.png'>
+<img src='../week11/images/this_week3.png'>
 
 notes:
 
 today we'll be continuing on with some of what we did last week -- moving into more Markdown-based viz and viz "reports" along with more javascript and
-finally getting into idyll
+finally getting into idyll probably at the end of class
 
 ---
 
