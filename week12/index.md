@@ -4,16 +4,16 @@ visible: true
 icon: undraw_Books_l33t.svg
 notitle: true
 examples:
-  - filename: inClass_week11_fall2021
+  - filename: inClass_week12_spring2022
     type: iodide
-    title: In Class Notebook, Week 11
+    title: In Class Notebook, Week 12
     description: In Class Starboard Notebook
-    link: https://starboard.gg/nb/nL5ErlB
-  - filename: prep_notebook_week11_fall2021
+    link: https://starboard.gg/nb/nZa79A6
+  - filename: prep_notebook_week12_spring2022
     type: iodide
-    title: Prep Starboard Notebook, Week 11
+    title: Prep Starboard Notebook, Week 12
     description: Prep Starboard Notebook
-    link: https://starboard.gg/nb/nLPtuTL
+    link: https://starboard.gg/nb/nrWqgSu
   - filename: index.idyll
     type: iodide
     title: Prep index.idyll file, Week 11
