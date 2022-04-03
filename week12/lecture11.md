@@ -21,6 +21,13 @@ finally getting into idyll probably at the end of class
 
 ---
 
+## Notes about our final class, May 2nd
+
+notes:
+I will be traveling!  We'll see if we can't do this online OR we will have a recording + extended office hours that day
+
+---
+
 
 <br/>
 <br/>
