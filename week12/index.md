@@ -16,14 +16,19 @@ examples:
     link: https://starboard.gg/nb/nrWqgSu
   - filename: index.idyll
     type: iodide
-    title: Prep index.idyll file, Week 11
+    title: Prep index.idyll file, Week 12
     description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/misc/">this</a> today using <a href="https://idyll-lang.org/">Idyll's</a> built-in components. 
     link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/blob/master/week12/corg/prepIdyll/index.idyll
   - filename: index.idyll
+    type: iodidePast
+    title: Past index.idyll file with more vega-lite
+    description: index.idyll file - Even more vega-lite examples 
+    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/blob/master/week11/corg/prepIdyll/index.idyll
+  - filename: In Class Idyll
     type: iodide
-    title: Prep index.idyll file, Week 11-12
-    description: Full markdown code for the next few weeks 
-    link: https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/index.idyll
+    title: In class Idyll resources, Week 12
+    description: Updating storage of Idyll files in class
+    link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/tree/master/week12/inClass
   - filename: prep_notebook_week11
     type: iodidePast
     title: Previous class notebook
