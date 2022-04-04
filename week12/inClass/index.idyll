@@ -75,8 +75,8 @@ For reference from [Idyll page on scrollers](https://idyll-lang.org/docs/compone
     [img src:"https://uiuc-ischool-dataviz.github.io/spring2019online/week10/corg/IMG_2814.jpg" style:`{height:700}` /]
   [/Graphic]
 
-  [Step] ## thing 1
-  [Step] ## Thing 2
+  [Step] ## thing 1 [/Step]
+  [Step] ## Thing 2 [/Step]
 
 
 [/Scroller]

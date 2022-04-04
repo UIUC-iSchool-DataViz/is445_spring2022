@@ -72,7 +72,6 @@ For reference from [Idyll page on scrollers](https://idyll-lang.org/docs/compone
 
 [Scroller currentStep:scrollerIndex]
   [Graphic style:`{padding:50}`]
-  // something -- background image?
     [img src:"https://uiuc-ischool-dataviz.github.io/spring2019online/week10/corg/IMG_2814.jpg" style:`{height:700}` /]
   [/Graphic]
 
