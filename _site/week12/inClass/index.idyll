@@ -28,3 +28,7 @@ print('hi')
 ```
 
 ![A very large corgi.](https://i.redd.it/5f0snjdbzr121.jpg)
+
+## Images
+
+Attaching images (beyond the markdown style above) will look very much like HTML tags:
