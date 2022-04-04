@@ -33,3 +33,5 @@ print('hi')
 
 Attaching images (beyond the markdown style above) will look very much like HTML tags:
 [img src:"https://i.redd.it/5f0snjdbzr121.jpg" style:`{height:'300px'}`/]
+
+[p] This is a paragraph tag [/p]
