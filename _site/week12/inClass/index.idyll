@@ -23,4 +23,6 @@ Ordered lists:
 1. thing the first
 1. thing the second
 
-
+```
+print('hi')
+```
