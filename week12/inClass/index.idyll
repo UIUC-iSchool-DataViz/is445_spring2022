@@ -83,3 +83,5 @@ For reference from [Idyll page on scrollers](https://idyll-lang.org/docs/compone
 [/Scroller]
 
 ## Data
+
+[data name:"corgisTime" source:"corgs_per_country_over_time_columns_2020.csv" /]
