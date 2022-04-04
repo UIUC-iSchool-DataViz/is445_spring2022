@@ -36,5 +36,7 @@ Attaching images (beyond the markdown style above) will look very much like HTML
 
 [p] This is a paragraph tag [/p]
 
+
 ## Layouts
 
+We will try to put images side by side using [the Float layout](https://idyll-lang.org/docs/component/float).
