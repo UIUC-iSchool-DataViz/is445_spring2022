@@ -44,6 +44,7 @@ We will try to put images side by side using [the Float layout](https://idyll-la
 [Float position:"left"]
   [img src:"https://uiuc-ischool-dataviz.github.io/spring2019online/week04/data/littleCorgiInHat.png" style:`{height:300}`]
 [/Float]
+
 [Float position:"right"]
   [img src:"https://uiuc-ischool-dataviz.github.io/spring2019online/week10/corg/IMG_2809.jpg" style:`{height:300}`]
 [/Float]
