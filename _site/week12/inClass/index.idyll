@@ -2,10 +2,10 @@
 
 [Header
   fullWidth:true
-  title:"My Idyll Post"
-  subtitle:"Welcome to Idyll. Open index.idyll to start writing"
-  author:"Your Name Here"
-  authorLink:"https://idyll-lang.org"
+  title:"IS445 - Spring 2022"
+  subtitle:"Idyll Post Example for Data Viz"
+  author:"Jill Naiman"
+  authorLink:"https:astronaiman.com"
   date:`(new Date()).toDateString()`
   background:"#222222"
   color:"#ffffff"
