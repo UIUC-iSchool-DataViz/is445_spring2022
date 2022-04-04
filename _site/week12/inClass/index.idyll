@@ -49,3 +49,23 @@ We will try to put images side by side using [the Float layout](https://idyll-la
 [Float position:"right"]
   [img src:"https://uiuc-ischool-dataviz.github.io/spring2019online/week10/corg/IMG_2809.jpg" style:`{height:300}`/]
 [/Float]
+
+For reference from [Idyll page on scrollers](:
+
+```
+[Scroller currentStep:scrollerIndex]
+  [Graphic style:`{padding: 50}`]
+      [Chart type:`"line"` data:`scrollerChartData.slice(0, scrollerIndex + 2)` /]
+  [/Graphic]
+
+  [Step]## Hey, neat, here's some data![/Step]
+  [Step]## ...   [/Step]
+  [Step]## ...  What's that more data?![/Step]
+  [Step]## Hmm...[/Step]
+  [Step]## Too much data.[/Step]
+  [Step]## Stop.[/Step]
+  [Step]## that.[/Step]
+  [Step]## data[/Step]
+
+[/Scroller]
+```
