@@ -202,6 +202,8 @@ We can check out our data really quick with an interactive table:
 
 [Table data:corgsTime /]
 
+# We got to about here in Spring 2022, Week 12
+
 We can also use Idyll's default [Chart](https://idyll-lang.org/docs/components/default/chart) component to do a preliminary plot with this dataset for the United States:
 
 [Chart type:"time" data:`corgsTime` domain:`null` range:`null` x:"Years" y:"United States" /]
