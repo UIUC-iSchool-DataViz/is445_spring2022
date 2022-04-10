@@ -6,12 +6,12 @@ notitle: true
 examples:
   - filename: In Class Idyll Files
     type: iodide
-    title: In class Idyll resources, Week 13
+    title: In class Idyll materials, Week 13
     description: Updating storage of Idyll files in class
     link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/tree/master/week13/inClass
   - filename: Prep Idyll Files
     type: iodide
-    title: Prep materials, Week 13
+    title: Prep Idyll materials, Week 13
     description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/misc/">this</a> today using <a href="https://idyll-lang.org/">Idyll's</a> built-in components. 
     link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/blob/master/week13/corg/prepIdyll
 data:
