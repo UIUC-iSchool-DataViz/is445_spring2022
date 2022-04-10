@@ -14,6 +14,11 @@ examples:
     title: Prep Idyll materials, Week 13
     description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/misc/">this</a> today using <a href="https://idyll-lang.org/">Idyll's</a> built-in components. 
     link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/blob/master/week13/corg/prepIdyll
+  - filename: Starting d3.js histogram link
+    type: iodide
+    title: Starting d3.js histogram example
+    description: We'll start building from this histogram example found by googling. 
+    link: https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cfee8d97aba
   - filename: More vega-lite files
     type: iodide
     title: More vega-lite idyll examples
