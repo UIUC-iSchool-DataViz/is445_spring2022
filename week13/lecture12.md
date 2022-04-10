@@ -3,7 +3,7 @@ title: Lecture 12 - Publishing & Validation
 layout: lecture
 description: >-
  More about publishing and validation, and more of d3.js in Idyll
-date: 2021-11-08
+date: 2022-04-11
 ---
 
 ## Last Week
@@ -22,7 +22,7 @@ so far, we've been covering a bit of javascript and vega-lite as some new viz en
 notes:
 this week we'll discuss more general methods of publishing, and we'll talk about how to validate how "well" our visualizations are doing.
 
-While we'll mainly focus on vega-lite in Idyll as our primary way of plotting, we'll also start touching on some d3.js within Idyll maybe this week, and also next week
+While we'll just touch on vega-lite in Idyll for plotting and then start looking at d3.js either this week or next week
 
 ---
 
@@ -129,7 +129,7 @@ This is especially valuable if you expect to have to make more than one visualiz
 
 The Advanced Visualization Lab interacts with audiences through lab demos and conference talks regularly to collect this kind of feedback.
 
-**we'll be getting a talk from the head of the AVL after fall break**
+**we'll be getting a talk from the head of the AVL in week 15**
 
 ---
 
