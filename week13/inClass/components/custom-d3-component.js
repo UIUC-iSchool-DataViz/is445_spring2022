@@ -1,35 +1,36 @@
 const React = require('react');
 const D3Component = require('idyll-d3-component');
-const d3 = require('d3');
+const d3 = Object.assign(
+  {},
+  require('d3'),
+  require('d3-transition'),
+  require('d3-selection')
+);
 
 const size = 600;
 
 class CustomD3Component extends D3Component {
-  // initialization function
   initialize(node, props) {
     const svg = (this.svg = d3.select(node).append('svg'));
-    svg // probably the background object -- background canvas
+    svg
       .attr('viewBox', `0 0 ${size} ${size}`)
       .style('width', '100%')
       .style('height', 'auto');
 
-    svg // drawing initial circle -- changed to center and larger
-	  .append('circle')
-	  .attr('r', 200)
-	  .attr('cx', 300)
-	  .attr('cy',300);
-      //.attr('cx', Math.random() * size)
-      //.attr('cy', Math.random() * size);
-  } // end initialization function
+    svg
+      .append('circle')
+      .attr('r', 20)
+      .attr('cx', Math.random() * size)
+      .attr('cy', Math.random() * size);
+  }
 
-  //updating based on our interaction (button push)
   update(props, oldProps) {
     this.svg
-      .selectAll('circle') // grab the circle
-      .transition() // transition from old state to new state
-      .duration(750) // how long transition takes
-      .attr('cx', Math.random() * size) // change attributes to be new x center
-      .attr('cy', Math.random() * size); // ... and new y -center
+      .selectAll('circle')
+      .transition()
+      .duration(750)
+      .attr('cx', Math.random() * size)
+      .attr('cy', Math.random() * size);
   }
 }
 
