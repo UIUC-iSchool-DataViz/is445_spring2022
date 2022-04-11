@@ -150,6 +150,13 @@ We want to use [this example](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cf
 
 [HistogramCustomD3Component className:"d3-component" /]
 
+Using the [select built in](https://idyll-lang.org/docs/component/select):
+
+```
+[var name:"selectVal" value:"test1" /]
+[Select value:selectVal options:`["test1", "test2"]`  /]
+```
+
 [var name:"myCountry" value:"United States" /]
 
 [HistogramButtonCustomD3Component className:"d3-component" country:myCountry /]
