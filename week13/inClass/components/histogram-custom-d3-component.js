@@ -90,17 +90,17 @@ class HistogramCustomD3Component extends D3Component {
 		.attr("width", x.bandwidth())
 		.attr("y", function(d) { return y(d.value); })
 		.attr("height", function(d) { return height - y(d.value); });
-	    svg.selectAll("lines")
-		.data(data)
-		.enter().append("line")
-		.style("fill", 'none')
-  		.attr("x1", function(d) { return x(d.date) + x.bandwidth()+5; })
-		.attr("x2", function(d) { return x(d.date)-5; })
-		.attr("y1", function(d) { return y(d.target); })
-		.attr("y2", function(d) { return y(d.target); })
-  		.style("stroke-dasharray", [2,2])
-  		.style("stroke", "#000000")
-		.style("stroke-width", 2)
+	    //svg.selectAll("lines")
+//		.data(data)
+//		.enter().append("line")
+//		.style("fill", 'none')
+//  		.attr("x1", function(d) { return x(d.date) + x.bandwidth()+5; })
+//		.attr("x2", function(d) { return x(d.date)-5; })
+//		.attr("y1", function(d) { return y(d.target); })
+//		.attr("y2", function(d) { return y(d.target); })
+//  		.style("stroke-dasharray", [2,2])
+//  		.style("stroke", "#000000")
+//		.style("stroke-width", 2)
 	    
 	}); // end of d3.csv function
 
