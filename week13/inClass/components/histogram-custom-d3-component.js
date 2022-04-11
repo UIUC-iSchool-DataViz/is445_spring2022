@@ -61,8 +61,9 @@ class HistogramCustomD3Component extends D3Component {
 	    console.log(data[0]['Years']);
 
 	    data.forEach(function(d) {
-		d.date = parseDate(d.date);
-		d.value = +d.value;
+		// no longer have date and value in our dataset
+		//d.date = parseDate(d.date);
+		//d.value = +d.value;
 	    });
 	    
 	    x.domain(data.map(function(d) { return d.date; }));
