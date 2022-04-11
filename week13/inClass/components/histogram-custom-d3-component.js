@@ -11,8 +11,6 @@ const d3 = Object.assign(
 
 const size = 600; // background size in pixels
 
-// "CustomD3Component is the "name" we call this
-// component by in the index.idyll file
 class HistogramCustomD3Component extends D3Component {
     // "extends" is probably related to the "d3-component"
 
@@ -46,6 +44,4 @@ class HistogramCustomD3Component extends D3Component {
   }
 } // end of CustomD3Component
 
-// sort of like a return statement in python
 module.exports = HistogramCustomD3Component;
-// makes CustomD3Component something we can use in index.idyll

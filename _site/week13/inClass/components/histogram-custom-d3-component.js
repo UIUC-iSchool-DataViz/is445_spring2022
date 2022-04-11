@@ -47,5 +47,5 @@ class HistogramCustomD3Component extends D3Component {
 } // end of CustomD3Component
 
 // sort of like a return statement in python
-module.exports = CustomD3Component;
+module.exports = HistogramCustomD3Component;
 // makes CustomD3Component something we can use in index.idyll
