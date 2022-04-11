@@ -9,7 +9,11 @@ const d3 = Object.assign(
 );
 // loading the react, idyll-d3-component & d3 "libraries"
 
-const size = 600; // background size in pixels
+//const size = 600; // background size in pixels
+// probably something to do with the background box
+var margin = {top: 20, right: 20, bottom: 70, left: 40},
+    width = 1200 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
 
 class HistogramCustomD3Component extends D3Component {
     // "extends" is probably related to the "d3-component"
