@@ -16,11 +16,28 @@ var margin = {top: 20, right: 20, bottom: 70, left: 40},
     height = 400 - margin.top - margin.bottom;
 
 class HistogramCustomD3Component extends D3Component {
-    // "extends" is probably related to the "d3-component"
-
-  // initializing the visualization
+    // initializing the visualization
     initialize(node, props) {
-	// svg = Support Vector Graphics
+
+	// all of the things I want to happen before we start drawing
+	// Parse the date / time
+	var parseDate = d3.isoParse
+
+	var x = d3.scaleBand()
+	    .rangeRound([0, width], .05).padding(0.1);
+
+	var y = d3.scaleLinear().range([height, 0]);
+
+	var xAxis = d3.axisBottom()
+	    .scale(x)
+	    .tickFormat(d3.timeFormat("%b"));
+
+	var yAxis = d3.axisLeft()
+	    .scale(y)
+	    .ticks(10);
+
+
+	
     const svg = (this.svg = d3.select(node).append('svg'));
     svg
       .attr('viewBox', `0 0 ${size} ${size}`)
