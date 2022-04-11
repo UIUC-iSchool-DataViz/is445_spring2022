@@ -39,10 +39,15 @@ class HistogramCustomD3Component extends D3Component {
 
 	
     const svg = (this.svg = d3.select(node).append('svg'));
-    svg
-      .attr('viewBox', `0 0 ${size} ${size}`)
-      .style('width', '100%')
-      .style('height', 'auto');
+//    svg
+//      .attr('viewBox', `0 0 ${size} ${size}`)
+//      .style('width', '100%')
+//      .style('height', 'auto');
+	    .attr("width", width + margin.left + margin.right)
+	    .attr("height", height + margin.top + margin.bottom)
+	    .append("g")
+	    .attr("transform",
+		  "translate(" + margin.left + "," + margin.top + ")");
 
     svg
       .append('circle')
