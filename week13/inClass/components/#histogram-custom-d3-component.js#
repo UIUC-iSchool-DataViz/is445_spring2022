@@ -30,7 +30,8 @@ class HistogramCustomD3Component extends D3Component {
 
 	var xAxis = d3.axisBottom()
 	    .scale(x)
-	    .tickFormat(d3.timeFormat("%b"));
+	    //.tickFormat(d3.timeFormat("%b"));
+	    .tickFormat(d3.timeFormat("%Y"));
 
 	var yAxis = d3.axisLeft()
 	    .scale(y)
@@ -64,11 +65,15 @@ class HistogramCustomD3Component extends D3Component {
 		// no longer have date and value in our dataset
 		//d.date = parseDate(d.date);
 		//d.value = +d.value;
-		// repalce this d.date and d.value with something else beaa
+		// repalce this d.date and d.value with something else because they get used below
+		d.date = parseDate(d['Years']);
+		d.value = d['United States'];
+		console.log(d.date);
 	    });
 	    
 	    x.domain(data.map(function(d) { return d.date; }));
-	    y.domain([0, d3.max(data, function(d) { return d.value; })]);
+	    //y.domain([0, d3.max(data, function(d) { return d.value; })]);
+	    y.domain([0,1000]);
 	    
 	    svg.append("g")
 		.attr("class", "x axis")
@@ -76,6 +81,8 @@ class HistogramCustomD3Component extends D3Component {
 		.call(xAxis.ticks(null).tickSize(0))
 		.selectAll("text")
 		.style("text-anchor", "middle")
+		.style("text-anchor","end")
+		.attr("transform", "rotate(-90)" );
 	    
 	    svg.append("g")
 		.attr("class", "y axis")
@@ -94,6 +101,11 @@ class HistogramCustomD3Component extends D3Component {
 		.attr("width", x.bandwidth())
 		.attr("y", function(d) { return y(d.value); })
 		.attr("height", function(d) { return height - y(d.value); });
+
+	    // add in the country name to our plot
+	    svg.append("text")
+		.attr("x",(width/2))
+		.attr("y" 10-(
 	    //svg.selectAll("lines")
 //		.data(data)
 //		.enter().append("line")
