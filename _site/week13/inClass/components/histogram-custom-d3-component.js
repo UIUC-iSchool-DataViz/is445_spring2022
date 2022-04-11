@@ -64,6 +64,8 @@ class HistogramCustomD3Component extends D3Component {
 		// no longer have date and value in our dataset
 		//d.date = parseDate(d.date);
 		//d.value = +d.value;
+		// repalce this d.date and d.value with something else because they get used below
+		
 	    });
 	    
 	    x.domain(data.map(function(d) { return d.date; }));
