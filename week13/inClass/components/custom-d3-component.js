@@ -11,7 +11,10 @@ const d3 = Object.assign(
 
 const size = 600; // background size in pixels
 
+// "CustomD3Component is the "name" we call this
+// component by in the index.idyll file
 class CustomD3Component extends D3Component {
+    // "extends" is probably related to the "d3-component"
   initialize(node, props) {
     const svg = (this.svg = d3.select(node).append('svg'));
     svg
@@ -34,6 +37,8 @@ class CustomD3Component extends D3Component {
       .attr('cx', Math.random() * size)
       .attr('cy', Math.random() * size);
   }
-}
+} // end of CustomD3Component
 
+// sort of like a return statement in python
 module.exports = CustomD3Component;
+// makes CustomD3Component something we can use in index.idyll
