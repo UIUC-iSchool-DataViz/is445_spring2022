@@ -1,3 +1,4 @@
+// these are sort of like import statements from python
 const React = require('react');
 const D3Component = require('idyll-d3-component');
 const d3 = Object.assign(
