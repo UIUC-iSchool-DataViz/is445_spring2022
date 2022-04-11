@@ -140,4 +140,10 @@ Start with a variable:
   Click me!
 [/button]
 
-We want to use [this example](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cfee8d97aba) to using our data.
+We want to use [this example](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cfee8d97aba) to using our data.  What our strategy will be:
+
+1. copy the custom-d3-component.js file we were just commenting
+1. change the anmes for the "extend" calls to HistogramCustomD3Component
+1. comment out the drawing of the circle update function
+1. replace the drawing of the viewer box (gray box) and initial circle with the example from the basic histogram (using that data)
+1. starting to transition to our data
