@@ -160,3 +160,5 @@ Using the [select built in](https://idyll-lang.org/docs/component/select):
 [var name:"myCountry" value:"United States" /]
 
 [HistogramButtonCustomD3Component className:"d3-component" country:myCountry /]
+Select a country:
+[Select value:myCountry options:`["United States", "United Kingdom", "South Africa"]` /]
