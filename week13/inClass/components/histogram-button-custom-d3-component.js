@@ -98,16 +98,14 @@ class HistogramButtonCustomD3Component extends D3Component {
 	
   } // end of initialize
 
-  // updates visualization -- definitely!
-  //update(props, oldProps) {
-  //  this.svg
-//	  .selectAll('circle')
-//	  .transition() // transition to another state
-//	  .duration(750) // length of transition (millisec)
-//          // below updates x,y center of circle randomly
-//	  .attr('cx', Math.random() * size)
-//	  .attr('cy', Math.random() * size);
-//  }
+    // updates visualization -- definitely!
+    update(props, oldProps) {
+	const svg = this.svg;
+	svg.selectAll("*").remove(); // remove all old objects
+
+	var countryName = props.country; 
+	
+  } // end of update function
 } // end of HistogramCustomD3Component
 
 module.exports = HistogramButtonCustomD3Component;
