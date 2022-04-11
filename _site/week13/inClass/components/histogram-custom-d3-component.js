@@ -33,15 +33,15 @@ class HistogramCustomD3Component extends D3Component {
   }
 
   // updates visualization -- definitely!
-  update(props, oldProps) {
-    this.svg
-	  .selectAll('circle')
-	  .transition() // transition to another state
-	  .duration(750) // length of transition (millisec)
-          // below updates x,y center of circle randomly
-	  .attr('cx', Math.random() * size)
-	  .attr('cy', Math.random() * size);
-  }
+  //update(props, oldProps) {
+  //  this.svg
+//	  .selectAll('circle')
+//	  .transition() // transition to another state
+//	  .duration(750) // length of transition (millisec)
+//          // below updates x,y center of circle randomly
+//	  .attr('cx', Math.random() * size)
+//	  .attr('cy', Math.random() * size);
+//  }
 } // end of CustomD3Component
 
 module.exports = HistogramCustomD3Component;

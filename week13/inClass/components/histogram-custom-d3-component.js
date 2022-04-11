@@ -42,6 +42,6 @@ class HistogramCustomD3Component extends D3Component {
 //	  .attr('cx', Math.random() * size)
 //	  .attr('cy', Math.random() * size);
 //  }
-} // end of CustomD3Component
+} // end of HistogramCustomD3Component
 
 module.exports = HistogramCustomD3Component;
