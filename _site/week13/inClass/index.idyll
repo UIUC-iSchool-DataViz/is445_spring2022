@@ -130,3 +130,6 @@ Note: this data is giving us accumulations of corgis over time, we probably don'
 
 ## D3.js (since vega-lite is touchy!)
 
+Start with a variable:
+
+[var name:"state" value:0 /]
