@@ -101,6 +101,12 @@ class HistogramCustomD3Component extends D3Component {
 		.attr("width", x.bandwidth())
 		.attr("y", function(d) { return y(d.value); })
 		.attr("height", function(d) { return height - y(d.value); });
+
+	    // add in the country name to our plot
+	    svg.append("text")
+		.attr("x",(width/2))
+		.attr("y" 10-(margin.top/2))
+		.text("United States");
 	    //svg.selectAll("lines")
 //		.data(data)
 //		.enter().append("line")
