@@ -9,7 +9,7 @@ const d3 = Object.assign(
 );
 // loading the react, idyll-d3-component & d3 "libraries"
 
-const size = 600;
+const size = 600; // background size in pixels
 
 class CustomD3Component extends D3Component {
   initialize(node, props) {
@@ -21,7 +21,7 @@ class CustomD3Component extends D3Component {
 
     svg
       .append('circle')
-      .attr('r', 200)
+      .attr('r', 200) // radius of the circle
       .attr('cx', Math.random() * size)
       .attr('cy', Math.random() * size);
   }
