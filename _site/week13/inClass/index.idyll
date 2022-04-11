@@ -132,8 +132,8 @@ Note: this data is giving us accumulations of corgis over time, we probably don'
 
 Start with a variable:
 
-[var name:"state" value:0 /]
+// [var name:"state" value:0 /]
 [CustomD3Component className:"d3-component" state:state /]
-[button onClick:`state++`]
-  Click me!
-[/button]
+// [button onClick:`state++`]
+//  Click me!
+// [/button]
