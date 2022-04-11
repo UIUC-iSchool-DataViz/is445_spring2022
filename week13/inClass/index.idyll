@@ -112,3 +112,6 @@ We'll first try with [the built in chart](https://idyll-lang.org/docs/component/
 Note: this data is giving us accumulations of corgis over time, we probably don't want to connect these unconnected events with a line.
 
 [Chart type:"bar" data:`corgisTime` domain:`null` range:`null` x:"Years" y:"United States" /]
+
+## Vega-lite (if working for you!) in Idyll
+
