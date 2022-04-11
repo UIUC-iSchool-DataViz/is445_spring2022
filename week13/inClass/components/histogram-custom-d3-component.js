@@ -54,6 +54,7 @@ class HistogramCustomD3Component extends D3Component {
 	d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/spring2020/master/week14/bar-data.csv", function(error, data) {
 
 	    console.log(Object.keys(data));
+	    console.log(data.columns);
 
 	    data.forEach(function(d) {
 		d.date = parseDate(d.date);
