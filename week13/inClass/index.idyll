@@ -107,3 +107,5 @@ We'll first try with [the built in chart](https://idyll-lang.org/docs/component/
 [Chart type:"line" data:dataToBeCharted domain:`[0, 8]` range:`[0, 1]` /]
 ```
 
+[Chart type:"time" data:`corgisTime` x:"Years" y:"United States" /]
+
