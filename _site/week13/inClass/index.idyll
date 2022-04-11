@@ -89,3 +89,21 @@ For reference from [Idyll page on scrollers](https://idyll-lang.org/docs/compone
 ### Table with our data
 
 [Table data:corgisTime /]
+
+### Chart with Idyll's built in chart
+
+We'll first try with [the built in chart](https://idyll-lang.org/docs/component/chart) of Idyll, for reference:
+
+```
+[var name:"dataToBeCharted" value:`[
+  {x: 0, y: 0.5},
+  {x: 3.5, y: 0.5},
+  {x: 4, y: 0},
+  {x: 4.5, y: 1},
+  {x: 5, y: 0.5},
+  {x: 8, y: 0.5}
+]` /]
+
+[Chart type:"line" data:dataToBeCharted domain:`[0, 8]` range:`[0, 1]` /]
+```
+
