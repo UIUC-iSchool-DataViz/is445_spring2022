@@ -38,7 +38,7 @@ class HistogramCustomD3Component extends D3Component {
 
 
 	
-    const svg = (this.svg = d3.select(node).append('svg')//);
+    const svg = this.svg = d3.select(node).append('svg')//);
 //    svg
 //      .attr('viewBox', `0 0 ${size} ${size}`)
 //      .style('width', '100%')
