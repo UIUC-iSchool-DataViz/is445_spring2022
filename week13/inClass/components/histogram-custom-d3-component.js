@@ -105,7 +105,7 @@ class HistogramCustomD3Component extends D3Component {
 	    // add in the country name to our plot
 	    svg.append("text")
 		.attr("x",(width/2))
-		.attr("y" 10-(margin.top/2))
+		.attr("y", 10-(margin.top/2))
 		.text("United States");
 	    //svg.selectAll("lines")
 //		.data(data)
