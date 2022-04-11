@@ -31,15 +31,15 @@ class CustomD3Component extends D3Component {
       .attr('cy', Math.random() * size);
   }
 
-  // updates visualization?
-  //update(props, oldProps) {
-  //  this.svg
-  //    .selectAll('circle')
-  //    .transition()
-  //    .duration(750)
-  //    .attr('cx', Math.random() * size)
-  //    .attr('cy', Math.random() * size);
-  //}
+  // updates visualization -- definitely!
+  update(props, oldProps) {
+    this.svg
+      .selectAll('circle')
+      .transition()
+      .duration(750)
+      .attr('cx', Math.random() * size)
+      .attr('cy', Math.random() * size);
+  }
 } // end of CustomD3Component
 
 // sort of like a return statement in python
