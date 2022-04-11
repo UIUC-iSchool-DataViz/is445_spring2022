@@ -29,14 +29,10 @@ var yAxis = d3.axisLeft()
     .scale(y)
     .ticks(10);
 
-class HistogramCustomD3Component extends D3Component {
+class HistogramButtonCustomD3Component extends D3Component {
     // initializing the visualization
     initialize(node, props) {
 
-
-
-
-	
 	const svg = this.svg = d3.select(node).append('svg')
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
@@ -113,4 +109,4 @@ class HistogramCustomD3Component extends D3Component {
 //  }
 } // end of HistogramCustomD3Component
 
-module.exports = HistogramCustomD3Component;
+module.exports = HistogramButtonCustomD3Component;
