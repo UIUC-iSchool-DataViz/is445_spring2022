@@ -149,3 +149,5 @@ We want to use [this example](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cf
 1. starting to transition to our data
 
 [HistogramCustomD3Component className:"d3-component" /]
+
+[HistogramButtonCustomD3Component className:"d3-component" /]
