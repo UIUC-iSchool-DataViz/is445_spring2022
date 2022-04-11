@@ -49,11 +49,11 @@ class HistogramCustomD3Component extends D3Component {
 	    .attr("transform",
 		  "translate(" + margin.left + "," + margin.top + ")");
 
-    svg
-      .append('circle')
-      .attr('r', 20) // radius of the circle
-      .attr('cx', Math.random() * size)
-      .attr('cy', Math.random() * size);
+    //svg
+    //  .append('circle')
+    //  .attr('r', 20) // radius of the circle
+    //  .attr('cx', Math.random() * size)
+    //  .attr('cy', Math.random() * size);
       //.attr('cx',0)
       //.attr('cy', 0);
   }
