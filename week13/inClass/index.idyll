@@ -147,3 +147,5 @@ We want to use [this example](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cf
 1. comment out the drawing of the circle update function
 1. replace the drawing of the viewer box (gray box) and initial circle with the example from the basic histogram (using that data)
 1. starting to transition to our data
+
+[HistogramCustomD3Component className:"d3-component" state:state /]
