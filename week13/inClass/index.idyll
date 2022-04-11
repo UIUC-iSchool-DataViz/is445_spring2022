@@ -150,6 +150,6 @@ We want to use [this example](https://bl.ocks.org/vikkya/75bda04cd0c00e49cbda6cf
 
 [HistogramCustomD3Component className:"d3-component" /]
 
-[var name:"myCountry" value:"United Kingdom" /]
+[var name:"myCountry" value:"United States" /]
 
 [HistogramButtonCustomD3Component className:"d3-component" country:myCountry /]
