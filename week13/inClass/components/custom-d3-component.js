@@ -15,6 +15,8 @@ const size = 600; // background size in pixels
 // component by in the index.idyll file
 class CustomD3Component extends D3Component {
     // "extends" is probably related to the "d3-component"
+
+  // initializing the visualization
   initialize(node, props) {
     const svg = (this.svg = d3.select(node).append('svg'));
     svg
@@ -29,14 +31,15 @@ class CustomD3Component extends D3Component {
       .attr('cy', Math.random() * size);
   }
 
-  update(props, oldProps) {
-    this.svg
-      .selectAll('circle')
-      .transition()
-      .duration(750)
-      .attr('cx', Math.random() * size)
-      .attr('cy', Math.random() * size);
-  }
+  // updates visualization?
+  //update(props, oldProps) {
+  //  this.svg
+  //    .selectAll('circle')
+  //    .transition()
+  //    .duration(750)
+  //    .attr('cx', Math.random() * size)
+  //    .attr('cy', Math.random() * size);
+  //}
 } // end of CustomD3Component
 
 // sort of like a return statement in python
