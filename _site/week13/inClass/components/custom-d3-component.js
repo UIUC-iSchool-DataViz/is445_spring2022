@@ -27,7 +27,7 @@ class CustomD3Component extends D3Component {
 
     svg
       .append('circle')
-      .attr('r', 200) // radius of the circle
+      .attr('r', 20) // radius of the circle
       //.attr('cx', Math.random() * size)
       //.attr('cy', Math.random() * size);
       .attr('cx',0)
