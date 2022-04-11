@@ -119,7 +119,7 @@ Note: this data is giving us accumulations of corgis over time, we probably don'
   mark:"line",
   width:600,
   encoding:{
-    x:{field:"Years", type:"temporal"},
+    x:{field:"Years", type:"temporal", axis:{title:"Year",format:"%Y"}},
 	y:{field:"United States", type:"quantitative"}
   } // close encoding
 
