@@ -55,6 +55,8 @@ class HistogramCustomD3Component extends D3Component {
 	//d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/spring2020/master/week14/bar-data.csv", function(error, data) {
 	d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgs_per_country_over_time_columns_2020.csv", function(error, data) {
 
+	    var countryName = "United States";
+
 	    console.log(Object.keys(data));
 	    console.log(data.columns); // columns of my dataset
 	    console.log(data[0]);
@@ -67,7 +69,7 @@ class HistogramCustomD3Component extends D3Component {
 		//d.value = +d.value;
 		// repalce this d.date and d.value with something else because they get used below
 		d.date = parseDate(d['Years']);
-		d.value = d['United States'];
+		d.value = d[countryName];
 		console.log(d.date);
 	    });
 	    
@@ -106,7 +108,7 @@ class HistogramCustomD3Component extends D3Component {
 	    svg.append("text")
 		.attr("x",(width/2))
 		.attr("y", 10-(margin.top/2))
-		.text("United States");
+		.text(countryName);
 	    //svg.selectAll("lines")
 //		.data(data)
 //		.enter().append("line")
