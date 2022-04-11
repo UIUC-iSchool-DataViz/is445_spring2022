@@ -43,7 +43,8 @@ class HistogramButtonCustomD3Component extends D3Component {
 
 	d3.csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgs_per_country_over_time_columns_2020.csv", function(error, data) {
 
-	    var countryName = "United States";
+	    //var countryName = "United States";
+	    var countryName = props.country;
 
 	    console.log(Object.keys(data));
 	    console.log(data.columns); // columns of my dataset
