@@ -30,7 +30,8 @@ class HistogramCustomD3Component extends D3Component {
 
 	var xAxis = d3.axisBottom()
 	    .scale(x)
-	    .tickFormat(d3.timeFormat("%b"));
+	    //.tickFormat(d3.timeFormat("%b"));
+	    .tickFormat(d3.timeFormat("%Y"));
 
 	var yAxis = d3.axisLeft()
 	    .scale(y)
