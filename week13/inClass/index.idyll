@@ -118,6 +118,9 @@ Note: this data is giving us accumulations of corgis over time, we probably don'
 [IdyllVegaLite data:corgisTime spec:`{
   mark:"line",
   width:600,
+  transform:[
+  {"calculate":"datetime(datum.Years,1)","as":"Years"}
+  ],
   encoding:{
     x:{field:"Years", type:"temporal", axis:{title:"Year",format:"%Y"}},
 	y:{field:"United States", type:"quantitative"}
