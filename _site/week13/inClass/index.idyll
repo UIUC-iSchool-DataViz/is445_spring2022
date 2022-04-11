@@ -115,3 +115,11 @@ Note: this data is giving us accumulations of corgis over time, we probably don'
 
 ## Vega-lite (if working for you!) in Idyll
 
+[IdyllVegaLite data:corgisTime spec:`{
+  mark:"line",
+  encoding:{
+    x:{field:"Years", type:"temporal"},
+	y:{field:"United States", type:"quantitative"}
+  } // close encoding
+
+}` /]
