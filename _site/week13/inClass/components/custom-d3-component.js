@@ -9,7 +9,7 @@ const d3 = Object.assign(
 );
 // loading the react, idyll-d3-component & d3 "libraries"
 
-const size = 1000;
+const size = 300;
 
 class CustomD3Component extends D3Component {
   initialize(node, props) {
