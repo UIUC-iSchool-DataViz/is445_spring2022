@@ -35,8 +35,8 @@ class CustomD3Component extends D3Component {
   update(props, oldProps) {
     this.svg
       .selectAll('circle')
-      .transition()
-      .duration(7500)
+      .transition() // transition to another state
+      .duration(750) // length of transition (millisec)
       .attr('cx', Math.random() * size)
       .attr('cy', Math.random() * size);
   }
