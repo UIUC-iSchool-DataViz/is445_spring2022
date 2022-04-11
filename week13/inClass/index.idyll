@@ -128,6 +128,8 @@ Note: this data is giving us accumulations of corgis over time, we probably don'
 
 }` /]
 
+Note: you can port to the vega-editor to check out any bugs.
+
 ## D3.js (since vega-lite is touchy!)
 
 Start with a variable:
