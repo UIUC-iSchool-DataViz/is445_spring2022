@@ -13,7 +13,7 @@ const size = 600; // background size in pixels
 
 // "CustomD3Component is the "name" we call this
 // component by in the index.idyll file
-class CustomD3Component extends D3Component {
+class HistogramCustomD3Component extends D3Component {
     // "extends" is probably related to the "d3-component"
 
   // initializing the visualization
