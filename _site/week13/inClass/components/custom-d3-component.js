@@ -17,7 +17,8 @@ class CustomD3Component extends D3Component {
     // "extends" is probably related to the "d3-component"
 
   // initializing the visualization
-  initialize(node, props) {
+    initialize(node, props) {
+	// svg = Support Vector Graphics
     const svg = (this.svg = d3.select(node).append('svg'));
     svg
       .attr('viewBox', `0 0 ${size} ${size}`)
