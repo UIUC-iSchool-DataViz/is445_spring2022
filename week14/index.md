@@ -38,6 +38,11 @@ data:
     title: Galaxy Particle Simulation files (77Mb)
     description: Downsampled output files from a particle simulation of a galaxy merger
     link: https://github.com/UIUC-iSchool-DataViz/is445AOG_fall2020/raw/master/week13/galaxyFiles.zip
+library:
+  - filename: solverlibs.py
+    type: library
+    title: Solver library (solverlibs.py)
+    description: Python library, save to notebook folder or modify your path if you know how to do that
 otherslides:
   - filename: Jekyll_diptendra.pdf
     type: pdfslides
