@@ -42,6 +42,11 @@ data:
     title: Galaxy Particle Simulation files (77Mb)
     description: Downsampled output files from a particle simulation of a galaxy merger
     link: https://github.com/UIUC-iSchool-DataViz/is445AOG_fall2020/raw/master/week13/galaxyFiles.zip
+  - filename: IsolatedGalaxy.tar.gz
+    type: dataLink
+    title: Isolated Galaxy dataset (292 Mb)
+    description: A single snapshot in time of a grid simulation of an isolated galaxy 
+    link: http://yt-project.org/data/IsolatedGalaxy.tar.gz
 library:
   - filename: solverlibs.py
     type: library
