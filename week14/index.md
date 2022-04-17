@@ -11,9 +11,9 @@ examples:
     link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/tree/master/week14/inClass
   - filename: Prep Idyll+d3.js
     type: iodide
-    title: Prep resources, Week 13
+    title: Prep resources, Week 14
     description: Prep Idyll file and components
-    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week13/corg/prepIdyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/tree/master/week14/corg/prepIdyll
 data:
   - filename: corgs_per_country_over_time_columns_2020.csv
     type: dataLink
