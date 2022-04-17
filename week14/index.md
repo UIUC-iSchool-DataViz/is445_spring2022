@@ -14,6 +14,14 @@ examples:
     title: Prep resources, Week 14
     description: Prep Idyll file and components
     link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/tree/master/week14/corg/prepIdyll
+  - filename: inClass_week14.ipynb
+    type: ipynb
+    title: In class jupyter notebook
+    description: Placeholder for in class coding
+  - filename: prep_notebook_week14.ipynb
+    type: ipynb
+    title: Prep Notebook, Week 14
+    description: Prep notebook for this week
 data:
   - filename: corgs_per_country_over_time_columns_2020.csv
     type: dataLink
@@ -25,6 +33,11 @@ data:
     title: Subset of full Corgi database 
     description: This dataset is from the <a href="http://cardiped.net/">Cardigan Archives</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/grabCorgData_subpages.py">scraped using Beautiful Soup in Python</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/calc_corgData.ipynb">further processed in Python</a> into this form.
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgiData_countries_subset_2020.json
+  - filename: galaxyFiles.zip
+    type: dataLink
+    title: Galaxy Particle Simulation files (77Mb)
+    description: Downsampled output files from a particle simulation of a galaxy merger
+    link: https://github.com/UIUC-iSchool-DataViz/is445AOG_fall2020/raw/master/week13/galaxyFiles.zip
 otherslides:
   - filename: Jekyll_diptendra.pdf
     type: pdfslides
