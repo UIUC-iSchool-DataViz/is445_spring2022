@@ -41,7 +41,7 @@ notes:
 
 ## Another option: Jeykll
 
-See slides from the awesome [Diptendra Bagchi](https://www.linkedin.com/in/diptendra-bagchi) here (and on the class Moodle).
+See slides from the awesome [Diptendra Bagchi](https://www.linkedin.com/in/diptendra-bagchi) that live right [here](Jekyll_diptendra.pdf) (and on the class Moodle).
 
 notes:
 **go through these slides in a little bit of detail, go over this webpage**
