@@ -3,12 +3,12 @@ title: Lecture 13 - 3D graphics, Intro to SciViz
 layout: lecture
 description: >-
  How your computer and the internet process 3D graphics.  What is scientific visualization? 
-date: 2021-11-15
+date: 2022-04-18
 ---
 
 ## Last Week
 
-<img src="../week12/images/this_week3.png">
+<img src="../week13/images/this_week3.png">
 
 notes:
 so far, we've been covering a bit of javascript and vega-lite as some new viz engines and using them in Idyll
@@ -27,20 +27,15 @@ today we'll discuss a bit about how rendering 3D objects to make them look "phot
 
 ---
 
-## Note about vega-lite in Idyll, i.e. the fun in using new shiny things
+## How to publish Idyll websites
 
-Ongoing github issue: https://github.com/idyll-lang/idyll-vega-lite/issues/16
-
-Ping us if you want more time on Homework #10 and haven't already!
+Using your github.io page!
 
 notes:
-so as many of you noticed, in the weeks between when we test installed Idyll + vega-lite and class last week, vega-lite in Idyll got broken
+**go through this in detail!**
 
-this is an ongoing issue, you can check out the progress in the above link.  If you have a working Idyll-vega-lite installation, then great!  don't CHANGE anything!!  If not, we are going to do some d3.js stuff here.  You can also play around with different vega/vega-lite installation versions, but I haven't found a collection that work just yet and probably won't have time to dig into this any further and issue a pull request for a few weeks.
-
-If you haven't requested more time for homework #10 and want to, please let us know!
-
-this is one of the cons of using a new and shiny thing -- while there are some cool things we can do with Idyll, its still pretty new and is open source so sometimes things break!  this is in and of itself a learning experience :D
+* mention it can take a while to build
+* you can also do this with the GUI interface
 
 ---
 
@@ -54,6 +49,8 @@ this is one of the cons of using a new and shiny thing -- while there are some c
 notes: so today we're going to talk a bit about some "high-end" graphics tools  and about how rendering works, this will become more important a bit next week and in the sci viz week.  While we won't end up doing a lot of this ourselves -- we are focusing on data visualization -- the concepts will still show up from time to time to its worth covering.
 
 We'll have a talk from someone in the Advanced Visualization Lab in Week 15 and she'll touch on this a bit more as well
+
+**make sure you have your audio settings correct!**
 
 ---
 
@@ -93,7 +90,7 @@ notes: note these can also be displayed on 3D screens, but the way that happens 
  * Real-time vs Pre-Rendered graphics
  * Frames vs Timesteps
 
-<img src="../week12/images/timestepframestep.gif" width="600"/>
+<img src="images/timestepframestep.gif" width="600"/>
 
 notes:
 real-time graphics refresh the screen faster than the eye perceives, usually at least 30 times a second. Pre-rendered can take all the time in the world.
@@ -145,7 +142,7 @@ This youtube video actually only plays at 60FPS, so the 120 ball is kind of poin
  * 1920 x 1080 - high definition or HD (16:9)
  * 3840 x 2160 - ultra high definition or UHD or 4k (16:9)
 
-<img src="../week12/images/resolutions.png" width="600"/>
+<img src="images/resolutions.png" width="600"/>
 
 notes:
 Often people refer to these formats as 1k or 2k or 4k in graphics, referring to the number of pixels along the horizontal axis.
@@ -180,7 +177,7 @@ All 3D geometry is represented as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/points.png" width="100%">
+	<img src="images/points.png" width="100%">
 </div>
 
 
@@ -200,7 +197,7 @@ All 3D geometry is represented as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/edges.png" width="100%">
+	<img src="images/edges.png" width="100%">
 </div>
 
 ---
@@ -218,7 +215,7 @@ All 3D geometry is represented as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/surfaces.png" width="100%">
+	<img src="images/surfaces.png" width="100%">
 </div>
 
 
@@ -240,7 +237,7 @@ All 3D geometry is represented as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/voxels.png" width="100%">
+	<img src="images/voxels.png" width="100%">
 </div>
 
 
@@ -273,7 +270,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/primitive.png" width="100%">
+	<img src="images/primitive.png" width="100%">
 </div>
 
 
@@ -294,7 +291,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/quadsSmall.jpg" width="100%">
+	<img src="images/quadsSmall.jpg" width="100%">
 </div>
 
 
@@ -315,7 +312,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/triangles.png" width="100%">
+	<img src="images/triangles.png" width="100%">
 </div>
 
 
@@ -337,7 +334,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/nurbs.png" width="100%">
+	<img src="images/nurbs.png" width="100%">
 </div>
 
 notes:
@@ -361,7 +358,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="../week12/images/subdivs.png" width="100%">
+	<img src="images/subdivs.png" width="100%">
 </div>
 
 
@@ -381,7 +378,7 @@ Datasets with many fields called "attributes":
 </div>
 
 <div class="right">
-	<img src="../week12/images/xyz.gif" width="100%">
+	<img src="images/xyz.gif" width="100%">
 </div>
 
 
@@ -404,7 +401,7 @@ Datasets with many fields called "attributes":
 </div>
 
 <div class="right">
-	<img src="../week12/images/attributes.gif" width="100%">
+	<img src="images/attributes.gif" width="100%">
 </div>
 
 
@@ -551,7 +548,7 @@ basically, a shader tells a light ray that hits an object, "hey!" you hit someth
 </div>
 
 <div class="right">
-	<img src="../week12/images/dull.png" width="100%">
+	<img src="images/dull.png" width="100%">
 </div>
 
 notes:
@@ -568,7 +565,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="../week12/images/light.png" width="100%">
+	<img src="images/light.png" width="100%">
 </div>
 
 
@@ -584,7 +581,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="../week12/images/mblur.png" width="100%">
+	<img src="images/mblur.png" width="100%">
 </div>
 
 
@@ -601,7 +598,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="../week12/images/dof.png" width="100%">
+	<img src="images/dof.png" width="100%">
 </div>
 
 ---
@@ -618,7 +615,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="../week12/images/background.png" width="100%">
+	<img src="images/background.png" width="100%">
 </div>
 
 ---
@@ -636,7 +633,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="../week12/images/ambient.png" width="100%">
+	<img src="images/ambient.png" width="100%">
 </div>
 
 ---
@@ -655,7 +652,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="../week12/images/detail.png" width="100%">
+	<img src="images/detail.png" width="100%">
 </div>
 
 ---
@@ -731,7 +728,7 @@ notes: we haven't covered any viz effects tools but here are a few to be aware o
 
 ## Scientific Viz Tools VERSUS Visual Effects Tools
 
-<img src="../week12/images/versus.png" width="800"/>
+<img src="images/versus.png" width="800"/>
 
 notes: here is a quick comparision chart to show key differences between a package like yt  & a special effects tool like houdini
 
@@ -739,13 +736,13 @@ notes: here is a quick comparision chart to show key differences between a packa
 
 ## Scientific Viz Tools VERSUS Visual Effects Tools
 
-<img src="../week12/images/ytiniVersus.png" width="800"/>
+<img src="images/ytiniVersus.png" width="800"/>
 
 [ytini](www.ytini.com)
 
 [Astroblend](www.astroblend.com)
 
-### More from the Advanced Visualization Lab after break!
+### More from the Advanced Visualization Lab next week!
 
 notes:
 several of us at the NCSA worked on ytini so that Houdini could use some of the features of yt natively!
