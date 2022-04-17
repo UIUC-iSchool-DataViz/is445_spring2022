@@ -6,9 +6,9 @@ notitle: true
 examples:
   - filename: In Class Idyll
     type: iodide
-    title: In class Idyll resources, Week 13
+    title: In class Idyll resources, Week 14
     description: Updating storage of Idyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week13/inClass
+    link: https://github.com/UIUC-iSchool-DataViz/is445_spring2022/tree/master/week14/inClass
   - filename: Prep Idyll+d3.js
     type: iodide
     title: Prep resources, Week 13
