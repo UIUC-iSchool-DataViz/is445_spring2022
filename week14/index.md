@@ -18,9 +18,13 @@ examples:
     type: ipynb
     title: In class jupyter notebook
     description: Placeholder for in class coding
-  - filename: prep_notebook_week14.ipynb
+  - filename: prep_notebook_week14_part1.ipynb
     type: ipynb
-    title: Prep Notebook, Week 14
+    title: Prep Notebook, Week 14, Part 1
+    description: Prep notebook for this week
+  - filename: prep_notebook_week14_part2.ipynb
+    type: ipynb
+    title: Prep Notebook, Week 14, Part 2
     description: Prep notebook for this week
 data:
   - filename: corgs_per_country_over_time_columns_2020.csv
