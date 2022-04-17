@@ -25,6 +25,11 @@ data:
     title: Subset of full Corgi database 
     description: This dataset is from the <a href="http://cardiped.net/">Cardigan Archives</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/grabCorgData_subpages.py">scraped using Beautiful Soup in Python</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/calc_corgData.ipynb">further processed in Python</a> into this form.
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445AOG_fall2020/master/week11/corg/corgiData_countries_subset_2020.json
+otherslides:
+  - filename: Jekyll_diptendra.pdf
+    type: pdfslides
+    title: Jeyll Intro Slides
+    description: Slides made by the awesome [Diptendra Bagchi](https://www.linkedin.com/in/diptendra-bagchi) as an intro to Jeykll
 ---
 
 # A few more Idyll+d3 things, Starting SciViz

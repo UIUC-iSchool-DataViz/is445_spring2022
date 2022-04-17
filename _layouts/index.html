@@ -102,7 +102,7 @@ layout: default
 		     <!--<a href="nbv.html?notebook_name=https://github.com/{{ site.githuburlbase | append: site.baseurl | append:"/raw/master" | append: f.dir | append: example.filename }}">{{example.title}}</a>-->
                      <a href="nbv.html?notebook_name={{f.dir | append: example.filename | relative_url | url_encode }}">{{example.title}}</a>
 		    {% elsif example.type == "iodide" %}
-                    <a href="{{example.link }}">{{example.title}}</a>		    
+                     <a href="{{example.link }}">{{example.title}}</a>		     
                     {% else %}
                     <a href="{{f.dir | append: example.filename | relative_url }}">{{example.title}}</a>
                     {% endif %}
@@ -155,6 +155,23 @@ layout: default
             </div>
         </div>
         {% endfor %}
+
+        {% for example in f.otherslides %}
+        <div class="column has-text-centered">
+            <div>
+                <p>
+                    <span class="icon is-large"><i class="fas fa-2x fa-archive"></i></span>
+                </p>
+                <p>
+		  {% if example.type == "pdfslides" %}
+                   <a href="{{f.dir | append: example.path | append: "data/" | append: example.filename | relative_url }}">{{example.title}}</a>
+		  {% endif %}
+		   
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+	
      </div>
         
     </div>

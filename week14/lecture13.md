@@ -39,6 +39,12 @@ notes:
 
 ---
 
+## Another option: Jeykll
+
+See slides from the awesome [Diptendra Bagchi](https://www.linkedin.com/in/diptendra-bagchi) here 
+
+---
+
 ## Today
 
  1. 3D Computer Graphics
