@@ -4,16 +4,6 @@ visible: true
 icon: undraw_medical_research_qg4d.svg
 notitle: true
 examples:
-  - filename: In Class Idyll
-    type: iodide
-    title: In class Idyll resources, Week 15
-    description: Updating storage of Idyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week15/inClass
-  - filename: Prep Idyll+vega-lite
-    type: iodide
-    title: Prep resources, Week 15
-    description: Prep Idyll file and components
-    link: https://github.com/UIUC-iSchool-DataViz/is445_AOUAOG_fall2021/tree/master/week15/corg/prepIdyll
   - filename: inClass_week15.ipynb
     type: ipynb
     title: In class notebook
