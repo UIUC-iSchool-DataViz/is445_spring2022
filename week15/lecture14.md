@@ -3,7 +3,7 @@ title: Lecture 14 - Scientific Visualization
 layout: lecture
 description: >-
  More about scientific visualization
-date: 2021-11-29
+date: 2022-04-25
 ---
 
 ## Last time
@@ -26,11 +26,13 @@ This week we'll cover a little more, starting with a lecture from Kalina Boriewi
 
 ---
 
-## Quick update on vega-lite
+## Announcements and Reminders
 
-It's now working!
+Class will be online only on May 2nd (format TBD) 
 
----
+I'll post an announcement on Canvas on Sunday at the latest about how that class session will go.
+
+Office hours next week will also likely be canceled, but feel free to ping on Slack for questions or if you need to meet. 
 
 ---
 
