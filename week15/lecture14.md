@@ -45,6 +45,13 @@ also recall that the maximum you can get on the homework is 100% of that categor
 
 ---
 
+## Part 2 -- add a few days to due date?
+
+notes:
+EC for folks that get it in ontime
+
+---
+
 ## Notes on Final, Part 3
 
 Due dates:
